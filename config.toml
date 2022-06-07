@@ -11,3 +11,5 @@ title = "konumaru blog"
 
 theme = "PaperMod"
 paginate = 20
+
+enableEmoji = true
