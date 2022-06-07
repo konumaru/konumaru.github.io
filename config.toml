@@ -1,0 +1,13 @@
+# 公開するページのURL
+baseURL = "https://kat0h.github.io/hugo-blog-template"
+
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+HasCJKLanguage = true
+enableRobotsTXT = true
+
+# ブログのタイトル
+title = "hugo-blog-template"
+
+theme = "mainroad"
+paginate = 20
