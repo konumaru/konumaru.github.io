@@ -26,7 +26,7 @@ menu:
 
 params:
   defaultTheme: auto
-  ShowToc: true
+  # ShowToc: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
