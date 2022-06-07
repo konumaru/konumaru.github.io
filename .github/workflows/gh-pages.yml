@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main # Set a branch to deploy
+    paths-ignore:
+      - "**/README.md"
   pull_request:
 
 jobs:
