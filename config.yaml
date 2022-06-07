@@ -34,7 +34,7 @@ params:
   ShowCodeCopyButtons: true
 
   homeInfoParams:
-    Title: Hi there wave
+    Title: konumaru blog
     Content: Welcome to my blog
 
   socialIcons:
