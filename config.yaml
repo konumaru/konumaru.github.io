@@ -2,8 +2,8 @@ baseURL: "https://konumaru.github.io/"
 title: konumaru blog
 theme: PaperMod
 paginate: 20
-languageCode: ja
-DefaultContentLanguage: ja
+languageCode: en
+DefaultContentLanguage: en
 HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
@@ -32,6 +32,18 @@ params:
       url: "https://github.com/konumaru"
     - name: RsS
       url: "index.xml"
+  fuseOpts:
+    # ref: https://fusejs.io/api/options.html
+    threshold: 0.4
+  ShowToc: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  editPost:
+    URL: "https://github.com/konumaru/konumaru.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 outputs:
   home:
     - HTML
