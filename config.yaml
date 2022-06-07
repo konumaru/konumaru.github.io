@@ -9,6 +9,9 @@ enableRobotsTXT: true
 enableEmoji: true
 menu:
   main:
+    - name: Archive
+      url: archives/
+      weight: 5
     - name: Categories
       url: categories/
       weight: 10
@@ -27,6 +30,8 @@ params:
       url: "https://twitter.com/knmr_u"
     - name: github
       url: "https://github.com/konumaru"
+    - name: RsS
+      url: "index.xml"
 outputs:
   home:
     - HTML
