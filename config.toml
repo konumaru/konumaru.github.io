@@ -15,6 +15,18 @@ paginate = 20
 enableEmoji = true
 
 [params]
-    [params.homeInfoParams]
-        Title = "Hi there wave"
-        Content = "Welcome to my blog"
+[params.homeInfoParams]
+Title = "Hi there wave"
+Content = "Welcome to my blog"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/knmr_u"
+
+[[params.socialIcons]]
+name ="github"
+url = "https://github.com/konumaru"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
