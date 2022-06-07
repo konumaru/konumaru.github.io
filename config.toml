@@ -9,5 +9,5 @@ enableRobotsTXT = true
 # ブログのタイトル
 title = "hugo-blog-template"
 
-theme = "mainroad"
+theme = "PaperMod"
 paginate = 20
