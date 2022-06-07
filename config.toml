@@ -13,3 +13,8 @@ theme = "PaperMod"
 paginate = 20
 
 enableEmoji = true
+
+[params]
+    [params.homeInfoParams]
+        Title = "Hi there wave"
+        Content = "Welcome to my blog"
