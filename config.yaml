@@ -1,0 +1,34 @@
+baseURL: "https://konumaru.github.io/"
+title: konumaru blog
+theme: PaperMod
+paginate: 20
+languageCode: ja
+DefaultContentLanguage: ja
+HasCJKLanguage: true
+enableRobotsTXT: true
+enableEmoji: true
+menu:
+  main:
+    - name: Categories
+      url: categories/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 10
+params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Welcome to my blog
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/knmr_u"
+    - name: github
+      url: "https://github.com/konumaru"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
