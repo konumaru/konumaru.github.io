@@ -7,7 +7,6 @@ tags: [""]
 showtoc: true
 tocopen: true
 searchHidden: false
-# cover.image: ""
 
 draft: true
 ---
