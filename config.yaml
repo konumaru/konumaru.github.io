@@ -10,7 +10,7 @@ enableRobotsTXT: true
 enableEmoji: true
 
 permalinks:
-  posts: "/:year/:month:/:day/:filename/"
+  posts: "/:year/:month:/:title/"
 
 menu:
   main:
@@ -28,8 +28,9 @@ menu:
       weight: 10
 
 params:
-  defaultTheme: auto
-  # ShowToc: true
+  defaultTheme: dark # auto
+  ShowToc: true
+  tocopen: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
@@ -45,7 +46,7 @@ params:
       url: "https://twitter.com/knmr_u"
     - name: github
       url: "https://github.com/konumaru"
-    - name: RsS
+    - name: rss
       url: "index.xml"
 
   editPost:

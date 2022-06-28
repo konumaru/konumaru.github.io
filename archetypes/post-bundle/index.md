@@ -4,8 +4,10 @@ date: {{ .Date }}
 categories: [""]
 tags: [""]
 
-toc: true
-autoCollapseToc: false
+showtoc: true
+tocopen: true
+searchHidden: false
+# cover.image: ""
 
 draft: true
 ---
