@@ -9,6 +9,9 @@ HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
 
+permalinks:
+  posts: "/:year/:month:/:day/:filename/"
+
 menu:
   main:
     - name: Archive
