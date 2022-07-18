@@ -4,7 +4,7 @@ hugo: ## run local hugo server with docker
 		-v $(PWD):/src \
 		-p 1313:1313 \
 		klakegg/hugo:latest \
-		server
+		server -D
 
 .PHONY: new-post
 new-post: ## create a new post

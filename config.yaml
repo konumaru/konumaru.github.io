@@ -48,6 +48,8 @@ params:
       url: "https://github.com/konumaru"
     - name: rss
       url: "index.xml"
+    - name: kaggle
+      url: "https://www.kaggle.com/konumaru"
 
   editPost:
     URL: "https://github.com/konumaru/konumaru.github.io/tree/main/content"
@@ -59,9 +61,9 @@ params:
     # ref: https://fusejs.io/api/options.html
     threshold: 0.4
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+    google:
+      SiteVerificationTag: "G-YKYR14NJJ2"
 
   amazonJpAffiliate: "konumaru-22"
 
