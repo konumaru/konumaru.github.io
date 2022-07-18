@@ -46,10 +46,10 @@ params:
       url: "https://twitter.com/konumaruuu"
     - name: github
       url: "https://github.com/konumaru"
-    - name: rss
-      url: "index.xml"
     - name: kaggle
       url: "https://www.kaggle.com/konumaru"
+    - name: rss
+      url: "index.xml"
 
   editPost:
     URL: "https://github.com/konumaru/konumaru.github.io/tree/main/content"
