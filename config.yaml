@@ -63,6 +63,8 @@ params:
   #     google:
   #         SiteVerificationTag: "XYZabc"
 
+  amazonJpAffiliate: "konumaru-22"
+
 minify:
   disableXML: true
 
