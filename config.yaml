@@ -8,6 +8,7 @@ DefaultContentLanguage: en
 HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
+googleAnalytics: G-YKYR14NJJ2
 
 permalinks:
   posts: "/:sections/:title/"
@@ -39,7 +40,10 @@ params:
 
   homeInfoParams:
     Title: konumaru blog
-    Content: Welcome to my blog
+    Content: >
+      Welcome to konumaru blog
+
+      - I write down what I learned recently and what I think about the books I read.
 
   socialIcons:
     - name: twitter
