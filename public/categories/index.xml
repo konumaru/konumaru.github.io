@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on hugo-blog-template</title>
-    <link>https://kat0h.github.io/hugo-blog-template/categories/</link>
-    <description>Recent content in Categories on hugo-blog-template</description>
+    <title>Categories on konumaru blog</title>
+    <link>https://konumaru.github.io/categories/</link>
+    <description>Recent content in Categories on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://kat0h.github.io/hugo-blog-template/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jul 2022 00:16:51 +0900</lastBuildDate><atom:link href="https://konumaru.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design</title>
+      <link>https://konumaru.github.io/categories/design/</link>
+      <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
+      
+      <guid>https://konumaru.github.io/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management</title>
+      <link>https://konumaru.github.io/categories/management/</link>
+      <pubDate>Tue, 07 Jun 2022 10:34:51 +0900</pubDate>
+      
+      <guid>https://konumaru.github.io/categories/management/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
