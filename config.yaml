@@ -38,6 +38,8 @@ params:
   ShowShareButtons: true
   ShowCodeCopyButtons: true
 
+  googleAnalyticsID: "G-YKYR14NJJ2"
+
   homeInfoParams:
     Title: konumaru blog
     Content: >
@@ -64,10 +66,6 @@ params:
   fuseOpts:
     # ref: https://fusejs.io/api/options.html
     threshold: 0.4
-
-  analytics:
-    google:
-      SiteVerificationTag: "G-YKYR14NJJ2"
 
 minify:
   disableXML: true
