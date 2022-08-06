@@ -9,6 +9,7 @@ HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
 googleAnalytics: G-YKYR14NJJ2
+analytics.google.SiteVerificationTag: G-YKYR14NJJ2
 
 permalinks:
   posts: "/:sections/:title/"
@@ -37,9 +38,6 @@ params:
   ShowPostNavLinks: true
   ShowShareButtons: true
   ShowCodeCopyButtons: true
-
-  googleAnalytics: "G-YKYR14NJJ2"
-  googleAnalyticsID: "G-YKYR14NJJ2"
 
   homeInfoParams:
     Title: konumaru blog
