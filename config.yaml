@@ -38,6 +38,7 @@ params:
   ShowShareButtons: true
   ShowCodeCopyButtons: true
 
+  googleAnalytics: "G-YKYR14NJJ2"
   googleAnalyticsID: "G-YKYR14NJJ2"
 
   homeInfoParams:
