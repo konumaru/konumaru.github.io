@@ -33,7 +33,7 @@ menu:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  defaultTheme: dark # auto
+  defaultTheme: auto # auto, dark
   ShowToc: true
   tocopen: true
   ShowReadingTime: true
@@ -41,7 +41,7 @@ params:
   ShowPostNavLinks: true
   ShowShareButtons: true
   ShowCodeCopyButtons: true
-  googleAnalytics: "G-YKYR14NJJ2"
+  disableAnchoredHeadings: false
 
   homeInfoParams:
     Title: konumaru blog
