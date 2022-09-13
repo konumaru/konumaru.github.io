@@ -8,6 +8,9 @@ DefaultContentLanguage: en
 HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
 googleAnalytics: "G-YKYR14NJJ2"
 
 permalinks:
@@ -29,6 +32,7 @@ menu:
       weight: 10
 
 params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   defaultTheme: dark # auto
   ShowToc: true
   tocopen: true
