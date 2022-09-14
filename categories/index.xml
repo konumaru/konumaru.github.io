@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on konumaru blog</title>
-    <link>https://konumaru.github.io/categories/</link>
+    <link>https://konumaru.com/categories/</link>
     <description>Recent content in Categories on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Jul 2022 00:16:51 +0900</lastBuildDate><atom:link href="https://konumaru.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 00:16:51 +0900</lastBuildDate><atom:link href="https://konumaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design</title>
-      <link>https://konumaru.github.io/categories/design/</link>
+      <link>https://konumaru.com/categories/design/</link>
       <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
       
-      <guid>https://konumaru.github.io/categories/design/</guid>
+      <guid>https://konumaru.com/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Management</title>
-      <link>https://konumaru.github.io/categories/management/</link>
+      <link>https://konumaru.com/categories/management/</link>
       <pubDate>Tue, 07 Jun 2022 10:34:51 +0900</pubDate>
       
-      <guid>https://konumaru.github.io/categories/management/</guid>
+      <guid>https://konumaru.com/categories/management/</guid>
       <description></description>
     </item>
     
