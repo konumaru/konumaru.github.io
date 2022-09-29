@@ -1,5 +1,5 @@
 .PHONY: hugo
-hugo: ## run local hugo server with docker
+run-server: ## run local hugo server with docker
 	docker run --rm -it \
 		-v $(PWD):/src \
 		-p 1313:1313 \
