@@ -6,7 +6,16 @@
     <description>Recent content on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Sep 2022 10:57:52 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Sep 2022 18:34:02 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>コーチングで気をつけること</title>
+      <link>https://konumaru.com/posts/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%A7%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8/</link>
+      <pubDate>Wed, 28 Sep 2022 18:34:02 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%A7%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8/</guid>
+      <description>気をつけることリスト 目標を聞き出す 最初の質問としても有効 相手の理想を聞き出せるような切り口の質問をする どういう状態が理想ですか？ ベストってど</description>
+    </item>
+    
     <item>
       <title>202209時点で起きたHugoビルドエラー対応</title>
       <link>https://konumaru.com/posts/202209%E6%99%82%E7%82%B9%E3%81%A7%E8%B5%B7%E3%81%8D%E3%81%9Fhugo%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</link>
