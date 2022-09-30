@@ -26,19 +26,32 @@ PM, Desingner, Developer の間で、何を、何故作るのかの共通認識�
 以下は [Product Hunt](https://docs.google.com/document/d/1yrU5F6Gxhkfma91wf_IbZfexw8_fahbGQLW3EvwdfQI/edit) のものを参照している。
 
 ```txt
-1. Intro & Goal
-2. Product Vision
-3. Who's it for? ｜誰のためにあるか
-4. Why build it?｜なぜ創るか
-5. What is it?｜どういうものか
-   5–1. Glossary ｜用語
-   5–2. User Types
-   5–3. UI/Screens/Functionalities ｜ UI/画面/機能
-6. Brainstormed Ideas ｜その他アイデア
-7. Competitors & Product Inspiration ｜競合
-8. Seeding Users & Content ｜初期ユーザーと獲得戦略
-9. Mockups
-10. Tech Notes
+# Title
+
+## Intro & Goal
+
+## Product Vision
+
+## Who's it for? ｜誰のためにあるか
+
+## Why build it?｜なぜ創るか
+
+## What is it?｜どういうものか
+### Glossary ｜用語
+
+### User Types
+
+### UI/Screens/Functionalities ｜ UI/画面/機能
+
+## Brainstormed Ideas ｜その他アイデア
+
+## Competitors & Product Inspiration ｜競合
+
+## Seeding Users & Content ｜初期ユーザーと獲得戦略
+
+## Mockups
+
+## Tech Notes
 ```
 
 ## PRD を書くステップ
