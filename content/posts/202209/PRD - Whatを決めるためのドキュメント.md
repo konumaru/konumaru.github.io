@@ -13,7 +13,7 @@ draft: false
 
 ## これを読んで得られるもの
 
-- PM と開発者の間で、何を、何故作るのかの共通認識を作るための手段を得られる
+PM と開発者の間で、何を、何故作るのかの共通認識を作るための手段
 
 ## PRD とは
 
@@ -31,9 +31,9 @@ draft: false
 3. Who's it for? ｜誰のためにあるか
 4. Why build it?｜なぜ創るか
 5. What is it?｜どういうものか
-   6–1. Glossary ｜用語
-   6–2. User Types
-   6–3. UI/Screens/Functionalities ｜ UI/画面/機能
+   5–1. Glossary ｜用語
+   5–2. User Types
+   5–3. UI/Screens/Functionalities ｜ UI/画面/機能
 6. Brainstormed Ideas ｜その他アイデア
 7. Competitors & Product Inspiration ｜競合
 8. Seeding Users & Content ｜初期ユーザーと獲得戦略
