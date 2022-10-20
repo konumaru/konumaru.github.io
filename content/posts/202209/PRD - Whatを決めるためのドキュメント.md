@@ -13,7 +13,7 @@ draft: false
 
 ## これを読んで得られるもの
 
-PM, Desingner, Developer の間で、何を、何故作るのかの共通認識を作るための手段
+PM, Desingner, Developerの間で、何を、何故作るのかの共通認識を作るための手段
 
 ## PRD とは
 
@@ -21,9 +21,13 @@ PM, Desingner, Developer の間で、何を、何故作るのかの共通認識�
 - ブレの無い意思決定をするため
 - 開発終盤に入り期日も近づいた時の取捨選択を判断する基準
 
+より詳しい内容については及川さんというかたが公開されている[はじめてのPRD](https://www.slideshare.net/takoratta/prd-192302662)がとても参考になる
+
 ## PRD のテンプレート
 
-以下は [Product Hunt](https://docs.google.com/document/d/1yrU5F6Gxhkfma91wf_IbZfexw8_fahbGQLW3EvwdfQI/edit) のものを参照している。
+以下は[Product Hunt](https://docs.google.com/document/d/1yrU5F6Gxhkfma91wf_IbZfexw8_fahbGQLW3EvwdfQI/edit)のものを参照している。
+
+合わせて[noteに投稿されていた記事](https://note.com/miz_kushida/n/n7e35a2a2b370)も非常に参考になった。
 
 ```txt
 # Title
@@ -56,14 +60,18 @@ PM, Desingner, Developer の間で、何を、何故作るのかの共通認識�
 
 ## PRD を書くステップ
 
+PRDの作成ステップについては以下の記事がとても参考になった。
+
+[Product Templates: Product Requirements Document (PRD)](https://productschool.com/blog/product-management-2/product-template-requirements-document-prd/)
+
 <!--
 ref: https://productschool.com/blog/product-management-2/product-template-requirements-document-prd/
 -->
 
 1. 素案を書く
-   - Good Idea をプライベートドキュメントに書いてみる
+   - Good Ideaをプライベートドキュメントに書いてみる
    - 言語化の過程で自らが間違っていたことに気づくかもしれません
-   - Backgroud, Objective, metrics は最低限欲しい
+   - Backgroud, Objective, metricsは最低限欲しい
      - さらに、ユーザーが利用するシナリオ、主要機能を言語化できると素晴らしい
 2. 上長の承認を得る
    - 上司の考えやフィードバックを入手するのが目的
@@ -76,8 +84,8 @@ ref: https://productschool.com/blog/product-management-2/product-template-requir
    - （理想的には）デザイナーとエンジニアのリーダーと PRD を共有し、フィードバックを得ます
    - 技術的に実現可能なものを見つけ、大まかな時間・難易度の見積りを行う
 5. プロダクトチーム全体に共有
-   - この時点で正式に会社の wiki に PRD を移動
-   - チームから得た質問や情報を PRD に記録していきます
+   - この時点で正式に会社のwikiにPRDを移動
+   - チームから得た質問や情報をPRDに記録していきます
      - プロダクトチームから良きアイデアが出た場合、初期に実現しないとしてもここにメモします
 6. 会社に共有
    - 必要に応じて、プレゼンテーションの材料とすることができます
