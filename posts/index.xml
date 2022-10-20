@@ -6,7 +6,16 @@
     <description>Recent content in Posts on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Oct 2022 20:51:25 +0900</lastBuildDate><atom:link href="https://konumaru.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 20:06:57 +0900</lastBuildDate><atom:link href="https://konumaru.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PCAを使った異常検知</title>
+      <link>https://konumaru.com/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
+      <pubDate>Wed, 19 Oct 2022 20:06:57 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
+      <description>Sub Title hogehoge</description>
+    </item>
+    
     <item>
       <title>kaggleコンペ DFL反省会</title>
       <link>https://konumaru.com/posts/kaggle%E3%82%B3%E3%83%B3%E3%83%9A-dfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
