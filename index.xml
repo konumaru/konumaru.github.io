@@ -6,7 +6,16 @@
     <description>Recent content on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Oct 2022 20:06:57 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 May 2023 15:01:42 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT-3.5で作った恋愛シュミレーションAI ChatBot</title>
+      <link>https://konumaru.com/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
+      <pubDate>Tue, 02 May 2023 15:01:42 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
+      <description>何を作ろうと思ったのか ひとことで言うと「マッチングアプリに変わる恋愛シュミレーションAI」を作りたかった。 ChatGPTを使ってみたところか</description>
+    </item>
+    
     <item>
       <title>PCAを使った異常検知</title>
       <link>https://konumaru.com/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
