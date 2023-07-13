@@ -6,7 +6,16 @@
     <description>Recent content on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 May 2023 16:56:58 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 20:13:52 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PSPコンペ振り返り</title>
+      <link>https://konumaru.com/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <pubDate>Wed, 12 Jul 2023 20:13:52 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <description>コンペ概要 hogehoge 解法 1st 金圏との差分 まとめ</description>
+    </item>
+    
     <item>
       <title>kaggle OTTOコンペ解法調査</title>
       <link>https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>

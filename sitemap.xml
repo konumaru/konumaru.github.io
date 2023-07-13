@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</loc>
-    <lastmod>2023-05-12T16:56:58+09:00</lastmod>
-  </url><url>
     <loc>https://konumaru.com/</loc>
-    <lastmod>2023-05-12T16:56:58+09:00</lastmod>
+    <lastmod>2023-07-12T20:13:52+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.com/posts/</loc>
+    <lastmod>2023-07-12T20:13:52+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.com/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</loc>
+    <lastmod>2023-07-12T20:13:52+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</loc>
     <lastmod>2023-05-12T16:56:58+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.com/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</loc>
