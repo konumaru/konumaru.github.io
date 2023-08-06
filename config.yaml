@@ -1,7 +1,7 @@
 baseURL: "https://konumaru.com/"
 title: konumaru blog
-theme: PaperMod
 paginate: 10
+theme: "PaperMod"
 
 languageCode: en
 DefaultContentLanguage: en

@@ -19,3 +19,8 @@ new-post: # Create a new post.
 .PHONY: new-post-dir
 new-post-dir: # Create a new post using image.
 	hugo new --kind post-bundle posts/new-post
+
+
+.PHONY: update
+update:
+	git submodule update --init --recursive
