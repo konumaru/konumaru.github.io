@@ -1,75 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://konumaru.com/</loc>
+    <lastmod>2023-07-12T20:13:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://konumaru.com/posts/</loc>
+    <lastmod>2023-07-12T20:13:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://konumaru.com/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</loc>
+    <lastmod>2023-07-12T20:13:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</loc>
+    <lastmod>2023-05-12T16:56:58+09:00</lastmod>
+  </url>
+  
   <url>
     <loc>https://konumaru.com/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</loc>
     <lastmod>2023-05-02T15:01:42+09:00</lastmod>
-  </url><url>
-    <loc>https://konumaru.com/</loc>
-    <lastmod>2023-05-02T15:01:42+09:00</lastmod>
-  </url><url>
-    <loc>https://konumaru.com/posts/</loc>
-    <lastmod>2023-05-02T15:01:42+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</loc>
     <lastmod>2022-10-19T20:06:57+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/categories/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/cv/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/kaggle/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/categories/kaggle/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/posts/kaggle%E3%82%B3%E3%83%B3%E3%83%9A-dfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
-    <loc>https://konumaru.com/posts/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%A7%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8/</loc>
-    <lastmod>2022-09-28T18:34:02+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/pdm/</loc>
     <lastmod>2022-09-28T14:46:50+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/posts/prd-what%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/</loc>
     <lastmod>2022-09-28T14:46:50+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/categories/productmanagement/</loc>
     <lastmod>2022-09-28T14:46:50+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/posts/202209%E6%99%82%E7%82%B9%E3%81%A7%E8%B5%B7%E3%81%8D%E3%81%9Fhugo%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</loc>
     <lastmod>2022-09-13T10:57:52+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/bookreview/</loc>
     <lastmod>2022-07-19T00:16:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/design/</loc>
     <lastmod>2022-07-19T00:16:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/categories/design/</loc>
     <lastmod>2022-07-19T00:16:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/posts/%E5%BD%A2%E3%81%AF%E6%A9%9F%E8%83%BD%E3%81%AB%E5%BE%93%E3%81%86/</loc>
     <lastmod>2022-07-19T00:16:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/categories/management/</loc>
     <lastmod>2022-06-07T10:34:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/tags/okr/</loc>
     <lastmod>2022-06-07T10:34:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/posts/okr%E3%82%84%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8/</loc>
     <lastmod>2022-06-07T10:34:51+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/archives/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://konumaru.com/search/</loc>
   </url>
+  
 </urlset>

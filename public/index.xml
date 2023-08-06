@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>konumaru blog</title>
     <link>https://konumaru.com/</link>
     <description>Recent content on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 May 2023 15:01:42 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 20:13:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PSPコンペ振り返り</title>
+      <link>https://konumaru.com/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <pubDate>Wed, 12 Jul 2023 20:13:52 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <description>コンペ概要 hogehoge 解法 1st code GBDT + NNのアンサンブル XGBoost Treeliteで推論高速化 1dcnn transformerを試したが、同じスコア+軽量だったため1dc</description>
+    </item>
+    
+    <item>
+      <title>kaggle OTTOコンペ解法調査</title>
+      <link>https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
+      <pubDate>Fri, 12 May 2023 16:56:58 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
+      <description>コンペ概要 コンペページはこことは ドイツ最大級のオンラインショップOTTOを題材に特定のユーザがどの商品に対し、クリック、カート追加、注文する</description>
+    </item>
+    
     <item>
       <title>GPT-3.5で作った恋愛シュミレーションAI ChatBot</title>
       <link>https://konumaru.com/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
@@ -32,15 +54,6 @@
       
       <guid>https://konumaru.com/posts/kaggle%E3%82%B3%E3%83%B3%E3%83%9A-dfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
       <description>コンペ概要 ざっくりの概要はサッカーの試合動画(45min * 2) から特定のフレームで Challenge, Play, Throwin の３つのイベントを予測するというもの （合っているか不安</description>
-    </item>
-    
-    <item>
-      <title>コーチングで気をつけること</title>
-      <link>https://konumaru.com/posts/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%A7%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8/</link>
-      <pubDate>Wed, 28 Sep 2022 18:34:02 +0900</pubDate>
-      
-      <guid>https://konumaru.com/posts/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%A7%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8/</guid>
-      <description>気をつけることリスト 目標を聞き出す 最初の質問としても有効 相手の理想を聞き出せるような切り口の質問をする どういう状態が理想ですか？ ベストってど</description>
     </item>
     
     <item>
@@ -79,7 +92,23 @@
       <description>目標設定のフレームワークとして OKR を採用することにしたので、OKR 導入のために必要な基礎的な知識をまとめる。 OKR とは 目標の設定・管理方法の１つで</description>
     </item>
     
+    <item>
+      <title>Archive</title>
+      <link>https://konumaru.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://konumaru.com/archives/</guid>
+      <description>archives</description>
+    </item>
     
+    <item>
+      <title>Search</title>
+      <link>https://konumaru.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://konumaru.com/search/</guid>
+      <description>search</description>
+    </item>
     
   </channel>
 </rss>
