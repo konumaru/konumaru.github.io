@@ -8,7 +8,7 @@ showtoc: true
 tocopen: true
 searchHidden: false
 
-draft: true
+draft: false
 ---
 
 この記事ではPdMとしてしばらく働いて、扱うリソースが10人を超えそうになってきたときにマネージメントコストが爆増してしんどくなったときに回避した方法を記録に残すために書いたもの。
