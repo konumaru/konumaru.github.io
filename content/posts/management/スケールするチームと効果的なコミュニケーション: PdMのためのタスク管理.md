@@ -11,7 +11,7 @@ searchHidden: false
 draft: false
 ---
 
-この記事ではPdMとしてしばらく働いて、扱うリソースが10人を超えそうになってきたときにマネージメントコストが爆増してしんどくなったときに回避した方法を記録に残すために書いたもの。
+PdMとしての経験が増え、管理するチームが10人を超えそうになったとき、マネージメントのコストが急増して大変になるのを防ぐ方法を試みました。この記事ではその時の経験を共有し、どのように問題を回避したかを記録として残しています。
 
 one team one pizzaの思想のもの動いていたが上記の体制じゃお腹いっぱいになれない。
 ということでどうやってチームを分割して、その動きを制御するのかを考えた結果になる。
@@ -65,13 +65,13 @@ Teamは3~5人程度の小規模なものを想定している。
 - 半期の事業目標の明確に決まっているものとする
 - Teamの目標管理はOKRの形式で運営されている
 
-OKRで設定されたKR＝Epic or Parent Epicとする。
-
 OKRについては、[googleのre:work](https://rework.withgoogle.com/jp/guides/set-goals-with-okrs/steps/introduction/)や[OKR（オーケーアール）という書籍](https://www.amazon.co.jp/dp/B07B2R1ZDL)がわかりやすい。
 
 Epicの考え方については、[Atlassianのブログ](https://www.atlassian.com/ja/agile/project-management/epics-stories-themes)や[Gitlabのブログ](https://docs.gitlab.com/ee/user/group/epics/)が参考になった。j
 
-こうすることで事業目標を表現したOKRが立てられ、KR=Epicの構図が出来上がり、各開発チームがEpicを消化することで事業目標達成にコミットできることとなる。
+後述するがEpicはユーザーストーリー形式ではなく、機能単位で設定した。
+
+OKRとEpicの関係性のイメージは、KRはチャレンジングな目標数値が設定されており、EpicはそのKRを達成するための手段として設定される。
 
 ### Epicを完結させるためのSprintを計画する
 
