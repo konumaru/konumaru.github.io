@@ -34,9 +34,14 @@ PM, Desingner, Developerの間で、何を、何故作るのかの共通認識�
 
 ## Intro & Goal
 
+私たちの目的は、 XXXをYYYにとってZZZなツールにすることです。
+XXXはhogehogeなツールになります。
+
 ## Product Vision
 
 ## Who's it for? ｜誰のためにあるか
+
+1. ユーザー - XXXを利用するユーザー
 
 ## Why build it?｜なぜ創るか
 
