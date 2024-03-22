@@ -22,5 +22,5 @@ new-post-dir: # Create a new post using image.
 
 
 .PHONY: update
-update:
+update: # Update the git submodules.
 	git submodule update --init --recursive
