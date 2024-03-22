@@ -4,8 +4,13 @@ default: help
 help: # Show help for each of the Makefile recipes.
 	@grep -E '^[a-zA-Z0-9 -]+:.*#'  Makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
 
+.PHONY: update
+update: # Update the git submodules.
+	git submodule update --init --recursive
+
 .PHONY: hugo
 run: # Run local hugo server with docker.
+	@make update
 	docker run --rm -it \
 		-v $(PWD):/src \
 		-p 1313:1313 \
@@ -20,7 +25,3 @@ new-post: # Create a new post.
 new-post-dir: # Create a new post using image.
 	hugo new --kind post-bundle posts/new-post
 
-
-.PHONY: update
-update: # Update the git submodules.
-	git submodule update --init --recursive
