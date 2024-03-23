@@ -1,7 +1,7 @@
 baseURL: "https://konumaru.com/"
 title: konumaru blog
 paginate: 10
-theme: "PaperMod"
+theme: PaperMod
 
 languageCode: en
 DefaultContentLanguage: en
@@ -21,14 +21,14 @@ menu:
     - name: Archive
       url: archives/
       weight: 5
+    - name: Search
+      url: search/
+      weight: 6
     - name: Categories
       url: categories/
       weight: 10
     - name: Tags
       url: tags/
-      weight: 10
-    - name: Search
-      url: search/
       weight: 10
 
 params:
@@ -51,8 +51,8 @@ params:
       - I write down what I learned recently and what I think about the books I read.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/konumaruuu_v2"
+    - name: x
+      url: "https://x.com/konumaruuu_v2"
     - name: github
       url: "https://github.com/konumaru"
     - name: kaggle
@@ -64,7 +64,7 @@ params:
 
   editPost:
     URL: "https://github.com/konumaru/konumaru.github.io/tree/main/content"
-    Text: "Edit"
+    Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
 
   # For search
