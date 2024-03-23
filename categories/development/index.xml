@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Development on konumaru blog</title>
+    <link>https://konumaru.com/categories/development/</link>
+    <description>Recent content in Development on konumaru blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate><atom:link href="https://konumaru.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>仮想通貨botを作ってみた</title>
+      <link>https://konumaru.com/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <description>念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。 TL;DR 仮想通貨botを作って運用してみたことを書く モチベーション</description>
+    </item>
+    
+  </channel>
+</rss>

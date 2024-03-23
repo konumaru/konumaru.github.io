@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://konumaru.com/categories/</loc>
+    <lastmod>2024-03-18T14:36:32+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.com/tags/cryptobot/</loc>
+    <lastmod>2024-03-18T14:36:32+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.com/categories/development/</loc>
+    <lastmod>2024-03-18T14:36:32+09:00</lastmod>
+  </url><url>
     <loc>https://konumaru.com/</loc>
     <lastmod>2024-03-18T14:36:32+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.com/posts/</loc>
+    <lastmod>2024-03-18T14:36:32+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.com/tags/</loc>
+    <lastmod>2024-03-18T14:36:32+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.com/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
     <lastmod>2024-03-18T14:36:32+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.com/posts/commonlit-2023-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</loc>
@@ -29,9 +44,6 @@
     <loc>https://konumaru.com/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</loc>
     <lastmod>2022-10-19T20:06:57+09:00</lastmod>
   </url><url>
-    <loc>https://konumaru.com/categories/</loc>
-    <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
     <loc>https://konumaru.com/tags/cv/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
   </url><url>
@@ -42,9 +54,6 @@
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.com/posts/kaggle%E3%82%B3%E3%83%B3%E3%83%9A-dfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</loc>
-    <lastmod>2022-10-17T20:51:25+09:00</lastmod>
-  </url><url>
-    <loc>https://konumaru.com/tags/</loc>
     <lastmod>2022-10-17T20:51:25+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.com/tags/pdm/</loc>
