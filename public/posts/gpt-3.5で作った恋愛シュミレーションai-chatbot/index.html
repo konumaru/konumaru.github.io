@@ -20,6 +20,7 @@
 <link rel="mask-icon" href="https://konumaru.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://konumaru.com/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/">
 <noscript>
     <style>
         #theme-toggle,
@@ -167,6 +168,8 @@ if (!doNotTrack) {
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -176,13 +179,13 @@ if (!doNotTrack) {
                 </a>
             </li>
             <li>
-                <a href="https://konumaru.com/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="https://konumaru.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://konumaru.com/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
+                <a href="https://konumaru.com/categories/" title="Categories">
+                    <span>Categories</span>
                 </a>
             </li>
             <li>
@@ -201,7 +204,7 @@ if (!doNotTrack) {
     <h1 class="post-title">
       GPT-3.5で作った恋愛シュミレーションAI ChatBot
     </h1>
-    <div class="post-meta"><span title='2023-05-02 15:01:42 +0900 JST'>May 2, 2023</span>&nbsp;·&nbsp;3 min&nbsp;|&nbsp;<a href="https://github.com/konumaru/konumaru.github.io/tree/main/content/posts/202305/GPT-3.5%e3%81%a7%e4%bd%9c%e3%81%a3%e3%81%9f%e6%81%8b%e6%84%9b%e3%82%b7%e3%83%a5%e3%83%9f%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3AI%20ChatBot.md" rel="noopener noreferrer" target="_blank">Edit</a>
+    <div class="post-meta">&lt;span title=&#39;2023-05-02 15:01:42 &#43;0900 JST&#39;&gt;May 2, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;3 min&nbsp;|&nbsp;<a href="https://github.com/konumaru/konumaru.github.io/tree/main/content/posts/development/GPT-3.5%e3%81%a7%e4%bd%9c%e3%81%a3%e3%81%9f%e6%81%8b%e6%84%9b%e3%82%b7%e3%83%a5%e3%83%9f%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3AI%20ChatBot.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> <div class="toc">
@@ -286,6 +289,7 @@ if (!doNotTrack) {
 <h2 id="開発過程で取り組んで良かったこと">開発過程で取り組んで良かったこと<a hidden class="anchor" aria-hidden="true" href="#開発過程で取り組んで良かったこと">#</a></h2>
 <p>以下の企画書を書いたのはよかった。
 目的決めて、期日、撤退ラインなどを事前に決めておくのは本当によかった。</p>
+
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span># 企画書
 </span></span><span style="display:flex;"><span>## サービス内容
 </span></span><span style="display:flex;"><span>## 証明したいこと
@@ -295,15 +299,13 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>## 実装方針
 </span></span><span style="display:flex;"><span>## お金回り
 </span></span><span style="display:flex;"><span>## 撤退ライン
-</span></span><span style="display:flex;"><span>## 広める方法
-</span></span></code></pre></div>
+</span></span><span style="display:flex;"><span>## 広める方法</span></span></code></pre></div>
+
  
 <h3>See Also</h3>
 <ul>
   
   <li><a href="/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/">PCAを使った異常検知</a></li>
-  
-  <li><a href="/posts/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%A7%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8/">コーチングで気をつけること</a></li>
   
   <li><a href="/posts/202209%E6%99%82%E7%82%B9%E3%81%A7%E8%B5%B7%E3%81%8D%E3%81%9Fhugo%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/">202209時点で起きたHugoビルドエラー対応</a></li>
   
@@ -323,6 +325,11 @@ if (!doNotTrack) {
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://konumaru.com/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>kaggle OTTOコンペ解法調査</span>
+  </a>
   <a class="next" href="https://konumaru.com/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/">
     <span class="title">Next »</span>
     <br>
@@ -381,7 +388,7 @@ if (!doNotTrack) {
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://konumaru.com/">konumaru blog</a></span>
+    <span>&copy; 2024 <a href="https://konumaru.com/">konumaru blog</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

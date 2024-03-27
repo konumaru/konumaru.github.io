@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>konumaru blog</title>
     <link>https://konumaru.com/</link>
     <description>Recent content on konumaru blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jul 2023 20:13:52 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 17:31:39 +0900</lastBuildDate><atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>slackの検索芸なんて覚えたくない</title>
+      <link>https://konumaru.com/posts/slack%E3%81%AE%E6%A4%9C%E7%B4%A2%E8%8A%B8%E3%81%AA%E3%82%93%E3%81%A6%E8%A6%9A%E3%81%88%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84/</link>
+      <pubDate>Wed, 27 Mar 2024 17:31:39 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/slack%E3%81%AE%E6%A4%9C%E7%B4%A2%E8%8A%B8%E3%81%AA%E3%82%93%E3%81%A6%E8%A6%9A%E3%81%88%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84/</guid>
+      <description>ストック情報とフロー情報について考えていたら、slackの検索芸に対する嫌悪感がすごい湧いてきたからお気持ちを文章に残しておこうと思った。 仕</description>
+    </item>
     
-	<atom:link href="https://konumaru.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>仮想通貨botを作ってみた</title>
+      <link>https://konumaru.com/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <description>念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。 TL;DR バックテストでは利益が出るbotを作れた それをGCPを使っ</description>
+    </item>
     
+    <item>
+      <title>CommonLit 2023 振り返り</title>
+      <link>https://konumaru.com/posts/commonlit-2023-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <pubDate>Fri, 13 Oct 2023 13:30:06 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/commonlit-2023-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <description>CommonLitのコンペに参加したので振り返り コンペ概要 promptが与えられ、その中にはquestion, title, textがある。 それを生徒？</description>
+    </item>
+    
+    <item>
+      <title>スケールするチームと効果的なコミュニケーション: PdMのためのタスク管理</title>
+      <link>https://konumaru.com/posts/%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%81%E3%83%BC%E3%83%A0%E3%81%A8%E5%8A%B9%E6%9E%9C%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-pdm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Tue, 22 Aug 2023 10:14:52 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%81%E3%83%BC%E3%83%A0%E3%81%A8%E5%8A%B9%E6%9E%9C%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-pdm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</guid>
+      <description>PdMとしての経験が増え、管理するチームが10人を超えそうになったとき、マネージメントのコストが急増して大変になるのを防ぐ方法を試みました。</description>
+    </item>
+    
+    <item>
+      <title>リスク管理の方法</title>
+      <link>https://konumaru.com/posts/%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 21 Aug 2023 16:09:06 +0900</pubDate>
+      
+      <guid>https://konumaru.com/posts/%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E6%96%B9%E6%B3%95/</guid>
+      <description>熊とワルツをという本を読み、リスク管理方法のフォーマットを作ったのでメモ用に記事にする。 リスク管理の目的 「熊とワルツ」によるとリスクと利益は</description>
+    </item>
     
     <item>
       <title>PSPコンペ振り返り</title>
@@ -92,23 +133,7 @@
       <description>目標設定のフレームワークとして OKR を採用することにしたので、OKR 導入のために必要な基礎的な知識をまとめる。 OKR とは 目標の設定・管理方法の１つで</description>
     </item>
     
-    <item>
-      <title>Archive</title>
-      <link>https://konumaru.com/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://konumaru.com/archives/</guid>
-      <description>archives</description>
-    </item>
     
-    <item>
-      <title>Search</title>
-      <link>https://konumaru.com/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://konumaru.com/search/</guid>
-      <description>search</description>
-    </item>
     
   </channel>
 </rss>
