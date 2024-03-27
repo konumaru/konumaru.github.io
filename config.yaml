@@ -4,7 +4,7 @@ paginate: 10
 theme: PaperMod
 
 languageCode: en
-DefaultContentLanguage: ja
+DefaultContentLanguage: en
 HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true

@@ -20,13 +20,15 @@ jobs:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Get Theme
-        run: git submodule update --init --recursive
+        run: |
+          git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+          git submodule update --init --recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
           hugo-version: "latest"
-          # extended: true
+          extended: true
 
       - name: Build
         run: hugo --minify
