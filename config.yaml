@@ -3,8 +3,8 @@ title: konumaru blog
 paginate: 10
 theme: PaperMod
 
-languageCode: ja
-DefaultContentLanguage: ja
+languageCode: en
+DefaultContentLanguage: en
 HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
