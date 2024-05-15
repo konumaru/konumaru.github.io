@@ -25,8 +25,8 @@
   .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
-    "anchored_headings.html" .Content -}} {{ partial "related.html" . }} {{
-    partial "support.html" . }} {{- else }}{{ .Content }}{{ end }}
+    "anchored_headings.html" .Content -}} {{ partial "footer/related.html" . }} {{
+    partial "footer/support.html" . }} {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
 

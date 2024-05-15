@@ -10,12 +10,7 @@ update: # Update the git submodules.
 
 .PHONY: hugo
 run: # Run local hugo server with docker.
-	@make update
-	docker run --rm -it \
-		-v $(PWD):/src \
-		-p 1313:1313 \
-		klakegg/hugo:0.111.3-ext-ubuntu-onbuild \
-		server -D
+	hugo server -D
 
 .PHONY: new-post
 new-post: # Create a new post.
