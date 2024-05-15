@@ -4,53 +4,44 @@
     <title>Categories on konumaru blog</title>
     <link>https://konumaru.com/categories/</link>
     <description>Recent content in Categories on konumaru blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate><atom:link href="https://konumaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
+    <atom:link href="https://konumaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://konumaru.com/categories/development/</link>
-      <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konumaru.com/categories/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kaggle</title>
+      <title>Kaggle</title>
       <link>https://konumaru.com/categories/kaggle/</link>
-      <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konumaru.com/categories/kaggle/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ProductManagement</title>
       <link>https://konumaru.com/categories/productmanagement/</link>
-      <pubDate>Wed, 28 Sep 2022 14:46:50 +0900</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konumaru.com/categories/productmanagement/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Design</title>
       <link>https://konumaru.com/categories/design/</link>
-      <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konumaru.com/categories/design/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Management</title>
       <link>https://konumaru.com/categories/management/</link>
-      <pubDate>Tue, 07 Jun 2022 10:34:51 +0900</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konumaru.com/categories/management/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
