@@ -14,7 +14,7 @@ run: # Run local hugo server with docker.
 	docker run --rm -it \
 		-v $(PWD):/src \
 		-p 1313:1313 \
-		klakegg/hugo:latest \
+		klakegg/hugo:0.111.3-ext-ubuntu-onbuild \
 		server -D
 
 .PHONY: new-post
