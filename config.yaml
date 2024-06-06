@@ -14,7 +14,7 @@ enableRobotsTXT: true
 googleAnalytics: "G-YKYR14NJJ2"
 
 permalinks:
-  posts: "/:sections/:title/"
+  posts: "/:year/:month/:sections/:title/"
 
 menu:
   main:
