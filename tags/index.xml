@@ -4,58 +4,71 @@
     <title>Tags on konumaru blog</title>
     <link>https://konumaru.com/tags/</link>
     <description>Recent content in Tags on konumaru blog</description>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate><atom:link href="https://konumaru.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryptobot</title>
       <link>https://konumaru.com/tags/cryptobot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/cryptobot/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>CV</title>
       <link>https://konumaru.com/tags/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/cv/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Kaggle</title>
       <link>https://konumaru.com/tags/kaggle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/kaggle/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>PdM</title>
       <link>https://konumaru.com/tags/pdm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Sep 2022 14:46:50 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/pdm/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>BookReview</title>
       <link>https://konumaru.com/tags/bookreview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/bookreview/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Design</title>
       <link>https://konumaru.com/tags/design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/design/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>OKR</title>
       <link>https://konumaru.com/tags/okr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Jun 2022 10:34:51 +0900</pubDate>
+      
       <guid>https://konumaru.com/tags/okr/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>
