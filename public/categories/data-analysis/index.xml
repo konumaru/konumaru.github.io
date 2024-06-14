@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Analysis on konumaru blog</title>
+    <link>http://localhost:1313/categories/data-analysis/</link>
+    <description>Recent content in Data Analysis on konumaru blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jun 2024 19:13:08 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>クーポン配布施策の鉄板マニュアル</title>
+      <link>http://localhost:1313/2024/06/posts/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</link>
+      <pubDate>Thu, 13 Jun 2024 19:13:08 +0900</pubDate>
+      
+      <guid>http://localhost:1313/2024/06/posts/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</guid>
+      <description>はじめに この記事では私生活でも仕事でも馴染みがあるクーポン配布施策について書いていく。 こういった施策をやるよ、となったときに自分だったらこう</description>
+    </item>
+    
+  </channel>
+</rss>
