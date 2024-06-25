@@ -3,6 +3,7 @@ title: konumaru blog
 paginate: 10
 theme: PaperMod
 
+timeZone: "Asia/Tokyo"
 languageCode: en
 DefaultContentLanguage: en
 HasCJKLanguage: true
