@@ -4,8 +4,8 @@ paginate: 10
 theme: PaperMod
 
 timeZone: "Asia/Tokyo"
-languageCode: en
-DefaultContentLanguage: en
+languageCode: ja
+DefaultContentLanguage: ja
 HasCJKLanguage: true
 enableRobotsTXT: true
 enableEmoji: true
