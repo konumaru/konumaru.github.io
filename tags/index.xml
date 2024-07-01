@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on konumaru blog</title>
-    <link>https://konumaru.com/tags/</link>
+    <link>https://konumaru.org/tags/</link>
     <description>Recent content in Tags on konumaru blog</description>
     <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryptobot</title>
-      <link>https://konumaru.com/tags/cryptobot/</link>
+      <link>https://konumaru.org/tags/cryptobot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/cryptobot/</guid>
+      <guid>https://konumaru.org/tags/cryptobot/</guid>
       <description></description>
     </item>
     <item>
       <title>CV</title>
-      <link>https://konumaru.com/tags/cv/</link>
+      <link>https://konumaru.org/tags/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/cv/</guid>
+      <guid>https://konumaru.org/tags/cv/</guid>
       <description></description>
     </item>
     <item>
       <title>Kaggle</title>
-      <link>https://konumaru.com/tags/kaggle/</link>
+      <link>https://konumaru.org/tags/kaggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/kaggle/</guid>
+      <guid>https://konumaru.org/tags/kaggle/</guid>
       <description></description>
     </item>
     <item>
       <title>PdM</title>
-      <link>https://konumaru.com/tags/pdm/</link>
+      <link>https://konumaru.org/tags/pdm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/pdm/</guid>
+      <guid>https://konumaru.org/tags/pdm/</guid>
       <description></description>
     </item>
     <item>
       <title>BookReview</title>
-      <link>https://konumaru.com/tags/bookreview/</link>
+      <link>https://konumaru.org/tags/bookreview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/bookreview/</guid>
+      <guid>https://konumaru.org/tags/bookreview/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://konumaru.com/tags/design/</link>
+      <link>https://konumaru.org/tags/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/design/</guid>
+      <guid>https://konumaru.org/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>OKR</title>
-      <link>https://konumaru.com/tags/okr/</link>
+      <link>https://konumaru.org/tags/okr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/tags/okr/</guid>
+      <guid>https://konumaru.org/tags/okr/</guid>
       <description></description>
     </item>
   </channel>

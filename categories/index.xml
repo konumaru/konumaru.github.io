@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on konumaru blog</title>
-    <link>https://konumaru.com/categories/</link>
+    <link>https://konumaru.org/categories/</link>
     <description>Recent content in Categories on konumaru blog</description>
     <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 13 Jun 2024 19:13:08 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Analysis</title>
-      <link>https://konumaru.com/categories/data-analysis/</link>
+      <link>https://konumaru.org/categories/data-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/categories/data-analysis/</guid>
+      <guid>https://konumaru.org/categories/data-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://konumaru.com/categories/development/</link>
+      <link>https://konumaru.org/categories/development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/categories/development/</guid>
+      <guid>https://konumaru.org/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Kaggle</title>
-      <link>https://konumaru.com/categories/kaggle/</link>
+      <link>https://konumaru.org/categories/kaggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/categories/kaggle/</guid>
+      <guid>https://konumaru.org/categories/kaggle/</guid>
       <description></description>
     </item>
     <item>
       <title>ProductManagement</title>
-      <link>https://konumaru.com/categories/productmanagement/</link>
+      <link>https://konumaru.org/categories/productmanagement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/categories/productmanagement/</guid>
+      <guid>https://konumaru.org/categories/productmanagement/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://konumaru.com/categories/design/</link>
+      <link>https://konumaru.org/categories/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/categories/design/</guid>
+      <guid>https://konumaru.org/categories/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Management</title>
-      <link>https://konumaru.com/categories/management/</link>
+      <link>https://konumaru.org/categories/management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konumaru.com/categories/management/</guid>
+      <guid>https://konumaru.org/categories/management/</guid>
       <description></description>
     </item>
   </channel>
