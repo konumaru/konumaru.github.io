@@ -1,4 +1,4 @@
-baseURL: "https://konumaru.com/"
+baseURL: "https://konumaru.org/"
 title: konumaru blog
 paginate: 10
 theme: PaperMod
