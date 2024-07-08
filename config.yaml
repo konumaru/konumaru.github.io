@@ -52,16 +52,19 @@ params:
       - I write down what I learned recently and what I think about the books I read.
 
   socialIcons:
+    - name: rss
+      url: "index.xml"
     - name: x
       url: "https://x.com/konumaruuu_v2"
     - name: github
       url: "https://github.com/konumaru"
     - name: kaggle
       url: "https://www.kaggle.com/konumaru"
+    - name: spotify
+      url: "https://open.spotify.com/user/q32d9akx5hh3lqnga5jd1xfst"
     - name: buymeacoffee
       url: https://www.buymeacoffee.com/konumaru10C
-    - name: rss
-      url: "index.xml"
+
 
   editPost:
     URL: "https://github.com/konumaru/konumaru.github.io/tree/main/content"
