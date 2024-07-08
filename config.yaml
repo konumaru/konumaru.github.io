@@ -47,9 +47,9 @@ params:
   homeInfoParams:
     Title: konumaru blog
     Content: >
-      Welcome to konumaru blog
+      - Welcome to konumaru blog. I write down what I learned recently and what I think about works or something.
 
-      - I write down what I learned recently and what I think about the books I read.
+      - My Media Art works are also posted [here](https://konumaru.org/media_art).
 
   socialIcons:
     - name: rss
