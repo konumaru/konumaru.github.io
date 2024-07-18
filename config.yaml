@@ -49,7 +49,7 @@ params:
     Content: >
       - Welcome to konumaru blog. I write down what I learned recently and what I think about works or something.
 
-      - My Media Art works are also posted [here](https://konumaru.org/media_art).
+      - My Media Art works are also posted [here](https://konumaru.org/p5gallery/).
 
   socialIcons:
     - name: rss
