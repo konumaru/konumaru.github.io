@@ -1,7 +1,7 @@
 ---
 title: "kaggle OTTOコンペ解法調査"
 date: 2023-05-12T16:56:58+09:00
-categories: [""]
+categories: ["Kaggle"]
 tags: [""]
 
 showtoc: true

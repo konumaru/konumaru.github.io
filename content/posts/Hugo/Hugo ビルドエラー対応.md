@@ -1,7 +1,7 @@
 ---
 title: "202209時点で起きたHugoビルドエラー対応"
 date: 2022-09-13T10:57:52+09:00
-categories: [""]
+categories: ["Hugo"]
 tags: [""]
 
 showtoc: true

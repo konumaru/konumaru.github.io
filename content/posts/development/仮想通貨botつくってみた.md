@@ -1,7 +1,7 @@
 ---
 title: "仮想通貨botを作ってみた"
 date: 2024-03-18T14:36:32+09:00
-categories: ["development"]
+categories: ["Dev"]
 tags: ["cryptobot"]
 
 showtoc: true

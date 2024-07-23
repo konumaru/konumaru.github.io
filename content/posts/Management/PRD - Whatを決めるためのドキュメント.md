@@ -1,7 +1,7 @@
 ---
 title: "PRD - Whatを決めるためのドキュメント"
 date: 2022-09-28T14:46:50+09:00
-categories: ["ProductManagement"]
+categories: ["Management"]
 tags: ["PdM"]
 
 showtoc: true

@@ -1,7 +1,7 @@
 ---
 title: "GPT-3.5で作った恋愛シュミレーションAI ChatBot"
 date: 2023-05-02T15:01:42+09:00
-categories: [""]
+categories: ["Dev"]
 tags: [""]
 
 showtoc: true

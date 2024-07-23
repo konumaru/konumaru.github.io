@@ -1,7 +1,7 @@
 ---
 title: "PCAを使った異常検知"
 date: 2022-10-19T20:06:57+09:00
-categories: [""]
+categories: ["Dev"]
 tags: [""]
 
 showtoc: true

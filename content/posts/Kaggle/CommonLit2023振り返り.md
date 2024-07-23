@@ -1,7 +1,7 @@
 ---
 title: "CommonLit 2023 振り返り"
 date: 2023-10-13T13:30:06+09:00
-categories: [""]
+categories: ["Kaggle"]
 tags: [""]
 
 showtoc: true
