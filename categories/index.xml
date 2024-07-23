@@ -9,45 +9,45 @@
     <lastBuildDate>Thu, 13 Jun 2024 19:13:08 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Analysis</title>
-      <link>https://konumaru.org/categories/data-analysis/</link>
+      <title>Data</title>
+      <link>https://konumaru.org/categories/data/</link>
       <pubDate>Thu, 13 Jun 2024 19:13:08 +0900</pubDate>
-      <guid>https://konumaru.org/categories/data-analysis/</guid>
+      <guid>https://konumaru.org/categories/data/</guid>
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>https://konumaru.org/categories/development/</link>
+      <title>Dev</title>
+      <link>https://konumaru.org/categories/dev/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
-      <guid>https://konumaru.org/categories/development/</guid>
+      <guid>https://konumaru.org/categories/dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Kaggle</title>
       <link>https://konumaru.org/categories/kaggle/</link>
-      <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
+      <pubDate>Fri, 13 Oct 2023 13:30:06 +0900</pubDate>
       <guid>https://konumaru.org/categories/kaggle/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ProductManagement</title>
-      <link>https://konumaru.org/categories/productmanagement/</link>
-      <pubDate>Wed, 28 Sep 2022 14:46:50 +0900</pubDate>
-      <guid>https://konumaru.org/categories/productmanagement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>https://konumaru.org/categories/design/</link>
-      <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
-      <guid>https://konumaru.org/categories/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Management</title>
       <link>https://konumaru.org/categories/management/</link>
-      <pubDate>Tue, 07 Jun 2022 10:34:51 +0900</pubDate>
+      <pubDate>Tue, 22 Aug 2023 10:14:52 +0900</pubDate>
       <guid>https://konumaru.org/categories/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://konumaru.org/categories/hugo/</link>
+      <pubDate>Tue, 13 Sep 2022 10:57:52 +0900</pubDate>
+      <guid>https://konumaru.org/categories/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>https://konumaru.org/categories/book/</link>
+      <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
+      <guid>https://konumaru.org/categories/book/</guid>
       <description></description>
     </item>
   </channel>
