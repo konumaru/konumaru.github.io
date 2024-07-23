@@ -30,7 +30,7 @@ PdMの役割は事業目標にコミットしつつ、あらゆる手を使っ�
 
 大体こんな感じ↓
 
-{{<mermaid align="left">}}
+```mermaid
 graph TD;
  A(Board) --> B_Top(PO)
  B_Top(PO) --> B(PdM)
@@ -38,7 +38,7 @@ graph TD;
  B(PdM) --> T1(TeamA)
  B(PdM) --> T2(TeamB)
  B(PdM) --> T3(TeamC)
-{{< /mermaid >}}
+```
 
 PdMのポジションが自分であり、TeamA, TeamB, TeamCのPdMを兼任しているという想定。
 またTeamが増えることを許容することでスケーラブルであると仮定している。
@@ -79,7 +79,7 @@ OKRとEpicの関係性のイメージは、KRはチャレンジングな目標�
 
 Epicを完結させるためには、Epicを分割してSprint Backlog Itemを作成し、それを完結させることでEpicを完結させることができる。チームはこれを継続するだけで良くなる。
 
-{{<mermaid align="left">}}
+```mermaid
 graph TD;
  A(Parent Epic) --> Epic(Epic)
  Epic(Epic) --> TaskA(Task)
@@ -88,11 +88,11 @@ graph TD;
  TaskA(Task) --> BacklogItemA(Sprint Backlog Item)
  TaskC(Task) --> BacklogItemB(Sprint Backlog Item)
  TaskC(Task) --> BacklogItemC(Sprint Backlog Item)
-{{< /mermaid >}}
+```
 
 またEpicは以下のようにガントチャートにすることで体外的にスケジュールを公開することもでき、軌道修正するときに「EpicA_2が2週間ほど遅れそうですー」と言った時の影響範囲なども説明しやすい。
 
-{{<mermaid align="left">}}
+```mermaid
 gantt
  title Epic Timeline
  dateFormat YYYY-MM-DD
@@ -110,7 +110,7 @@ gantt
   EpicC :c1, 2025-04-14, 7d
   EpicE :d, 2025-04-21, 14d
   EpicF :e, 2025-04-21, 28d
-{{< /mermaid >}}
+```
 
 また、Epicをユーザーストーリー形式にするか、機能名にするかという議論がある。
 

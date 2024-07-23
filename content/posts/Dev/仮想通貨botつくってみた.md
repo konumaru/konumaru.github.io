@@ -71,14 +71,14 @@ draft: false
 DBはお高いので節約のために、GCSで乗り切っており、
 Traderが必要とするデータの取得が限界に来るまではこのままでいいかと思っている。
 
-{{<mermaid align="left">}}
+```mermaid
 graph TD
     A[Subscriber] -->|Get Price, Assets| B[Storage]
     C[Train ML Model in local] --> |Upload ML Model| B
     B -->|Get Price, Assets, ML Model| D[Trader]
     D -->|Trade Order| E[Bitflyer]
     D -->|Notify| F[Discord]
-{{< /mermaid >}}
+```
 
 ## 諸々思ったこと
 
