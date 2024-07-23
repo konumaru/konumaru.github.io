@@ -1,4 +1,4 @@
-baseURL: "https://konumaru.org/"
+baseURL: https://konumaru.org/
 title: konumaru blog
 paginate: 10
 theme: PaperMod
@@ -15,7 +15,7 @@ enableRobotsTXT: true
 googleAnalytics: "G-YKYR14NJJ2"
 
 permalinks:
-  posts: "/:year/:month/:sections/:title/"
+  posts: "/:year:month/:filename/"
 
 menu:
   main:
@@ -30,7 +30,11 @@ menu:
       weight: 10
     - name: Tags
       url: tags/
-      weight: 10
+      weight: 5
+
+taxonomies:
+  category: categories
+  tag: tags
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
