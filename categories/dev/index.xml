@@ -10,23 +10,23 @@
     <atom:link href="https://konumaru.org/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>仮想通貨botを作ってみた</title>
-      <link>https://konumaru.org/2024/03/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
-      <guid>https://konumaru.org/2024/03/posts/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。 TL;DR バックテストでは利益が出るbotを作れた それをGCPを使っ</description>
     </item>
     <item>
       <title>GPT-3.5で作った恋愛シュミレーションAI ChatBot</title>
-      <link>https://konumaru.org/2023/05/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
+      <link>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
       <pubDate>Tue, 02 May 2023 15:01:42 +0900</pubDate>
-      <guid>https://konumaru.org/2023/05/posts/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
+      <guid>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
       <description>何を作ろうと思ったのか ひとことで言うと「マッチングアプリに変わる恋愛シュミレーションAI」を作りたかった。 ChatGPTを使ってみたところか</description>
     </item>
     <item>
       <title>PCAを使った異常検知</title>
-      <link>https://konumaru.org/2022/10/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
+      <link>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
       <pubDate>Wed, 19 Oct 2022 20:06:57 +0900</pubDate>
-      <guid>https://konumaru.org/2022/10/posts/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
+      <guid>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
       <description>概要 教師なし学習を使った異常検知をやってみたいと思い 、Pythonではじめる教師なし学習を読んでいたらちょうど いいお題があったのでやってみる</description>
     </item>
   </channel>

@@ -10,30 +10,30 @@
     <atom:link href="https://konumaru.org/categories/kaggle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CommonLit 2023 振り返り</title>
-      <link>https://konumaru.org/2023/10/posts/commonlit-2023-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://konumaru.org/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Fri, 13 Oct 2023 13:30:06 +0900</pubDate>
-      <guid>https://konumaru.org/2023/10/posts/commonlit-2023-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://konumaru.org/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description>CommonLitのコンペに参加したので振り返り コンペ概要 promptが与えられ、その中にはquestion, title, textがある。 それを生徒？</description>
     </item>
     <item>
       <title>PSPコンペ振り返り</title>
-      <link>https://konumaru.org/2023/07/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://konumaru.org/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Wed, 12 Jul 2023 20:13:52 +0900</pubDate>
-      <guid>https://konumaru.org/2023/07/posts/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://konumaru.org/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description>コンペ概要 hogehoge 解法 1st code GBDT + NNのアンサンブル XGBoost Treeliteで推論高速化 1dcnn transformerを試したが、同じスコア+軽量だったため1dc</description>
     </item>
     <item>
       <title>kaggle OTTOコンペ解法調査</title>
-      <link>https://konumaru.org/2023/05/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
+      <link>https://konumaru.org/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
       <pubDate>Fri, 12 May 2023 16:56:58 +0900</pubDate>
-      <guid>https://konumaru.org/2023/05/posts/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
+      <guid>https://konumaru.org/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
       <description>コンペ概要 コンペページはこことは ドイツ最大級のオンラインショップOTTOを題材に特定のユーザがどの商品に対し、クリック、カート追加、注文する</description>
     </item>
     <item>
       <title>kaggleコンペ DFL反省会</title>
-      <link>https://konumaru.org/2022/10/posts/kaggle%E3%82%B3%E3%83%B3%E3%83%9A-dfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
+      <link>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
       <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
-      <guid>https://konumaru.org/2022/10/posts/kaggle%E3%82%B3%E3%83%B3%E3%83%9A-dfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
+      <guid>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
       <description>コンペ概要 ざっくりの概要はサッカーの試合動画(45min * 2) から特定のフレームで Challenge, Play, Throwin の３つのイベントを予測するというもの （合っているか不安</description>
     </item>
   </channel>
