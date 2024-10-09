@@ -4,7 +4,7 @@
     <title>Dev on konumaru blog</title>
     <link>https://konumaru.org/categories/dev/</link>
     <description>Recent content in Dev on konumaru blog</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/categories/dev/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,42 @@
       <link>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
       <guid>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
-      <description>念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。 TL;DR バックテストでは利益が出るbotを作れた それをGCPを使っ</description>
+      <description>&lt;p&gt;念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;バックテストでは利益が出るbotを作れた&lt;/li&gt;
+&lt;li&gt;それをGCPを使って実運用させられた&lt;/li&gt;
+&lt;li&gt;CryptoBot開発をkaggleのような問題設定に落とし込めた&lt;/li&gt;
+&lt;li&gt;今後は強化学習モデルも取り入れていきたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;botを作ろうと思ったモチベーション&#34;&gt;Botを作ろうと思ったモチベーション&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;NISAをやって放置してお金が増えるっていいなと気づいた&lt;/li&gt;
+&lt;li&gt;自分で資産運用Botを作ったらもっと楽に稼げるのでは&lt;/li&gt;
+&lt;li&gt;API使えそうな仮想通貨でやってみよう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と、安易に始めた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GPT-3.5で作った恋愛シュミレーションAI ChatBot</title>
       <link>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
       <pubDate>Tue, 02 May 2023 15:01:42 +0900</pubDate>
       <guid>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
-      <description>何を作ろうと思ったのか ひとことで言うと「マッチングアプリに変わる恋愛シュミレーションAI」を作りたかった。 ChatGPTを使ってみたところか</description>
+      <description>&lt;h2 id=&#34;何を作ろうと思ったのか&#34;&gt;何を作ろうと思ったのか&lt;/h2&gt;
+&lt;p&gt;ひとことで言うと「マッチングアプリに変わる恋愛シュミレーションAI」を作りたかった。&lt;/p&gt;
+&lt;p&gt;ChatGPTを使ってみたところかなり自然に会話をしてくれたので、まるで人と話しているかに感じることができた。
+それを受けてプロンプトで人格を定義して、シュミレーションゲーム風にして人と話すことを目的にしているマッチングアプリユーザをリアルの人と関わることによるストレスから解放できないかと思いつくってみることにした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PCAを使った異常検知</title>
       <link>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
       <pubDate>Wed, 19 Oct 2022 20:06:57 +0900</pubDate>
       <guid>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
-      <description>概要 教師なし学習を使った異常検知をやってみたいと思い 、Pythonではじめる教師なし学習を読んでいたらちょうど いいお題があったのでやってみる</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;教師なし学習を使った異常検知をやってみたいと思い
+、&lt;a href=&#34;https://amzn.to/3eM9dfF&#34;&gt;Pythonではじめる教師なし学習&lt;/a&gt;を読んでいたらちょうど
+いいお題があったのでやってみることにした&lt;/p&gt;
+&lt;p&gt;ここではサンプルデータを対象にPCAを使った異常検知を行う&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

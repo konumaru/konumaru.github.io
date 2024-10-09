@@ -4,7 +4,7 @@
     <title>Hugo on konumaru blog</title>
     <link>https://konumaru.org/categories/hugo/</link>
     <description>Recent content in Hugo on konumaru blog</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 13 Sep 2022 10:57:52 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,13 @@
       <link>https://konumaru.org/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</link>
       <pubDate>Tue, 13 Sep 2022 10:57:52 +0900</pubDate>
       <guid>https://konumaru.org/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</guid>
-      <description>経緯 諸事情により、PC を新しくしたところ hugo server がローカルで起動しなくなった よく確認せずに Github Actions へビルドしたら CI は通過したのでローカル環境の問題だ</description>
+      <description>&lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;諸事情により、PC を新しくしたところ hugo server がローカルで起動しなくなった&lt;/li&gt;
+&lt;li&gt;よく確認せずに Github Actions へビルドしたら CI は通過したのでローカル環境の問題だと推測した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;エラーメッセージ&#34;&gt;エラーメッセージ&lt;/h2&gt;
+&lt;p&gt;hogehoge&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

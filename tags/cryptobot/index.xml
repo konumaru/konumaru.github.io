@@ -4,7 +4,7 @@
     <title>Cryptobot on konumaru blog</title>
     <link>https://konumaru.org/tags/cryptobot/</link>
     <description>Recent content in Cryptobot on konumaru blog</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/tags/cryptobot/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,21 @@
       <link>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
       <guid>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
-      <description>念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。 TL;DR バックテストでは利益が出るbotを作れた それをGCPを使っ</description>
+      <description>&lt;p&gt;念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;バックテストでは利益が出るbotを作れた&lt;/li&gt;
+&lt;li&gt;それをGCPを使って実運用させられた&lt;/li&gt;
+&lt;li&gt;CryptoBot開発をkaggleのような問題設定に落とし込めた&lt;/li&gt;
+&lt;li&gt;今後は強化学習モデルも取り入れていきたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;botを作ろうと思ったモチベーション&#34;&gt;Botを作ろうと思ったモチベーション&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;NISAをやって放置してお金が増えるっていいなと気づいた&lt;/li&gt;
+&lt;li&gt;自分で資産運用Botを作ったらもっと楽に稼げるのでは&lt;/li&gt;
+&lt;li&gt;API使えそうな仮想通貨でやってみよう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と、安易に始めた。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

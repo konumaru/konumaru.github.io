@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data on konumaru blog</title>
+    <link>https://konumaru.org/tags/data/</link>
+    <description>Recent content in Data on konumaru blog</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Oct 2024 10:35:38 +0900</lastBuildDate>
+    <atom:link href="https://konumaru.org/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GASでスプシをテーブル操作したい</title>
+      <link>https://konumaru.org/202410/new-post/</link>
+      <pubDate>Wed, 09 Oct 2024 10:35:38 +0900</pubDate>
+      <guid>https://konumaru.org/202410/new-post/</guid>
+      <description>&lt;p&gt;GASを使ってスプレットシートのデータをテーブル風に操作したら便利だった。
+そのときのコードのメモ。&lt;/p&gt;
+&lt;p&gt;pandasのような集計、集約などはGASでやるのはしんどそうなので、そこはスプレットシート側の機能を使うのがよさそうだった。
+GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

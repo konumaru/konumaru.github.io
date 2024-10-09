@@ -4,7 +4,7 @@
     <title>CV on konumaru blog</title>
     <link>https://konumaru.org/tags/cv/</link>
     <description>Recent content in CV on konumaru blog</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Oct 2022 20:51:25 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/tags/cv/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,12 @@
       <link>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
       <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
       <guid>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
-      <description>コンペ概要 ざっくりの概要はサッカーの試合動画(45min * 2) から特定のフレームで Challenge, Play, Throwin の３つのイベントを予測するというもの （合っているか不安</description>
+      <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
+&lt;p&gt;ざっくりの概要はサッカーの試合動画(45min * 2) から特定のフレームで Challenge,
+Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
+&lt;p&gt;（合っているか不安だが、）サッカー業界の事情としては、ユース、プロ、セミプロなど
+は手厚い指導を受けられるが、それ以外のプレイヤーは質の良い指導を受けられるほど人
+材は充実していない。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,10 +4,17 @@
     <title>Tags on konumaru blog</title>
     <link>https://konumaru.org/tags/</link>
     <description>Recent content in Tags on konumaru blog</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2024 10:35:38 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data</title>
+      <link>https://konumaru.org/tags/data/</link>
+      <pubDate>Wed, 09 Oct 2024 10:35:38 +0900</pubDate>
+      <guid>https://konumaru.org/tags/data/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cryptobot</title>
       <link>https://konumaru.org/tags/cryptobot/</link>
