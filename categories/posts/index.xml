@@ -6,13 +6,23 @@
     <description>Recent content in Posts on konumaru blog</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Oct 2024 10:35:38 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2024 13:31:40 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ダッシュボードつくるときにみる記事</title>
+      <link>https://konumaru.org/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</link>
+      <pubDate>Sat, 12 Oct 2024 13:31:40 +0900</pubDate>
+      <guid>https://konumaru.org/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</guid>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;ダッシュボードを作って、
+定量的な意思決定をして、
+データドリブンに業務を進めるたい！と言ったら誰もが素晴らしい取り組みだと言ってくれると思う。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>GASでスプシをテーブル操作したい</title>
-      <link>https://konumaru.org/202410/new-post/</link>
+      <link>https://konumaru.org/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Wed, 09 Oct 2024 10:35:38 +0900</pubDate>
-      <guid>https://konumaru.org/202410/new-post/</guid>
+      <guid>https://konumaru.org/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;GASを使ってスプレットシートのデータをテーブル風に操作したら便利だった。
 そのときのコードのメモ。&lt;/p&gt;
 &lt;p&gt;pandasのような集計、集約などはGASでやるのはしんどそうなので、そこはスプレットシート側の機能を使うのがよさそうだった。

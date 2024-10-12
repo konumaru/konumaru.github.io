@@ -10,9 +10,9 @@
     <atom:link href="https://konumaru.org/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GASでスプシをテーブル操作したい</title>
-      <link>https://konumaru.org/202410/new-post/</link>
+      <link>https://konumaru.org/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Wed, 09 Oct 2024 10:35:38 +0900</pubDate>
-      <guid>https://konumaru.org/202410/new-post/</guid>
+      <guid>https://konumaru.org/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;GASを使ってスプレットシートのデータをテーブル風に操作したら便利だった。
 そのときのコードのメモ。&lt;/p&gt;
 &lt;p&gt;pandasのような集計、集約などはGASでやるのはしんどそうなので、そこはスプレットシート側の機能を使うのがよさそうだった。
