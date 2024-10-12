@@ -1,7 +1,8 @@
 baseURL: https://konumaru.org/
 title: konumaru blog
-paginate: 10
 theme: PaperMod
+pagination:
+  pagerSize: 10
 
 timeZone: "Asia/Tokyo"
 languageCode: en
@@ -55,7 +56,7 @@ params:
 
       - My Media Art works are also posted [here](https://konumaru.org/p5gallery/).
 
-  socialIcons:
+  social:
     - name: rss
       url: "index.xml"
     - name: x
