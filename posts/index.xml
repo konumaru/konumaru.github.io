@@ -13,15 +13,7 @@
       <link>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Wed, 27 Nov 2024 00:13:35 +0900</pubDate>
       <guid>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</guid>
-      <description>&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;概要&lt;/li&gt;
-&lt;li&gt;なぜ作ろうと思ったのか&lt;/li&gt;
-&lt;li&gt;自作GPT関数の作り方&lt;/li&gt;
-&lt;li&gt;Spreadsheetでの使い方&lt;/li&gt;
-&lt;li&gt;使い方 Tips&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;SpreadsheetでLLMを使えるようにした&lt;/li&gt;
 &lt;li&gt;Crawlerと組み合わせることでwebページの要約、情報抽出ができる&lt;/li&gt;
