@@ -12,14 +12,6 @@ searchHidden: false
 draft: false
 ---
 
-## Outline
-
-- 概要
-- なぜ作ろうと思ったのか
-- 自作GPT関数の作り方
-- Spreadsheetでの使い方
-- 使い方 Tips
-
 ## 概要
 
 - SpreadsheetでLLMを使えるようにした
