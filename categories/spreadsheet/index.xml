@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data on konumaru blog</title>
-    <link>https://konumaru.org/categories/data/</link>
-    <description>Recent content in Data on konumaru blog</description>
+    <title>Spreadsheet on konumaru blog</title>
+    <link>https://konumaru.org/categories/spreadsheet/</link>
+    <description>Recent content in Spreadsheet on konumaru blog</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 27 Nov 2024 00:13:35 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/categories/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.org/categories/spreadsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spreadsheetで自作GPT関数を使う</title>
       <link>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</link>
@@ -29,15 +29,6 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;なぜ作ろうと思ったのか&#34;&gt;なぜ作ろうと思ったのか&lt;/h2&gt;
 &lt;p&gt;元々は&lt;a href=&#34;https://workspace.google.com/marketplace/app/chatgpt_for_google_slides_docs_sheets/451400884190&#34;&gt;ChatGPT in Google Sheets™ and Docs&lt;/a&gt;というChrome拡張を使っていて、Open AIのAPI Keyさえあれば便利に使えた。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>クーポン配布施策の鉄板マニュアル</title>
-      <link>https://konumaru.org/202406/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</link>
-      <pubDate>Thu, 13 Jun 2024 19:13:08 +0900</pubDate>
-      <guid>https://konumaru.org/202406/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;この記事ではクーポン配布施策について書いていく。&lt;/p&gt;
-&lt;p&gt;こういった施策をやるよ、となったときに自分なりのテンプレートがあるのであとで思い出せるように残しておこうと思った。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

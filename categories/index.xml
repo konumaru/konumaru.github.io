@@ -4,10 +4,24 @@
     <title>Categories on konumaru blog</title>
     <link>https://konumaru.org/categories/</link>
     <description>Recent content in Categories on konumaru blog</description>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Oct 2024 13:31:40 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 00:13:35 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data</title>
+      <link>https://konumaru.org/categories/data/</link>
+      <pubDate>Wed, 27 Nov 2024 00:13:35 +0900</pubDate>
+      <guid>https://konumaru.org/categories/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spreadsheet</title>
+      <link>https://konumaru.org/categories/spreadsheet/</link>
+      <pubDate>Wed, 27 Nov 2024 00:13:35 +0900</pubDate>
+      <guid>https://konumaru.org/categories/spreadsheet/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Posts</title>
       <link>https://konumaru.org/categories/posts/</link>
@@ -20,13 +34,6 @@
       <link>https://konumaru.org/categories/diary/</link>
       <pubDate>Tue, 23 Jul 2024 13:03:00 +0900</pubDate>
       <guid>https://konumaru.org/categories/diary/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data</title>
-      <link>https://konumaru.org/categories/data/</link>
-      <pubDate>Thu, 13 Jun 2024 19:13:08 +0900</pubDate>
-      <guid>https://konumaru.org/categories/data/</guid>
       <description></description>
     </item>
     <item>

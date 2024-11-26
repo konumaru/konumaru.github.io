@@ -4,10 +4,32 @@
     <title>konumaru blog</title>
     <link>https://konumaru.org/</link>
     <description>Recent content on konumaru blog</description>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Oct 2024 13:31:40 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 00:13:35 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spreadsheetで自作GPT関数を使う</title>
+      <link>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <pubDate>Wed, 27 Nov 2024 00:13:35 +0900</pubDate>
+      <guid>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <description>&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;概要&lt;/li&gt;
+&lt;li&gt;なぜ作ろうと思ったのか&lt;/li&gt;
+&lt;li&gt;自作GPT関数の作り方&lt;/li&gt;
+&lt;li&gt;Spreadsheetでの使い方&lt;/li&gt;
+&lt;li&gt;使い方 Tips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SpreadsheetでLLMを使えるようにした&lt;/li&gt;
+&lt;li&gt;Crawlerと組み合わせることでwebページの要約、情報抽出ができる&lt;/li&gt;
+&lt;li&gt;Prompt Engineering頑張るとかなり使えた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;なぜ作ろうと思ったのか&#34;&gt;なぜ作ろうと思ったのか&lt;/h2&gt;
+&lt;p&gt;元々は&lt;a href=&#34;https://workspace.google.com/marketplace/app/chatgpt_for_google_slides_docs_sheets/451400884190&#34;&gt;ChatGPT in Google Sheets™ and Docs&lt;/a&gt;というChrome拡張を使っていて、Open AIのAPI Keyさえあれば便利に使えた。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ダッシュボードつくるときにみる記事</title>
       <link>https://konumaru.org/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</link>
