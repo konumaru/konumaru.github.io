@@ -109,3 +109,46 @@ function test() {
 - Webページごとに情報構造が異なるので、Crawlerの設定を変えることで、情報抽出の精度を上げることができる。
 - 抽出したい情報に併せてGPT関数内のプロンプトをカスタマイズすることで、より適切な情報抽出ができる。
   - e.g. `=GPT($B2&"から"&D$1&"をYYYY年mm月dd日（月）形式で該当部分の年月日、曜日のみを出力してください")`
+
+## おまけ Perplexity version
+
+```javascript
+
+function Perplexity(prompt, temperature = 0.2, maxTokens = 2048) {
+  // スクリプトプロパティに設定した Perplexity AI の API キーを取得
+  const apiKey = PropertiesService.getScriptProperties().getProperty('PERPLEXITY_API_KEY');
+  // Perplexity AI の API で利用するモデルを設定
+  const model = 'llama-3.1-sonar-small-128k-online';
+  // Perplexity AI の API のエンドポイントを設定
+  const apiUrl = 'https://api.perplexity.ai/chat/completions';
+  // API に送信するメッセージを定義
+  const messages = [
+    { 'role': "system", 'content': "You are a helpful assistant."},
+    { 'role': 'user', 'content': prompt }
+  ];
+  
+  // API リクエストに必要なヘッダー情報を設定
+  const headers = {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer ' + apiKey
+  };
+  
+  // API リクエストのオプションを設定
+  const options = {
+    'muteHttpExceptions': true,
+    'headers': headers,
+    'method': 'POST',
+    'payload': JSON.stringify({
+      'model': model,
+      'messages': messages,
+      'max_tokens': maxTokens,
+      'temperature': temperature
+    })
+  };
+  // API リクエストを送信し、結果を変数に格納
+  const response = JSON.parse(UrlFetchApp.fetch(apiUrl, options).getContentText());
+  // レスポンスから生成されたテキストを返す
+  return response.choices[0].message.content;
+}
+```
