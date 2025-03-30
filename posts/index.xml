@@ -4,7 +4,7 @@
     <title>Posts on konumaru blog</title>
     <link>https://konumaru.org/posts/</link>
     <description>Recent content in Posts on konumaru blog</description>
-    <generator>Hugo -- 0.139.3</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 27 Nov 2024 00:13:35 +0900</lastBuildDate>
     <atom:link href="https://konumaru.org/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -125,7 +125,7 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2 id=&#34;解法&#34;&gt;解法&lt;/h2&gt;
-&lt;h3 id=&#34;1sthttpswwwkagglecomcompetitionspredict-student-performance-from-game-playdiscussion420217&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420217&#34;&gt;1st&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;1st&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420217&#34;&gt;1st&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420332&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GBDT + NNのアンサンブル
@@ -151,7 +151,7 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
 &lt;li&gt;indexをソートしたものと、元の順序の両方のモデルを作成&lt;/li&gt;
 &lt;li&gt;cv=0.705&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;2ndhttpswwwkagglecomcompetitionspredict-student-performance-from-game-playdiscussion424329&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/424329&#34;&gt;2nd&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;2nd&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/424329&#34;&gt;2nd&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;単一のLightGBMで予測
 &lt;ul&gt;
@@ -167,7 +167,7 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
 &lt;li&gt;特徴量は1,296個&lt;/li&gt;
 &lt;li&gt;閾値は0.63で固定&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;3rdhttpswwwkagglecomcompetitionspredict-student-performance-from-game-playdiscussion420235&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420235&#34;&gt;3rd&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;3rd&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420235&#34;&gt;3rd&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;levelごとにモデルを学習（18個の2値分類モデル）&lt;/li&gt;
 &lt;li&gt;GBDT + NNのアンサンブル
@@ -186,7 +186,7 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
 &lt;/li&gt;
 &lt;li&gt;cv=0.702&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;4thhttpswwwkagglecomcompetitionspredict-student-performance-from-game-playdiscussion420349&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420349&#34;&gt;4th&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;4th&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420349&#34;&gt;4th&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Transformer, XGB, Catboostのアンサンブル
 &lt;ul&gt;
@@ -203,7 +203,7 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;7thhttpswwwkagglecomcompetitionspredict-student-performance-from-game-playdiscussion420119&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420119&#34;&gt;7th&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;7th&#34;&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420119&#34;&gt;7th&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;level_groupごとにモデルを学習
 &lt;ul&gt;
