@@ -1,0 +1,8 @@
+{
+    "markdown.marp.browserPath": "/snap/bin/chromium", // when using in WSL, run `sudo snap install chromium`
+    "markdown.marp.themes": [
+        "slide/theme/explaza.css",
+        "slide/theme/standard.css",
+        "slide/theme/nature.css"
+    ]
+}
