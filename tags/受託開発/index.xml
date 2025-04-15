@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>受託開発 on konumaru blog</title>
+    <link>https://konumaru.org/tags/%E5%8F%97%E8%A8%97%E9%96%8B%E7%99%BA/</link>
+    <description>Recent content in 受託開発 on konumaru blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Apr 2025 00:43:09 +0900</lastBuildDate>
+    <atom:link href="https://konumaru.org/tags/%E5%8F%97%E8%A8%97%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT受託営業における成約までのプロセスとポイント</title>
+      <link>https://konumaru.org/202504/it%E5%8F%97%E8%A8%97%E5%96%B6%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%88%90%E7%B4%84%E3%81%BE%E3%81%A7%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%A8%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/</link>
+      <pubDate>Wed, 16 Apr 2025 00:43:09 +0900</pubDate>
+      <guid>https://konumaru.org/202504/it%E5%8F%97%E8%A8%97%E5%96%B6%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%88%90%E7%B4%84%E3%81%BE%E3%81%A7%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%A8%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/</guid>
+      <description>&lt;h2 id=&#34;成約までの全体像5つのステップ&#34;&gt;成約までの全体像：5つのステップ&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;アプローチ・初回商談&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;顧客との最初の接触。紹介やWeb問い合わせ、展示会など、さまざまなチャネルがある&lt;/li&gt;
+&lt;li&gt;相手企業の概要や事業分野、課題感を大まかに把握し、関係を構築し始める&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ニーズ確認・課題の明確化&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;顧客が抱える課題をヒアリングし、解決すべき優先度や要件を整理&lt;/li&gt;
+&lt;li&gt;顧客の想定予算や導入決定権者の有無なども同時に確認する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ソリューション提案・デモ&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;明確化した課題に対して、具体的な解決策・メリットを示す&lt;/li&gt;
+&lt;li&gt;デモやプロトタイプなども活用して導入後のイメージを高める&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;見積提示・交渉&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;予算とのすり合わせ・価格交渉・契約条件の調整を行う&lt;/li&gt;
+&lt;li&gt;不安や疑問点を解消し、最終合意に近づける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;クロージング（契約締結）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;契約書取り交わし、顧客企業内の稟議などをサポートし、最終決定を得る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ステップごとの規模別攻略ポイント&#34;&gt;ステップごとの規模別攻略ポイント&lt;/h2&gt;
+&lt;h3 id=&#34;ステップ1-アプローチ初回商談&#34;&gt;ステップ1. アプローチ・初回商談&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;規模&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;主要な特徴&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;具体的なアプローチ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;スタートアップ&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;意思決定者に直接リーチしやすい&lt;br&gt; 新規技術やスピード感重視&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;トップアプローチ（代表直）&lt;br&gt; 小規模PoC提案&lt;br&gt;伴走姿勢を伝える&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;中小企業&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ITに不慣れな経営者が多い&lt;br&gt; 比較的スピード決済可能&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;紹介の活用&lt;br&gt; わかりやすい表現を意識&lt;br&gt; 丁寧なヒアリング&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;大企業&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;窓口と決裁者が異なる&lt;br&gt; 実績・信頼重視&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;紹介や既存ネットワークを活用&lt;br&gt; 導入実績や成功事例を提示&lt;br&gt; 比較検討時の優位性を強調&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;信頼獲得のポイント初回接触時&#34;&gt;信頼獲得のポイント：初回接触時&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;スタートアップ&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
