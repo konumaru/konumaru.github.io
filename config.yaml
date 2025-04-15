@@ -15,6 +15,8 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 googleAnalytics: "G-YKYR14NJJ2"
 
+ignoreLogs: ['warning-goldmark-raw-html']
+
 permalinks:
   posts: "/:year:month/:filename/"
 
@@ -97,3 +99,9 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+# Markdownレンダリング設定
+markup:
+  goldmark:
+    renderer:
+      unsafe: true   # HTMLタグを許可する設定
