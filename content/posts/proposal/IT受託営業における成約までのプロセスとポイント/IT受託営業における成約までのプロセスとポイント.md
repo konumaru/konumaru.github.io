@@ -297,8 +297,8 @@ ROI（投資対効果）やビジネスケースを定量的に示すことで�
 > - ROIやビジネスケースは定量的に示すことで説得力が増す
 > - クロージング後のフォローアップがリファレンス獲得や追加受注につながる
 
-## Appendix
+<!-- ## Appendix
 
 ### 営業サイクルのイメージ図
 
-![proposal_crycle](images/proposal_crycle.jpg)
+![proposal_crycle](images/proposal_crycle.jpg) -->
