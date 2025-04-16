@@ -1,7 +1,7 @@
 ---
 title: "PSPコンペ振り返り"
 date: 2023-07-12T20:13:52+09:00
-categories: ["Kaggle"]
+categories: "kaggle"
 tags: [""]
 
 showtoc: true

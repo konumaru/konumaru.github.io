@@ -1,7 +1,7 @@
 ---
 title: "Spreadsheetで自作GPT関数を使う"
 date: 2024-11-27T00:13:35+09:00
-categories: ["data", "spreadsheet"]
+categories: ["data"]
 tags: [""]
 
 showtoc: false

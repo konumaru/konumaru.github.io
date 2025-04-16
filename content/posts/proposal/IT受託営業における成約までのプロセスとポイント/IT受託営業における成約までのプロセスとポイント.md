@@ -1,8 +1,9 @@
 ---
 title: "IT受託営業における成約までのプロセスとポイント"
 date: 2025-04-16T00:43:09+09:00
-categories: ["IT受託開発"]
-tags: ["営業", "受託開発", "成約プロセス"]
+categories: ["proposal"]
+tags: []
+
 
 showtoc: true
 tocopen: true

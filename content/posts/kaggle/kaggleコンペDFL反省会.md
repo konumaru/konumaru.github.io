@@ -1,7 +1,7 @@
 ---
 title: "kaggleコンペ DFL反省会"
 date: 2022-10-17T20:51:25+09:00
-categories: ["Kaggle"]
+categories: "kaggle"
 tags: ["Kaggle", "CV"]
 
 showtoc: true

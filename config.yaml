@@ -15,7 +15,9 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 googleAnalytics: "G-YKYR14NJJ2"
 
-ignoreLogs: ['warning-goldmark-raw-html']
+ignoreLogs: 
+  - warning-goldmark-raw-html
+  - warning-partial-superfluous-prefix
 
 permalinks:
   posts: "/:year:month/:filename/"

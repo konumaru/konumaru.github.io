@@ -1,7 +1,7 @@
 ---
 title: "クーポン配布施策の鉄板マニュアル"
 date: 2024-06-13T19:13:08+09:00
-categories: ["Data"]
+categories: ["data"]
 tags: [""]
 
 showtoc: true
