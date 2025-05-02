@@ -12,7 +12,6 @@ enableRobotsTXT: true
 enableEmoji: true
 
 enableInlineShortcodes: true
-enableRobotsTXT: true
 googleAnalytics: "G-YKYR14NJJ2"
 
 ignoreLogs: 
@@ -20,7 +19,7 @@ ignoreLogs:
   - warning-partial-superfluous-prefix
 
 permalinks:
-  posts: "/:year:month/:filename/"
+  posts: "/:year:month/:contentbasename/"
 
 menu:
   main:
@@ -60,7 +59,7 @@ params:
 
       - My Media Art works are also posted [here](https://konumaru.org/p5gallery/).
 
-  social:
+  socialIcons:
     - name: rss
       url: "index.xml"
     - name: x

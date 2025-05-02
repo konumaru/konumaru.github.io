@@ -10,17 +10,17 @@ update: # Update the git submodules.
 
 .PHONY: run
 run: # Run local hugo server with docker.
-	docker run --rm -it -v $(PWD):/src -p 1313:1313 hugomods/hugo:reg-ci-0.145.0 hugo server -D --bind 0.0.0.0
+	hugo server -D --bind 0.0.0.0
 
 .PHONY: new-post
 new-post: # Create a new post.
-	docker run --rm -it -v $(PWD):/src hugomods/hugo:reg-ci-0.145.0 hugo new posts/new-post.md
+	hugo new posts/new-post.md
 
 .PHONY: new-post-dir
 new-post-dir: # Create a new post using image.
-	docker run --rm -it -v $(PWD):/src hugomods/hugo:reg-ci-0.145.0 hugo new --kind post-bundle posts/new-post
+	hugo new --kind post-bundle posts/new-post
 
 .PHONY: build
 build: # Build static site.
-	docker run --rm -it -v $(PWD):/src hugomods/hugo:reg-ci-0.145.0 hugo --minify
+	hugo --minify
 
