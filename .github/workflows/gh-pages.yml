@@ -14,13 +14,19 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 1
 
-      - name: Update submodules
-        run: git submodule update --init --recursive --depth=1
+      - name: Clone PaperMod Theme
+        run: |
+          # Remove themes/PaperMod if exists
+          rm -rf themes/PaperMod
+          # Clone PaperMod theme directly
+          git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+          # Verify theme was cloned successfully
+          ls -la themes/PaperMod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3

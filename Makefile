@@ -8,14 +8,10 @@ help: # Show help for each of the Makefile recipes.
 clean: # Clean up the build directory.
 	rm -rf public
 
-.PHONY: init
-init: # Initialize the git submodules.
-	git submodule init
-	git submodule update
-
-.PHONY: update
-update: # Update the git submodules.
-	git submodule update --init --recursive
+.PHONY: clone-theme
+clone-theme: # Clone the PaperMod theme.
+	rm -rf themes/PaperMod
+	git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
 .PHONY: run
 run: # Run local hugo server with docker.
