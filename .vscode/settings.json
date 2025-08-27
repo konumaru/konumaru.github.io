@@ -5,11 +5,10 @@
         "slide/theme/standard.css",
         "slide/theme/nature.css"
     ],
-    "textlint.enable": true,
-    "textlint.configPath": ".textlintrc",
-    "textlint.nodePath": "./node_modules",
-    "textlint.run": "onType",
+    // textlint
+    "textlint.run": "onSave",
+    "textlint.autoFixOnSave": true,
+    "textlint.configPath": "${workspaceFolder}/.textlintrc",
+    "textlint.nodePath": "${workspaceFolder}/node_modules",
     "textlint.targetPath": "content/**/*.md",
-    "textlint.lintOnSave": true,
-    "textlint.autoFixOnSave": false
 }

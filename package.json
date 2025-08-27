@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "textlint": "^15.2.2",
     "textlint-rule-preset-jtf-style": "^3.0.2"
   }
