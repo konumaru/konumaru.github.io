@@ -4,5 +4,12 @@
         "slide/theme/explaza.css",
         "slide/theme/standard.css",
         "slide/theme/nature.css"
-    ]
+    ],
+    "textlint.enable": true,
+    "textlint.configPath": ".textlintrc",
+    "textlint.nodePath": "./node_modules",
+    "textlint.run": "onType",
+    "textlint.targetPath": "content/**/*.md",
+    "textlint.lintOnSave": true,
+    "textlint.autoFixOnSave": false
 }
