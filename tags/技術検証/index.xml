@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>技術検証 on konumaru blog</title>
+    <link>https://konumaru.org/tags/%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC/</link>
+    <description>Recent content in 技術検証 on konumaru blog</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Aug 2025 10:38:27 +0900</lastBuildDate>
+    <atom:link href="https://konumaru.org/tags/%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI/MLの技術検証を資産化する</title>
+      <link>https://konumaru.org/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/</link>
+      <pubDate>Wed, 27 Aug 2025 10:38:27 +0900</pubDate>
+      <guid>https://konumaru.org/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/</guid>
+      <description>&lt;p&gt;AI/MLプロジェクトの技術検証（PoC）は、多くの企業で行われているものの、その成果が属人的になりがちで、組織の知識資産として蓄積されないケースが散見されます。せっかく時間とコストをかけて実施した検証結果が、担当者の頭の中だけに残り、チーム全体の学びにならないのはもったいない話です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
