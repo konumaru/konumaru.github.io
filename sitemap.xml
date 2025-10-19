@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://konumaru.org/</loc>
+    <lastmod>2025-10-19T11:54:28+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.org/posts/</loc>
+    <lastmod>2025-10-19T11:54:28+09:00</lastmod>
+  </url><url>
     <loc>https://konumaru.org/tags/ai/</loc>
     <lastmod>2025-08-27T10:38:27+09:00</lastmod>
   </url><url>
@@ -11,9 +17,6 @@
     <loc>https://konumaru.org/categories/</loc>
     <lastmod>2025-08-27T10:38:27+09:00</lastmod>
   </url><url>
-    <loc>https://konumaru.org/</loc>
-    <lastmod>2025-08-27T10:38:27+09:00</lastmod>
-  </url><url>
     <loc>https://konumaru.org/tags/ml/</loc>
     <lastmod>2025-08-27T10:38:27+09:00</lastmod>
   </url><url>
@@ -21,9 +24,6 @@
     <lastmod>2025-08-27T10:38:27+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.org/categories/posts/</loc>
-    <lastmod>2025-08-27T10:38:27+09:00</lastmod>
-  </url><url>
-    <loc>https://konumaru.org/posts/</loc>
     <lastmod>2025-08-27T10:38:27+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.org/tags/</loc>
