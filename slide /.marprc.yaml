@@ -1,7 +1,0 @@
-lang: ja
-theme: ./theme/explaza.css
-
-themeSet: ./theme
-size: 16:9
-author: konumaru
-allowLocalFiles: true
