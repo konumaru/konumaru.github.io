@@ -143,3 +143,9 @@ Appleは頑張ってくれたらいいなって思ってる。Siri + ショー�
   - ファンダメンタル分析 Function
   - 投資判断生成 Function
   - 結果：プロ並みの分析と判断材料を得られ、個人投資家の意思決定をサポート
+
+## Appendix: Function Store 構想の一枚絵
+
+![Function Store構想の一枚絵](image.png)
+
+作：[unsu0707](https://github.com/unsu0707)
