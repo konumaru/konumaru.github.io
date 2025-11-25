@@ -146,6 +146,6 @@ Appleは頑張ってくれたらいいなって思ってる。Siri + ショー�
 
 ## Appendix: Function Store 構想の一枚絵
 
-![Function Store構想の一枚絵](image.png)
+![FunctionStoreImage](assets/image.png)
 
 作：[unsu0707](https://github.com/unsu0707)
