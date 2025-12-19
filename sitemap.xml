@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://konumaru.org/</loc>
+    <lastmod>2025-12-19T18:08:51+09:00</lastmod>
+  </url><url>
+    <loc>https://konumaru.org/posts/</loc>
+    <lastmod>2025-12-19T18:08:51+09:00</lastmod>
+  </url><url>
     <loc>https://konumaru.org/categories/</loc>
     <lastmod>2025-10-19T11:54:28+09:00</lastmod>
   </url><url>
-    <loc>https://konumaru.org/</loc>
-    <lastmod>2025-10-19T11:54:28+09:00</lastmod>
-  </url><url>
     <loc>https://konumaru.org/categories/management/</loc>
-    <lastmod>2025-10-19T11:54:28+09:00</lastmod>
-  </url><url>
-    <loc>https://konumaru.org/posts/</loc>
     <lastmod>2025-10-19T11:54:28+09:00</lastmod>
   </url><url>
     <loc>https://konumaru.org/tags/saas/</loc>
