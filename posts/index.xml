@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on konumaru blog</title>
-    <link>https://konumaru.org/posts/</link>
+    <link>https://konumaru.com/posts/</link>
     <description>Recent content in Posts on konumaru blog</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Dec 2025 13:42:41 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>“思考”が“流通”する</title>
-      <link>https://konumaru.org/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</link>
+      <link>https://konumaru.com/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</link>
       <pubDate>Fri, 26 Dec 2025 13:42:41 +0900</pubDate>
-      <guid>https://konumaru.org/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</guid>
+      <guid>https://konumaru.com/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</guid>
       <description>&lt;p&gt;テクノロジーが進むたびに、「何が価値として流通するか」は入れ替わってきた。
 印刷は知を複製し、放送は注意を集め、Webは発見を加速し、SNSは信頼を媒介にした。
 そして生成AIは、これまで個人の頭の中に閉じていた“考えるプロセス”を、外に取り出して配れる状態にした。
@@ -22,32 +22,32 @@
     </item>
     <item>
       <title>会社の組織構造ってどうなってたっけ</title>
-      <link>https://konumaru.org/202512/%E4%BC%9A%E7%A4%BE%E3%81%AE%E7%B5%84%E7%B9%94%E6%A7%8B%E9%80%A0%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F%E3%81%A3%E3%81%91/</link>
+      <link>https://konumaru.com/202512/%E4%BC%9A%E7%A4%BE%E3%81%AE%E7%B5%84%E7%B9%94%E6%A7%8B%E9%80%A0%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F%E3%81%A3%E3%81%91/</link>
       <pubDate>Fri, 19 Dec 2025 18:08:51 +0900</pubDate>
-      <guid>https://konumaru.org/202512/%E4%BC%9A%E7%A4%BE%E3%81%AE%E7%B5%84%E7%B9%94%E6%A7%8B%E9%80%A0%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F%E3%81%A3%E3%81%91/</guid>
+      <guid>https://konumaru.com/202512/%E4%BC%9A%E7%A4%BE%E3%81%AE%E7%B5%84%E7%B9%94%E6%A7%8B%E9%80%A0%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F%E3%81%A3%E3%81%91/</guid>
       <description>&lt;h2 id=&#34;ことの発端&#34;&gt;ことの発端&lt;/h2&gt;
 &lt;p&gt;AIめっちゃ発展してきているし、会社を全部AIで回そうと思ったらどういう構成になるんだ？と思って、いろいろ作ってみていた。それに伴ったドキュメンテーションなども整え始めていた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>新機能/新規プロダクトの方向性を収束させるテンプレート（Zendesk Positioning Statement）</title>
-      <link>https://konumaru.org/202510/%E6%96%B0%E8%A6%8F%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7%E3%82%92%E5%8F%8E%E6%9D%9F%E3%81%95%E3%81%9B%E3%82%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88zendesk-positioning-statement/</link>
+      <link>https://konumaru.com/202510/%E6%96%B0%E8%A6%8F%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7%E3%82%92%E5%8F%8E%E6%9D%9F%E3%81%95%E3%81%9B%E3%82%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88zendesk-positioning-statement/</link>
       <pubDate>Sun, 19 Oct 2025 11:54:28 +0900</pubDate>
-      <guid>https://konumaru.org/202510/%E6%96%B0%E8%A6%8F%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7%E3%82%92%E5%8F%8E%E6%9D%9F%E3%81%95%E3%81%9B%E3%82%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88zendesk-positioning-statement/</guid>
+      <guid>https://konumaru.com/202510/%E6%96%B0%E8%A6%8F%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7%E3%82%92%E5%8F%8E%E6%9D%9F%E3%81%95%E3%81%9B%E3%82%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88zendesk-positioning-statement/</guid>
       <description>&lt;h2 id=&#34;この記事の狙い&#34;&gt;この記事の狙い&lt;/h2&gt;
 &lt;p&gt;SaaSの新機能や新規プロダクトを企画・探索していると、MVPの試作や顧客ヒアリングで得られる現実の気づきが増えるほど、方向性が発散して「何に収束すべきか」が分からなくなることがよくあります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI/MLの技術検証を資産化する</title>
-      <link>https://konumaru.org/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/</link>
+      <link>https://konumaru.com/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/</link>
       <pubDate>Wed, 27 Aug 2025 10:38:27 +0900</pubDate>
-      <guid>https://konumaru.org/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/</guid>
+      <guid>https://konumaru.com/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/</guid>
       <description>&lt;p&gt;AI/MLプロジェクトの技術検証（PoC）は、多くの企業で行われているものの、その成果が属人的になりがちで、組織の知識資産として蓄積されないケースが散見されます。せっかく時間とコストをかけて実施した検証結果が、担当者の頭の中だけに残り、チーム全体の学びにならないのはもったいない話です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>FunctionStore構想</title>
-      <link>https://konumaru.org/202505/functionstore%E6%A7%8B%E6%83%B3/</link>
+      <link>https://konumaru.com/202505/functionstore%E6%A7%8B%E6%83%B3/</link>
       <pubDate>Fri, 02 May 2025 16:18:39 +0900</pubDate>
-      <guid>https://konumaru.org/202505/functionstore%E6%A7%8B%E6%83%B3/</guid>
+      <guid>https://konumaru.com/202505/functionstore%E6%A7%8B%E6%83%B3/</guid>
       <description>&lt;h2 id=&#34;function-storeとは&#34;&gt;Function Storeとは&lt;/h2&gt;
 &lt;p&gt;Function Storeは、&lt;/p&gt;
 &lt;p&gt;なんらかの単一の処理やAPIエンドポイントを「Function」として提供し、&lt;/p&gt;
@@ -56,9 +56,9 @@
     </item>
     <item>
       <title>Spreadsheetで自作GPT関数を使う</title>
-      <link>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>https://konumaru.com/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Wed, 27 Nov 2024 00:13:35 +0900</pubDate>
-      <guid>https://konumaru.org/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>https://konumaru.com/202411/spreadsheet%E3%81%A7%E8%87%AA%E4%BD%9Cgpt%E9%96%A2%E6%95%B0%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;SpreadsheetでLLMを使えるようにした&lt;/li&gt;
@@ -70,9 +70,9 @@
     </item>
     <item>
       <title>ダッシュボードつくるときにみる記事</title>
-      <link>https://konumaru.org/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</link>
+      <link>https://konumaru.com/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</link>
       <pubDate>Sat, 12 Oct 2024 13:31:40 +0900</pubDate>
-      <guid>https://konumaru.org/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</guid>
+      <guid>https://konumaru.com/202410/%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%81%BF%E3%82%8B%E8%A8%98%E4%BA%8B/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;ダッシュボードを作って、
 定量的な意思決定をして、
@@ -80,9 +80,9 @@
     </item>
     <item>
       <title>GASでスプシをテーブル操作したい</title>
-      <link>https://konumaru.org/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</link>
+      <link>https://konumaru.com/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Wed, 09 Oct 2024 10:35:38 +0900</pubDate>
-      <guid>https://konumaru.org/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</guid>
+      <guid>https://konumaru.com/202410/gas%E3%81%A7%E3%82%B9%E3%83%97%E3%82%B7%E3%82%92%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;GASを使ってスプレットシートのデータをテーブル風に操作したら便利だった。
 そのときのコードのメモ。&lt;/p&gt;
 &lt;p&gt;pandasのような集計、集約などはGASでやるのはしんどそうなので、そこはスプレットシート側の機能を使うのがよさそうだった。
@@ -90,36 +90,36 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>人生初 Windows Laptop 購入</title>
-      <link>https://konumaru.org/202407/%E4%BA%BA%E7%94%9F%E5%88%9D-windows-laptop-%E8%B3%BC%E5%85%A5/</link>
+      <link>https://konumaru.com/202407/%E4%BA%BA%E7%94%9F%E5%88%9D-windows-laptop-%E8%B3%BC%E5%85%A5/</link>
       <pubDate>Tue, 23 Jul 2024 13:03:00 +0900</pubDate>
-      <guid>https://konumaru.org/202407/%E4%BA%BA%E7%94%9F%E5%88%9D-windows-laptop-%E8%B3%BC%E5%85%A5/</guid>
+      <guid>https://konumaru.com/202407/%E4%BA%BA%E7%94%9F%E5%88%9D-windows-laptop-%E8%B3%BC%E5%85%A5/</guid>
       <description>&lt;p&gt;転職をきっかけに新しいパソコンを買う機会がやってきた。&lt;/p&gt;
 &lt;p&gt;ずっと自分のLaptopが欲しかったの買うことにした。&lt;/p&gt;
 &lt;p&gt;買ったのは、ThinkPad X1 Carbon Gen 12 だ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>クーポン配布施策の鉄板マニュアル</title>
-      <link>https://konumaru.org/202406/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</link>
+      <link>https://konumaru.com/202406/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</link>
       <pubDate>Thu, 13 Jun 2024 19:13:08 +0900</pubDate>
-      <guid>https://konumaru.org/202406/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</guid>
+      <guid>https://konumaru.com/202406/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E9%85%8D%E5%B8%83%E6%96%BD%E7%AD%96%E3%81%AE%E9%89%84%E6%9D%BF%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;この記事ではクーポン配布施策について書いていく。&lt;/p&gt;
 &lt;p&gt;こういった施策をやるよ、となったときに自分なりのテンプレートがあるのであとで思い出せるように残しておこうと思った。&lt;/p&gt;</description>
     </item>
     <item>
       <title>カード付き家計簿サービスにMLを活用したいと言われて</title>
-      <link>https://konumaru.org/202405/%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%ABml%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E8%A8%80%E3%82%8F%E3%82%8C%E3%81%A6/</link>
+      <link>https://konumaru.com/202405/%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%ABml%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E8%A8%80%E3%82%8F%E3%82%8C%E3%81%A6/</link>
       <pubDate>Mon, 13 May 2024 18:08:50 +0900</pubDate>
-      <guid>https://konumaru.org/202405/%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%ABml%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E8%A8%80%E3%82%8F%E3%82%8C%E3%81%A6/</guid>
+      <guid>https://konumaru.com/202405/%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%ABml%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E8%A8%80%E3%82%8F%E3%82%8C%E3%81%A6/</guid>
       <description>&lt;h2 id=&#34;導入&#34;&gt;導入&lt;/h2&gt;
 &lt;p&gt;ML Eng -&amp;gt; PdM というキャリアを進んでいる背景もあり、なんか機械学習を使ったいい感じの企画をしてくれよ、という話は多数耳にする。&lt;/p&gt;
 &lt;p&gt;とあるスカウトサービス経由でカード発行もやっているクレジットカード事業でそのような需要があることを耳にした。スカウトが来ただけなので働いてはいない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>仮想通貨botを作ってみた</title>
-      <link>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://konumaru.com/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
-      <guid>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://konumaru.com/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>&lt;p&gt;念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。&lt;/p&gt;
 &lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
@@ -138,9 +138,9 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CommonLit 2023 振り返り</title>
-      <link>https://konumaru.org/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://konumaru.com/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Fri, 13 Oct 2023 13:30:06 +0900</pubDate>
-      <guid>https://konumaru.org/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://konumaru.com/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description>&lt;p&gt;CommonLitのコンペに参加したので振り返り&lt;/p&gt;
 &lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;promptが与えられ、その中にはquestion, title, textがある。&lt;/p&gt;
@@ -148,16 +148,16 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>スケールするチームと効果的なコミュニケーション: PdMのためのタスク管理</title>
-      <link>https://konumaru.org/202308/%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%81%E3%83%BC%E3%83%A0%E3%81%A8%E5%8A%B9%E6%9E%9C%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-pdm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</link>
+      <link>https://konumaru.com/202308/%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%81%E3%83%BC%E3%83%A0%E3%81%A8%E5%8A%B9%E6%9E%9C%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-pdm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</link>
       <pubDate>Tue, 22 Aug 2023 10:14:52 +0900</pubDate>
-      <guid>https://konumaru.org/202308/%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%81%E3%83%BC%E3%83%A0%E3%81%A8%E5%8A%B9%E6%9E%9C%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-pdm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://konumaru.com/202308/%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%81%E3%83%BC%E3%83%A0%E3%81%A8%E5%8A%B9%E6%9E%9C%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-pdm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</guid>
       <description>&lt;p&gt;PdMとしての経験が増え、管理するチームが10人を超えそうになったとき、マネージメントのコストが急増して大変になるのを防ぐ方法を試みました。この記事ではその時の経験を共有し、どのように問題を回避したかを記録として残しています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>リスク管理の方法</title>
-      <link>https://konumaru.org/202308/%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E6%96%B9%E6%B3%95/</link>
+      <link>https://konumaru.com/202308/%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 21 Aug 2023 16:09:06 +0900</pubDate>
-      <guid>https://konumaru.org/202308/%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://konumaru.com/202308/%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E7%86%8A%E3%81%A8%E3%83%AF%E3%83%AB%E3%83%84%E3%82%92-%E3%83%AA%E3%82%B9%E3%82%AF%E3%82%92%E6%84%89%E3%81%97%E3%82%80%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86-%E3%83%88%E3%83%A0%E3%83%BB%E3%83%87%E3%83%9E%E3%83%AB%E3%82%B3/dp/4822281868&#34;&gt;熊とワルツを&lt;/a&gt;という本を読み、リスク管理方法のフォーマットを作ったのでメモ用に記事にする。&lt;/p&gt;
 &lt;h2 id=&#34;リスク管理の目的&#34;&gt;リスク管理の目的&lt;/h2&gt;
 &lt;p&gt;「熊とワルツ」によると&lt;code&gt;リスクと利益は切っても切れない関係にある。&lt;/code&gt;らしい。&lt;/p&gt;
@@ -165,9 +165,9 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PSPコンペ振り返り</title>
-      <link>https://konumaru.org/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://konumaru.com/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Wed, 12 Jul 2023 20:13:52 +0900</pubDate>
-      <guid>https://konumaru.org/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://konumaru.com/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2 id=&#34;解法&#34;&gt;解法&lt;/h2&gt;
@@ -294,9 +294,9 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>kaggle OTTOコンペ解法調査</title>
-      <link>https://konumaru.org/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
+      <link>https://konumaru.com/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
       <pubDate>Fri, 12 May 2023 16:56:58 +0900</pubDate>
-      <guid>https://konumaru.org/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
+      <guid>https://konumaru.com/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/otto-recommender-system/overview&#34;&gt;コンペページはここ&lt;/a&gt;とは&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.otto.de/&#34;&gt;ドイツ最大級のオンラインショップOTTO&lt;/a&gt;を題材に特定のユーザがどの商品に対し、クリック、カート追加、注文するかを予測する。&lt;/p&gt;
@@ -305,9 +305,9 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GPT-3.5で作った恋愛シュミレーションAI ChatBot</title>
-      <link>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
+      <link>https://konumaru.com/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
       <pubDate>Tue, 02 May 2023 15:01:42 +0900</pubDate>
-      <guid>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
+      <guid>https://konumaru.com/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
       <description>&lt;h2 id=&#34;何を作ろうと思ったのか&#34;&gt;何を作ろうと思ったのか&lt;/h2&gt;
 &lt;p&gt;ひとことで言うと「マッチングアプリに変わる恋愛シュミレーションAI」を作りたかった。&lt;/p&gt;
 &lt;p&gt;ChatGPTを使ってみたところかなり自然に会話をしてくれたので、まるで人と話しているかに感じることができた。
@@ -315,9 +315,9 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PCAを使った異常検知</title>
-      <link>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
+      <link>https://konumaru.com/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
       <pubDate>Wed, 19 Oct 2022 20:06:57 +0900</pubDate>
-      <guid>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
+      <guid>https://konumaru.com/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;教師なし学習を使った異常検知をやってみたいと思い
 、&lt;a href=&#34;https://amzn.to/3eM9dfF&#34;&gt;Pythonではじめる教師なし学習&lt;/a&gt;を読んでいたらちょうど
@@ -326,9 +326,9 @@ GASはあくまでCRUDに使うのがよさそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>kaggleコンペ DFL反省会</title>
-      <link>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
+      <link>https://konumaru.com/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
       <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
-      <guid>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
+      <guid>https://konumaru.com/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;ざっくりの概要はサッカーの試合動画(45min * 2) から特定のフレームで Challenge,
 Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
@@ -338,9 +338,9 @@ Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
     </item>
     <item>
       <title>PRD - Whatを決めるためのドキュメント</title>
-      <link>https://konumaru.org/202209/prd---what%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/</link>
+      <link>https://konumaru.com/202209/prd---what%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/</link>
       <pubDate>Wed, 28 Sep 2022 14:46:50 +0900</pubDate>
-      <guid>https://konumaru.org/202209/prd---what%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/</guid>
+      <guid>https://konumaru.com/202209/prd---what%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/</guid>
       <description>&lt;h2 id=&#34;これを読んで得られるもの&#34;&gt;これを読んで得られるもの&lt;/h2&gt;
 &lt;p&gt;PM, Desingner, Developerの間で、何を、何故作るのかの共通認識を作るための手段&lt;/p&gt;
 &lt;h2 id=&#34;prd-とは&#34;&gt;PRD とは&lt;/h2&gt;
@@ -354,9 +354,9 @@ Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
     </item>
     <item>
       <title>202209時点で起きたHugoビルドエラー対応</title>
-      <link>https://konumaru.org/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</link>
+      <link>https://konumaru.com/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</link>
       <pubDate>Tue, 13 Sep 2022 10:57:52 +0900</pubDate>
-      <guid>https://konumaru.org/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</guid>
+      <guid>https://konumaru.com/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</guid>
       <description>&lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;諸事情により、PC を新しくしたところ hugo server がローカルで起動しなくなった&lt;/li&gt;
@@ -367,9 +367,9 @@ Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
     </item>
     <item>
       <title>形は機能に従う</title>
-      <link>https://konumaru.org/202207/%E5%BD%A2%E3%81%AF%E6%A9%9F%E8%83%BD%E3%81%AB%E5%BE%93%E3%81%86/</link>
+      <link>https://konumaru.com/202207/%E5%BD%A2%E3%81%AF%E6%A9%9F%E8%83%BD%E3%81%AB%E5%BE%93%E3%81%86/</link>
       <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
-      <guid>https://konumaru.org/202207/%E5%BD%A2%E3%81%AF%E6%A9%9F%E8%83%BD%E3%81%AB%E5%BE%93%E3%81%86/</guid>
+      <guid>https://konumaru.com/202207/%E5%BD%A2%E3%81%AF%E6%A9%9F%E8%83%BD%E3%81%AB%E5%BE%93%E3%81%86/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/3oh6CeM&#34;&gt;「クリストファー・アレクサンダーの思考の軌跡 - デザイン行為の意味を問う」&lt;/a&gt;を読んだ感想をまとめる&lt;/p&gt;
 &lt;h2 id=&#34;形は機能に従う機能は形に従うのではない&#34;&gt;形は機能に従う、機能は形に従うのではない&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;「形は機能に従う」&lt;/strong&gt;&lt;/p&gt;
@@ -378,9 +378,9 @@ Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
     </item>
     <item>
       <title>OKRやるときに知っておきたいこと</title>
-      <link>https://konumaru.org/202206/okr%E3%82%84%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8/</link>
+      <link>https://konumaru.com/202206/okr%E3%82%84%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8/</link>
       <pubDate>Tue, 07 Jun 2022 10:34:51 +0900</pubDate>
-      <guid>https://konumaru.org/202206/okr%E3%82%84%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8/</guid>
+      <guid>https://konumaru.com/202206/okr%E3%82%84%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8/</guid>
       <description>&lt;p&gt;目標設定のフレームワークとして OKR を採用することにしたので、OKR 導入のために必要な基礎的な知識をまとめる。&lt;/p&gt;
 &lt;h2 id=&#34;okr-とは&#34;&gt;OKR とは&lt;/h2&gt;
 &lt;p&gt;目標の設定・管理方法の１つで、Objective と KeyResults の略称&lt;/p&gt;</description>

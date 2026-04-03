@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on konumaru blog</title>
-    <link>https://konumaru.org/categories/</link>
+    <link>https://konumaru.com/categories/</link>
     <description>Recent content in Categories on konumaru blog</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Dec 2025 13:42:41 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://konumaru.org/categories/posts/</link>
+      <link>https://konumaru.com/categories/posts/</link>
       <pubDate>Fri, 26 Dec 2025 13:42:41 +0900</pubDate>
-      <guid>https://konumaru.org/categories/posts/</guid>
+      <guid>https://konumaru.com/categories/posts/</guid>
       <description></description>
     </item>
     <item>
       <title>Management</title>
-      <link>https://konumaru.org/categories/management/</link>
+      <link>https://konumaru.com/categories/management/</link>
       <pubDate>Fri, 19 Dec 2025 18:08:51 +0900</pubDate>
-      <guid>https://konumaru.org/categories/management/</guid>
+      <guid>https://konumaru.com/categories/management/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>https://konumaru.org/categories/data/</link>
+      <link>https://konumaru.com/categories/data/</link>
       <pubDate>Wed, 27 Nov 2024 00:13:35 +0900</pubDate>
-      <guid>https://konumaru.org/categories/data/</guid>
+      <guid>https://konumaru.com/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Diary</title>
-      <link>https://konumaru.org/categories/diary/</link>
+      <link>https://konumaru.com/categories/diary/</link>
       <pubDate>Tue, 23 Jul 2024 13:03:00 +0900</pubDate>
-      <guid>https://konumaru.org/categories/diary/</guid>
+      <guid>https://konumaru.com/categories/diary/</guid>
       <description></description>
     </item>
     <item>
       <title>Dev</title>
-      <link>https://konumaru.org/categories/dev/</link>
+      <link>https://konumaru.com/categories/dev/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
-      <guid>https://konumaru.org/categories/dev/</guid>
+      <guid>https://konumaru.com/categories/dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Kaggle</title>
-      <link>https://konumaru.org/categories/kaggle/</link>
+      <link>https://konumaru.com/categories/kaggle/</link>
       <pubDate>Fri, 13 Oct 2023 13:30:06 +0900</pubDate>
-      <guid>https://konumaru.org/categories/kaggle/</guid>
+      <guid>https://konumaru.com/categories/kaggle/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://konumaru.org/categories/hugo/</link>
+      <link>https://konumaru.com/categories/hugo/</link>
       <pubDate>Tue, 13 Sep 2022 10:57:52 +0900</pubDate>
-      <guid>https://konumaru.org/categories/hugo/</guid>
+      <guid>https://konumaru.com/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Book</title>
-      <link>https://konumaru.org/categories/book/</link>
+      <link>https://konumaru.com/categories/book/</link>
       <pubDate>Tue, 19 Jul 2022 00:16:51 +0900</pubDate>
-      <guid>https://konumaru.org/categories/book/</guid>
+      <guid>https://konumaru.com/categories/book/</guid>
       <description></description>
     </item>
   </channel>

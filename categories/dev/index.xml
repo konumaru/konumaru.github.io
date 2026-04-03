@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dev on konumaru blog</title>
-    <link>https://konumaru.org/categories/dev/</link>
+    <link>https://konumaru.com/categories/dev/</link>
     <description>Recent content in Dev on konumaru blog</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Mar 2024 14:36:32 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>仮想通貨botを作ってみた</title>
-      <link>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://konumaru.com/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Mon, 18 Mar 2024 14:36:32 +0900</pubDate>
-      <guid>https://konumaru.org/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://konumaru.com/202403/%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8bot%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>&lt;p&gt;念願の仮想通貨botを運用開始できたので、ここまででやったことをざっとまとめる。&lt;/p&gt;
 &lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>GPT-3.5で作った恋愛シュミレーションAI ChatBot</title>
-      <link>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
+      <link>https://konumaru.com/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</link>
       <pubDate>Tue, 02 May 2023 15:01:42 +0900</pubDate>
-      <guid>https://konumaru.org/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
+      <guid>https://konumaru.com/202305/gpt-3.5%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E6%81%8B%E6%84%9B%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3ai-chatbot/</guid>
       <description>&lt;h2 id=&#34;何を作ろうと思ったのか&#34;&gt;何を作ろうと思ったのか&lt;/h2&gt;
 &lt;p&gt;ひとことで言うと「マッチングアプリに変わる恋愛シュミレーションAI」を作りたかった。&lt;/p&gt;
 &lt;p&gt;ChatGPTを使ってみたところかなり自然に会話をしてくれたので、まるで人と話しているかに感じることができた。
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>PCAを使った異常検知</title>
-      <link>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
+      <link>https://konumaru.com/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</link>
       <pubDate>Wed, 19 Oct 2022 20:06:57 +0900</pubDate>
-      <guid>https://konumaru.org/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
+      <guid>https://konumaru.com/202210/pca%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;教師なし学習を使った異常検知をやってみたいと思い
 、&lt;a href=&#34;https://amzn.to/3eM9dfF&#34;&gt;Pythonではじめる教師なし学習&lt;/a&gt;を読んでいたらちょうど

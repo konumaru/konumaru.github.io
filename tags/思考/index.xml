@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>思考 on konumaru blog</title>
-    <link>https://konumaru.org/tags/%E6%80%9D%E8%80%83/</link>
+    <link>https://konumaru.com/tags/%E6%80%9D%E8%80%83/</link>
     <description>Recent content in 思考 on konumaru blog</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Dec 2025 13:42:41 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.com/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>“思考”が“流通”する</title>
-      <link>https://konumaru.org/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</link>
+      <link>https://konumaru.com/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</link>
       <pubDate>Fri, 26 Dec 2025 13:42:41 +0900</pubDate>
-      <guid>https://konumaru.org/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</guid>
+      <guid>https://konumaru.com/202512/%E6%80%9D%E8%80%83%E3%81%8C%E6%B5%81%E9%80%9A%E3%81%99%E3%82%8B/</guid>
       <description>&lt;p&gt;テクノロジーが進むたびに、「何が価値として流通するか」は入れ替わってきた。
 印刷は知を複製し、放送は注意を集め、Webは発見を加速し、SNSは信頼を媒介にした。
 そして生成AIは、これまで個人の頭の中に閉じていた“考えるプロセス”を、外に取り出して配れる状態にした。

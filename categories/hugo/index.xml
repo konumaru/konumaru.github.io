@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on konumaru blog</title>
-    <link>https://konumaru.org/categories/hugo/</link>
+    <link>https://konumaru.com/categories/hugo/</link>
     <description>Recent content in Hugo on konumaru blog</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 13 Sep 2022 10:57:52 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>202209時点で起きたHugoビルドエラー対応</title>
-      <link>https://konumaru.org/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</link>
+      <link>https://konumaru.com/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</link>
       <pubDate>Tue, 13 Sep 2022 10:57:52 +0900</pubDate>
-      <guid>https://konumaru.org/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</guid>
+      <guid>https://konumaru.com/202209/hugo-%E3%83%93%E3%83%AB%E3%83%89%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%BF%9C/</guid>
       <description>&lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;諸事情により、PC を新しくしたところ hugo server がローカルで起動しなくなった&lt;/li&gt;

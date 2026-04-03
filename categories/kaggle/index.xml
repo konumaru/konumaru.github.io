@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kaggle on konumaru blog</title>
-    <link>https://konumaru.org/categories/kaggle/</link>
+    <link>https://konumaru.com/categories/kaggle/</link>
     <description>Recent content in Kaggle on konumaru blog</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 13 Oct 2023 13:30:06 +0900</lastBuildDate>
-    <atom:link href="https://konumaru.org/categories/kaggle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konumaru.com/categories/kaggle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CommonLit 2023 振り返り</title>
-      <link>https://konumaru.org/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://konumaru.com/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Fri, 13 Oct 2023 13:30:06 +0900</pubDate>
-      <guid>https://konumaru.org/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://konumaru.com/202310/commonlit2023%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description>&lt;p&gt;CommonLitのコンペに参加したので振り返り&lt;/p&gt;
 &lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;promptが与えられ、その中にはquestion, title, textがある。&lt;/p&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>PSPコンペ振り返り</title>
-      <link>https://konumaru.org/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://konumaru.com/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Wed, 12 Jul 2023 20:13:52 +0900</pubDate>
-      <guid>https://konumaru.org/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://konumaru.com/202307/psp%E3%82%B3%E3%83%B3%E3%83%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2 id=&#34;解法&#34;&gt;解法&lt;/h2&gt;
@@ -149,9 +149,9 @@
     </item>
     <item>
       <title>kaggle OTTOコンペ解法調査</title>
-      <link>https://konumaru.org/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
+      <link>https://konumaru.com/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</link>
       <pubDate>Fri, 12 May 2023 16:56:58 +0900</pubDate>
-      <guid>https://konumaru.org/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
+      <guid>https://konumaru.com/202305/kaggle-otto%E3%82%B3%E3%83%B3%E3%83%9A%E8%A7%A3%E6%B3%95%E8%AA%BF%E6%9F%BB/</guid>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/competitions/otto-recommender-system/overview&#34;&gt;コンペページはここ&lt;/a&gt;とは&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.otto.de/&#34;&gt;ドイツ最大級のオンラインショップOTTO&lt;/a&gt;を題材に特定のユーザがどの商品に対し、クリック、カート追加、注文するかを予測する。&lt;/p&gt;
@@ -160,9 +160,9 @@
     </item>
     <item>
       <title>kaggleコンペ DFL反省会</title>
-      <link>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
+      <link>https://konumaru.com/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</link>
       <pubDate>Mon, 17 Oct 2022 20:51:25 +0900</pubDate>
-      <guid>https://konumaru.org/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
+      <guid>https://konumaru.com/202210/kaggle%E3%82%B3%E3%83%B3%E3%83%9Adfl%E5%8F%8D%E7%9C%81%E4%BC%9A/</guid>
       <description>&lt;h2 id=&#34;コンペ概要&#34;&gt;コンペ概要&lt;/h2&gt;
 &lt;p&gt;ざっくりの概要はサッカーの試合動画(45min * 2) から特定のフレームで Challenge,
 Play, Throwin の３つのイベントを予測するというもの&lt;/p&gt;
