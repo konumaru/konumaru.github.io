@@ -1,4 +1,4 @@
-baseURL: https://konumaru.org/
+baseURL: https://konumaru.com/
 title: konumaru blog
 theme: PaperMod
 pagination:
@@ -57,7 +57,7 @@ params:
     Content: >
       - Welcome to konumaru blog. I write down what I learned recently and what I think about works or something.
 
-      - My Media Art works are also posted [here](https://konumaru.org/p5gallery/).
+      - My Media Art works are also posted [here](https://konumaru.com/p5gallery/).
 
   socialIcons:
     - name: rss

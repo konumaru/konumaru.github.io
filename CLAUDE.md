@@ -14,7 +14,7 @@ make clone-theme  # Clone PaperMod theme (required before first build)
 
 ## Architecture
 
-Hugo static site (https://konumaru.org/) with PaperMod theme. Key points:
+Hugo static site (https://konumaru.com/) with PaperMod theme. Key points:
 
 - **Theme is a Git submodule** at `themes/PaperMod` - run `git submodule update --init` if missing
 - **Submodule may fail to clone** - Makefile's `clone-theme` command handles this, CI/CD also clones dynamically
