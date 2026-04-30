@@ -42,6 +42,7 @@ taxonomies:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  author: konumaru
   defaultTheme: auto # auto, dark
   ShowToc: true
   tocopen: true
