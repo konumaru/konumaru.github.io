@@ -98,8 +98,6 @@ Lead AI Producer (PdM)
   - 各業務の定型作業を自動化し、事業推進に必要な作業時間の削減に貢献
   - 新メンバーのオンボーディングや社内情報共有の効率化を支援
 
-<div class="page-break"></div>
-
 #### AI技術研究・プロダクト改善
 
 - 背景
@@ -238,8 +236,6 @@ Lead AI Producer (PdM)
 - 成果
   - 市場調査、ユーザーヒアリング、PRD/MRD作成を通じてプロダクト企画を推進
 
-<div class="page-break"></div>
-
 #### 機械学習を用いた機能開発の実証実験（2019/04〜2020/11）
 
 - 領域
@@ -342,8 +338,6 @@ Kaggle Expert。
 
 GPTを利用して、ユーザー個別の恋愛相手を生成する。恋愛が発展する会話をすることができる。
 Cloud RunとLINE APIを利用して、LINE上で動作する。
-
-<div class="page-break"></div>
 
 ### nlnomy - コンテンツモデレーションアプリ
 
