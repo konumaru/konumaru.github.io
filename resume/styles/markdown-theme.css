@@ -1,0 +1,196 @@
+/* ==========================================================================
+   職務経歴書 / resume — shared style for web (/resume/) and PDF (md-to-pdf).
+   Tuned for clean A4 print: clear heading hierarchy, robust tables that never
+   clip, and sensible page breaks.
+   ========================================================================== */
+
+:root {
+  --accent: #2b5876;       /* slate navy */
+  --accent-soft: #e8eef3;
+  --ink: #1f2329;
+  --muted: #5c6670;
+  --line: #d4dae0;
+  --zebra: #f6f8fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 12.5px;
+  font-family: "Noto Sans CJK JP", "Noto Sans JP", "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.65;
+  color: var(--ink);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* ---------- Headings ---------- */
+h1 {
+  margin: 0 0 1.1em;
+  padding: 0 0 0.45em;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  border-bottom: 2.5px solid var(--accent);
+}
+
+h2 {
+  margin: 1.5em 0 0.7em;
+  padding: 0.15em 0 0.3em;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 1.5px solid var(--line);
+}
+
+h3 {
+  margin: 1.2em 0 0.55em;
+  padding: 0.05em 0 0.05em 0.6em;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink);
+  border-left: 4px solid var(--accent);
+}
+
+h4 {
+  margin: 0.95em 0 0.3em;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* ---------- Text & links ---------- */
+p {
+  margin: 0.4em 0 0.7em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(43, 88, 118, 0.35);
+}
+
+/* ---------- Lists ---------- */
+ul {
+  margin: 0.25em 0 0.6em;
+  padding-left: 1.35em;
+}
+
+li {
+  margin: 0.12em 0;
+}
+
+li > ul {
+  margin: 0.15em 0 0.3em;
+}
+
+/* ---------- Tables ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6em 0 1em;
+  font-size: 11.5px;
+}
+
+th,
+td {
+  border: 1px solid var(--line);
+  padding: 6px 9px;
+  text-align: left;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+th {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+tbody tr:nth-child(even) {
+  background: var(--zebra);
+}
+
+/* キャリアの変遷 table: keep the date column on one line, give columns sane
+   proportions so the wide "獲得した経験" column gets the space it needs. */
+table:first-of-type td:nth-child(1) {
+  white-space: nowrap;
+  width: 15%;
+}
+table:first-of-type td:nth-child(2) {
+  width: 16%;
+}
+table:first-of-type td:nth-child(3) {
+  width: 24%;
+}
+
+/* ---------- Rules ---------- */
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 1.6em 0;
+}
+
+/* ==========================================================================
+   Page / print controls
+   ========================================================================== */
+@page {
+  size: A4;
+  margin: 16mm 16mm 18mm;
+}
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+}
+
+/* Never orphan a heading at the very bottom of a page. */
+h1,
+h2,
+h3,
+h4 {
+  break-after: avoid;
+  page-break-after: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Keep a heading glued to the block that follows it. */
+h2 + *,
+h3 + *,
+h4 + * {
+  break-before: avoid;
+  page-break-before: avoid;
+}
+
+/* Keep a bullet (and its sub-bullets) intact; keep table rows intact. */
+li {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+tr,
+thead {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+p {
+  orphans: 3;
+  widows: 3;
+}
+
+/* ---------- Screen-only refinements (web /resume/) ---------- */
+@media screen {
+  body {
+    background: #fff;
+  }
+}

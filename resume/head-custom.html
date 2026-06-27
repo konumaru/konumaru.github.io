@@ -1,0 +1,256 @@
+<!-- Prevent published resume pages from appearing in search engine results. -->
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+
+<style>
+  .copy-page-button {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: #24292f;
+    background: #fff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2);
+    cursor: pointer;
+  }
+
+  .copy-page-button:hover {
+    background: #f6f8fa;
+    border-color: #afb8c1;
+  }
+
+  .copy-page-button:focus-visible {
+    outline: 2px solid #0969da;
+    outline-offset: 2px;
+  }
+
+  .copy-page-button.is-copied {
+    color: #1a7f37;
+    border-color: rgba(26, 127, 55, 0.35);
+  }
+
+  .copy-page-button svg {
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+  }
+
+  @media (max-width: 600px) {
+    .copy-page-button {
+      top: 12px;
+      right: 12px;
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  @media print {
+    .copy-page-button {
+      display: none !important;
+    }
+  }
+</style>
+
+<script>
+  (() => {
+    const copyIcon = `
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+        <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"></path>
+      </svg>`;
+    const checkIcon = `
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6 9 17l-5-5"></path>
+      </svg>`;
+
+    const normalizeText = (text) => text.replace(/\s+/g, " ").trim();
+
+    const inlineText = (node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        return node.textContent.replace(/\s+/g, " ");
+      }
+
+      if (node.nodeType !== Node.ELEMENT_NODE) {
+        return "";
+      }
+
+      const element = node;
+      const tagName = element.tagName.toLowerCase();
+
+      if (tagName === "br") {
+        return "\n";
+      }
+
+      if (tagName === "code") {
+        return "`" + element.textContent.trim() + "`";
+      }
+
+      if (tagName === "a") {
+        const label = normalizeText(Array.from(element.childNodes).map(inlineText).join(""));
+        const href = element.getAttribute("href");
+        return href && label && href !== label ? `[${label}](${href})` : label;
+      }
+
+      return Array.from(element.childNodes)
+        .map(inlineText)
+        .join("")
+        .replace(/[ \t]+\n/g, "\n")
+        .replace(/\n[ \t]+/g, "\n")
+        .replace(/[ \t]{2,}/g, " ");
+    };
+
+    const tableToMarkdown = (table) => {
+      const rows = Array.from(table.rows).map((row) =>
+        Array.from(row.cells).map((cell) => normalizeText(cell.textContent).replace(/\|/g, "\\|"))
+      );
+
+      if (!rows.length) {
+        return "";
+      }
+
+      const toRow = (cells) => `| ${cells.join(" | ")} |`;
+      const separator = rows[0].map(() => "---");
+      return [toRow(rows[0]), toRow(separator), ...rows.slice(1).map(toRow)].join("\n");
+    };
+
+    const listToMarkdown = (list, depth = 0) => {
+      const ordered = list.tagName.toLowerCase() === "ol";
+      const items = Array.from(list.children).filter((child) => child.tagName.toLowerCase() === "li");
+
+      return items
+        .map((item, index) => {
+          const clone = item.cloneNode(true);
+          clone.querySelectorAll("ul, ol").forEach((nestedList) => nestedList.remove());
+
+          const marker = ordered ? `${index + 1}.` : "-";
+          const indent = "  ".repeat(depth);
+          const line = `${indent}${marker} ${normalizeText(inlineText(clone))}`;
+          const nested = Array.from(item.children)
+            .filter((child) => ["ul", "ol"].includes(child.tagName.toLowerCase()))
+            .map((child) => listToMarkdown(child, depth + 1))
+            .filter(Boolean)
+            .join("\n");
+
+          return nested ? `${line}\n${nested}` : line;
+        })
+        .join("\n");
+    };
+
+    const blockToMarkdown = (element) => {
+      if (!element || element.classList.contains("page-break")) {
+        return "";
+      }
+
+      const tagName = element.tagName.toLowerCase();
+      const headingLevel = tagName.match(/^h([1-6])$/);
+
+      if (headingLevel) {
+        return `${"#".repeat(Number(headingLevel[1]))} ${normalizeText(inlineText(element))}`;
+      }
+
+      if (tagName === "p") {
+        return normalizeText(inlineText(element));
+      }
+
+      if (tagName === "ul" || tagName === "ol") {
+        return listToMarkdown(element);
+      }
+
+      if (tagName === "table") {
+        return tableToMarkdown(element);
+      }
+
+      if (tagName === "pre") {
+        return "```\n" + element.textContent.trim() + "\n```";
+      }
+
+      if (tagName === "hr") {
+        return "---";
+      }
+
+      const childBlocks = Array.from(element.children).map(blockToMarkdown).filter(Boolean);
+      return childBlocks.length ? childBlocks.join("\n\n") : normalizeText(inlineText(element));
+    };
+
+    const pageContentToMarkdown = (content) =>
+      Array.from(content.children)
+        .map(blockToMarkdown)
+        .filter(Boolean)
+        .join("\n\n")
+        .trim() + "\n";
+
+    const writeClipboard = async (text) => {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return;
+      }
+
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.setAttribute("readonly", "");
+      textarea.style.position = "fixed";
+      textarea.style.top = "-9999px";
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        if (!document.execCommand("copy")) {
+          throw new Error("Copy command failed");
+        }
+      } finally {
+        textarea.remove();
+      }
+    };
+
+    const setButtonState = (button, copied) => {
+      button.innerHTML = copied ? checkIcon : copyIcon;
+      button.classList.toggle("is-copied", copied);
+      button.setAttribute("aria-label", copied ? "Copied page content" : "Copy page content");
+      button.title = copied ? "Copied" : "Copy page content";
+    };
+
+    const initCopyButton = () => {
+      const content = document.querySelector("#main_content") || document.querySelector("main");
+
+      if (!content) {
+        return;
+      }
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "copy-page-button";
+      setButtonState(button, false);
+      document.body.appendChild(button);
+
+      button.addEventListener("click", async () => {
+        const markdown = pageContentToMarkdown(content);
+
+        try {
+          await writeClipboard(markdown);
+          setButtonState(button, true);
+          window.setTimeout(() => setButtonState(button, false), 1600);
+        } catch (error) {
+          button.title = "Copy failed";
+          button.setAttribute("aria-label", "Copy failed");
+          console.error(error);
+        }
+      });
+    };
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initCopyButton);
+    } else {
+      initCopyButton();
+    }
+  })();
+</script>
