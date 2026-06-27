@@ -1,0 +1,123 @@
+body {
+  font-size: 13px;
+  font-family: "Noto Sans CJK JP", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    Meiryo, sans-serif;
+  line-height: 1.5;
+}
+
+h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  margin-bottom: 0.35em;
+}
+
+ul {
+  margin-top: 0.2em;
+  margin-bottom: 0.45em;
+}
+
+table {
+  font-size: 12px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table:first-of-type {
+  font-size: 11px;
+}
+
+table:first-of-type th:nth-child(1),
+table:first-of-type td:nth-child(1),
+table:first-of-type th:nth-child(2),
+table:first-of-type td:nth-child(2) {
+  white-space: nowrap;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  text-align: left;
+  background-color: #ddd;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+}
+
+/* ========================================
+   PDF / Print page break controls
+   ======================================== */
+
+@page {
+  margin: 15mm 15mm 15mm 15mm;
+  size: A4;
+}
+
+/* Headings should never be orphaned at the bottom of a page */
+h2,
+h3,
+h4 {
+  page-break-after: avoid;
+  break-after: avoid;
+  break-after: avoid-page;
+}
+
+/* Keep h4 project blocks (heading + bullets) together when possible */
+h4 {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin-top: 1em;
+}
+
+h4 + ul,
+h4 + p {
+  page-break-before: avoid;
+  break-before: avoid;
+  break-before: avoid-page;
+}
+
+/* Keep individual list items together */
+li {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Keep paragraphs together */
+p {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  orphans: 3;
+  widows: 3;
+}

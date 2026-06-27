@@ -29,3 +29,21 @@ new-post-dir: # Create a new post using image.
 build: # Build static site.
 	hugo --minify
 
+.PHONY: resume
+resume: resume-html resume-pdf # Build resume web page and PDF into static/resume/.
+
+.PHONY: resume-html
+resume-html: # Generate static/resume/index.html from resume/README.md.
+	node resume/build.mjs
+
+.PHONY: resume-pdf
+resume-pdf: # Generate static/resume/resume.pdf from resume/README.md.
+	npx -y md-to-pdf@5 resume/README.md --stylesheet resume/styles/markdown-theme.css \
+		--launch-options '{"args":["--no-sandbox","--font-render-hinting=none"]}' \
+		--pdf-options '{"format":"A4","margin":{"top":"15mm","bottom":"15mm","left":"15mm","right":"15mm"},"printBackground":true}'
+	mv resume/README.pdf static/resume/resume.pdf
+
+.PHONY: resume-lint
+resume-lint: # Lint the resume markdown with textlint.
+	npx textlint --fix resume/README.md
+

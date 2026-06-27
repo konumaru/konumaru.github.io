@@ -1,0 +1,20 @@
+name: Resume Update Reminder
+
+on:
+  schedule:
+    - cron: "0 0 1 3,9 *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: create issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: JasonEtco/create-an-issue@v2
+        with:
+          filename: .github/resume-update-reminder.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
