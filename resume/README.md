@@ -4,7 +4,7 @@
 
 氏名：小沼塁
 
-[X](https://x.com/konumaruuu_v2) / [blog](https://konumaru.com/) / [note](https://note.com/konumr) / [SpeakerDeck](https://speakerdeck.com/konumaru) / [Kaggle](https://www.kaggle.com/konumaru)
+[GitHub](https://github.com/konumaru) / [Zenn](https://zenn.dev/konumaru) / [X](https://x.com/konumaruuu_v2) / [blog](https://konumaru.com/) / [note](https://note.com/konumr) / [SpeakerDeck](https://speakerdeck.com/konumaru) / [Kaggle](https://www.kaggle.com/konumaru)
 
 ## 職歴要約
 
@@ -12,7 +12,7 @@
 
 note株式会社ではホーム画面のレコメンド機能改善、検索基盤の刷新、コンテンツ配信API基盤の構築などを担当しました。Repro株式会社では、因果推論を用いたアプリ分析、購買予測、最適プッシュ通知時間予測などのデータ解析プロジェクトを経験しています。
 
-個人活動でもKaggleやOSS開発、生成AIの技術検証に取り組んでいます。事業課題を整理し、AI・データ活用をプロダクトや業務改善として実装することが得意です。
+個人活動では、日本株AIリサーチサービス「yomitoka」を企画から実装・課金・運用まで単独で開発・提供しているほか、KaggleやOSS開発、生成AIの技術検証に取り組んでいます。事業課題を整理し、AI・データ活用をプロダクトや業務改善として実装することが得意です。
 
 ## キャリアの変遷
 
@@ -68,7 +68,7 @@ Lead AI Producer (PdM)
 - 使用技術
   - LLM、RAG、OpenAI API、各種生成AIツール、SaaS連携
 - 主な取り組み
-  - 不動産企画業務向けAI活用SaaSの立ち上げ支援
+  - 不動産企画を支援するエージェント型AI「project "Camelot"」の立ち上げ（[東京アセットソリューション株式会社との共同開発として公表](https://explaza.jp/news/20251204)）
   - 専門書類から構造化データを抽出するツールの開発
   - エンタープライズ向けチャットボットの開発
   - 市場調査や競合分析を支援するAIサポートツールの開発
@@ -78,10 +78,11 @@ Lead AI Producer (PdM)
   - 手作業が中心だった情報整理・問い合わせ対応・調査業務の効率化に貢献
   - アライアンス企業との協業案件企画・推進にも関与
 
-#### 社内ツール開発・業務効率化
+#### 社内業務のAIエージェント自動化（Biz Agent Ops）
 
 - 背景
   - 少人数組織での事業推進にあたり、営業、採用、マーケティング、カスタマーサポートなどの業務効率化が必要でした。
+  - ビジネス部門の業務にAIエージェントを組み込んで自動化する取り組みを「Biz Agent Ops」として立ち上げ、社外にも発信しています。
 - 役割
   - 課題整理、ツール企画、プロトタイプ開発、運用改善
 - 使用技術
@@ -95,8 +96,10 @@ Lead AI Producer (PdM)
   - データ収集・分析・レポート生成を支援する業務効率化ツール群
   - 社内ナレッジベース構築・運用システム
 - 成果
-  - 各業務の定型作業を自動化し、事業推進に必要な作業時間の削減に貢献
+  - 各業務の定型作業を自動化し、副業・業務委託メンバーを含む複数名で分担していた業務を1人で遂行できる体制へ移行
   - 新メンバーのオンボーディングや社内情報共有の効率化を支援
+  - 関連記事
+    - [Biz Agent Ops はじめました](https://note.com/konumr/n/n9e5ce3b72543)
 
 #### AI技術研究・プロダクト改善
 
@@ -308,6 +311,18 @@ Lead AI Producer (PdM)
 - [url](url)
  -->
 
+### yomitoka - 日本株AIリサーチサービス
+
+[site](https://yomitoka.com/)
+
+日本株の株価・ニュース・IR・財務情報を企業別に整理し、AIチャットで国内上場企業の変化を読み解けるリサーチサービスを個人で開発・運営。TDnetの適時開示などの情報を集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当し、本番サービスとして提供中。Next.js、Supabase、Cloudflareで構築。
+
+### luanti-agent
+
+[github](https://github.com/konumaru/luanti-agent)
+
+オープンソースのボクセルゲームLuanti上でAIエージェントの実験を行うための基盤。エージェントの観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントを実装し、observe→actの制御ループを再現可能なDocker環境として構築。
+
 ### Kaggle
 
 Kaggle Expert。
@@ -364,8 +379,17 @@ ABテストの配信比率や必要サンプルサイズを確認したいとき
 
 next.jsとp5.jsを使って作ったメディアアートを公開するサイト。
 
-### 生成AI活用事例・技術検証
+### 技術発信・登壇
 
-[note記事](https://note.com/konumr)
+[note](https://note.com/konumr) / [Zenn](https://zenn.dev/konumaru) / [SpeakerDeck](https://speakerdeck.com/konumaru)
 
-最新の生成AI技術の検証と実践的な活用事例の研究。LLMの比較検証、プロンプトエンジニアリング手法の検討、RAGシステムの構築実験など、実業務で得た知見を体系化・共有。技術トレンドのキャッチアップと実践的な検証を継続して実施。
+生成AI技術の検証と実務で得た知見を継続的に発信。
+
+- [Biz Agent Ops はじめました](https://note.com/konumr/n/n9e5ce3b72543)
+  - 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化
+- [Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法](https://zenn.dev/explaza/articles/7e53353c6b817c)
+- [ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた](https://zenn.dev/explaza/articles/fb0f2a50612397)
+- [OpenAI Agent SDKのdocstringsがおかしい](https://zenn.dev/explaza/articles/0148bda2326c4e)
+- [Cursor × Marp 勉強会](https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui)
+  - 社内でのAIツール活用を広げるための勉強会資料
+- [『"AI × 要件定義" の実践知を語る - LT Night -』登壇](https://explaza.connpass.com/event/397760/)（2026/07/09、株式会社エクスプラザ主催）

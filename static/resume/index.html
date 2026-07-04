@@ -468,15 +468,15 @@ p {
 </head>
 <body>
 <main id="main_content">
-<p class="pdf-link"><a href="resume.pdf">PDF版をダウンロード</a></p>
+<p class="pdf-link"><a href="en/">English</a> | <a href="resume.pdf">PDF版をダウンロード</a></p>
 <h1>職務経歴書</h1>
 <h2>基本情報</h2>
 <p>氏名：小沼塁</p>
-<p><a href="https://x.com/konumaruuu_v2">X</a> / <a href="https://konumaru.com/">blog</a> / <a href="https://note.com/konumr">note</a> / <a href="https://speakerdeck.com/konumaru">SpeakerDeck</a> / <a href="https://www.kaggle.com/konumaru">Kaggle</a></p>
+<p><a href="https://github.com/konumaru">GitHub</a> / <a href="https://zenn.dev/konumaru">Zenn</a> / <a href="https://x.com/konumaruuu_v2">X</a> / <a href="https://konumaru.com/">blog</a> / <a href="https://note.com/konumr">note</a> / <a href="https://speakerdeck.com/konumaru">SpeakerDeck</a> / <a href="https://www.kaggle.com/konumaru">Kaggle</a></p>
 <h2>職歴要約</h2>
 <p>プロダクトマネジメントとデータ解析・機械学習の両面で実績があります。現在の株式会社エクスプラザでは、Lead AI Producerとして生成AI事業の立ち上げから運用まで一貫して担当。受託開発では専門書類の情報抽出ツールやエンタープライズ向けチャットボット開発により、クライアントの業務効率化とコスト削減を支援しています。</p>
 <p>note株式会社ではホーム画面のレコメンド機能改善、検索基盤の刷新、コンテンツ配信API基盤の構築などを担当しました。Repro株式会社では、因果推論を用いたアプリ分析、購買予測、最適プッシュ通知時間予測などのデータ解析プロジェクトを経験しています。</p>
-<p>個人活動でもKaggleやOSS開発、生成AIの技術検証に取り組んでいます。事業課題を整理し、AI・データ活用をプロダクトや業務改善として実装することが得意です。</p>
+<p>個人活動では、日本株AIリサーチサービス「yomitoka」を企画から実装・課金・運用まで単独で開発・提供しているほか、KaggleやOSS開発、生成AIの技術検証に取り組んでいます。事業課題を整理し、AI・データ活用をプロダクトや業務改善として実装することが得意です。</p>
 <h2>キャリアの変遷</h2>
 <table>
 <thead>
@@ -582,7 +582,7 @@ p {
 </li>
 <li>主な取り組み
 <ul>
-<li>不動産企画業務向けAI活用SaaSの立ち上げ支援</li>
+<li>不動産企画を支援するエージェント型AI「project &quot;Camelot&quot;」の立ち上げ（<a href="https://explaza.jp/news/20251204">東京アセットソリューション株式会社との共同開発として公表</a>）</li>
 <li>専門書類から構造化データを抽出するツールの開発</li>
 <li>エンタープライズ向けチャットボットの開発</li>
 <li>市場調査や競合分析を支援するAIサポートツールの開発</li>
@@ -597,11 +597,12 @@ p {
 </ul>
 </li>
 </ul>
-<h4>社内ツール開発・業務効率化</h4>
+<h4>社内業務のAIエージェント自動化（Biz Agent Ops）</h4>
 <ul>
 <li>背景
 <ul>
 <li>少人数組織での事業推進にあたり、営業、採用、マーケティング、カスタマーサポートなどの業務効率化が必要でした。</li>
+<li>ビジネス部門の業務にAIエージェントを組み込んで自動化する取り組みを「Biz Agent Ops」として立ち上げ、社外にも発信しています。</li>
 </ul>
 </li>
 <li>役割
@@ -627,8 +628,13 @@ p {
 </li>
 <li>成果
 <ul>
-<li>各業務の定型作業を自動化し、事業推進に必要な作業時間の削減に貢献</li>
+<li>各業務の定型作業を自動化し、副業・業務委託メンバーを含む複数名で分担していた業務を1人で遂行できる体制へ移行</li>
 <li>新メンバーのオンボーディングや社内情報共有の効率化を支援</li>
+<li>関連記事
+<ul>
+<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -1042,6 +1048,12 @@ p {
 - 概要
 - [url](url)
  -->
+<h3>yomitoka - 日本株AIリサーチサービス</h3>
+<p><a href="https://yomitoka.com/">site</a></p>
+<p>日本株の株価・ニュース・IR・財務情報を企業別に整理し、AIチャットで国内上場企業の変化を読み解けるリサーチサービスを個人で開発・運営。TDnetの適時開示などの情報を集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当し、本番サービスとして提供中。Next.js、Supabase、Cloudflareで構築。</p>
+<h3>luanti-agent</h3>
+<p><a href="https://github.com/konumaru/luanti-agent">github</a></p>
+<p>オープンソースのボクセルゲームLuanti上でAIエージェントの実験を行うための基盤。エージェントの観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントを実装し、observe→actの制御ループを再現可能なDocker環境として構築。</p>
 <h3>Kaggle</h3>
 <p>Kaggle Expert。
 以下は入賞したコンペティション</p>
@@ -1085,9 +1097,25 @@ Cloud RunとLINE APIを利用して、LINE上で動作する。</p>
 <h3>p5gallery</h3>
 <p><a href="https://konumaru.com/p5gallery/">site</a></p>
 <p>next.jsとp5.jsを使って作ったメディアアートを公開するサイト。</p>
-<h3>生成AI活用事例・技術検証</h3>
-<p><a href="https://note.com/konumr">note記事</a></p>
-<p>最新の生成AI技術の検証と実践的な活用事例の研究。LLMの比較検証、プロンプトエンジニアリング手法の検討、RAGシステムの構築実験など、実業務で得た知見を体系化・共有。技術トレンドのキャッチアップと実践的な検証を継続して実施。</p>
+<h3>技術発信・登壇</h3>
+<p><a href="https://note.com/konumr">note</a> / <a href="https://zenn.dev/konumaru">Zenn</a> / <a href="https://speakerdeck.com/konumaru">SpeakerDeck</a></p>
+<p>生成AI技術の検証と実務で得た知見を継続的に発信。</p>
+<ul>
+<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a>
+<ul>
+<li>社内業務にAIエージェントを組み込んで自動化する取り組みの言語化</li>
+</ul>
+</li>
+<li><a href="https://zenn.dev/explaza/articles/7e53353c6b817c">Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法</a></li>
+<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた</a></li>
+<li><a href="https://zenn.dev/explaza/articles/0148bda2326c4e">OpenAI Agent SDKのdocstringsがおかしい</a></li>
+<li><a href="https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui">Cursor × Marp 勉強会</a>
+<ul>
+<li>社内でのAIツール活用を広げるための勉強会資料</li>
+</ul>
+</li>
+<li><a href="https://explaza.connpass.com/event/397760/">『&quot;AI × 要件定義&quot; の実践知を語る - LT Night -』登壇</a>（2026/07/09、株式会社エクスプラザ主催）</li>
+</ul>
 
 </main>
 </body>
