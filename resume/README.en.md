@@ -2,9 +2,7 @@
 
 Customer-Facing GenAI Engineer / Technical Product Lead
 
-Tokyo, Japan | [konumaru1022@gmail.com](mailto:konumaru1022@gmail.com) | [GitHub](https://github.com/konumaru) | [LinkedIn](https://www.linkedin.com/in/) | [Blog](https://konumaru.com/) | [Kaggle](https://www.kaggle.com/konumaru)
-
-<!-- TODO: replace LinkedIn URL with actual profile slug before submitting -->
+Tokyo, Japan | [konumaru1022@gmail.com](mailto:konumaru1022@gmail.com) | [GitHub](https://github.com/konumaru) | [Blog](https://konumaru.com/) | [Kaggle](https://www.kaggle.com/konumaru)
 
 ## Summary
 
