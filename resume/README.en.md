@@ -12,7 +12,7 @@ Customer-facing GenAI engineer and technical product lead with 8 years across ma
 
 ## Skills
 
-- **GenAI / LLM**: RAG, AI agents, prompt engineering, LLM evaluation and model selection, OpenAI API / Agents SDK
+- **GenAI / LLM**: RAG, AI agents, prompt engineering, LLM evaluation & observability (Opik, promptfoo), model selection, OpenAI API / Agents SDK
 - **Product**: discovery, requirements definition, A/B testing, stakeholder management
 - **Data / ML**: recommender systems, causal inference, forecasting, experiment design; Kaggle Expert
 - **Engineering**: Python, TypeScript/Next.js, GCP (Cloud Run), AWS, Supabase, Stripe, Elasticsearch, Playwright, Slack apps
@@ -24,7 +24,7 @@ Customer-facing GenAI engineer and technical product lead with 8 years across ma
 Generative-AI startup providing AI products and enterprise AI enablement (capital and business alliance with Matsuo Institute; NVIDIA Inception partner).
 
 - Lead client-facing generative-AI projects end-to-end — business discovery, requirements structuring, prototype design, delivery management, and production rollout — for clients in real estate, enterprise, sales, and marketing.
-- Launched **project "Camelot"**, an agentic AI for real-estate planning, co-developed with Tokyo Asset Solution Inc. ([publicly announced, Dec 2025](https://explaza.jp/news/20251204)).
+- Launched **project "Camelot"**, an agentic AI for real-estate planning, co-developed with Tokyo Asset Solution Inc. ([publicly announced, Dec 2025](https://explaza.jp/news/20251204)); instrumented the agent with Opik for trace-based debugging and LLM output evaluation.
 - Delivered a structured-data-extraction tool for specialized documents, enterprise chatbots, and AI-powered market/competitive research tools, moving each from PoC to implementation.
 - Founded **"Biz Agent Ops"** — embedding AI agents into internal business operations (sales, recruiting, marketing, support): a Slack-resident sales agent automating business-card-to-HubSpot workflows, a Chrome extension generating recruiting scout messages, Playwright-based form-outreach automation, and auto-generated help pages — shifting operations previously shared by multiple people, including contract and side-job staff, to being run by a single person. Published the approach externally ([note article](https://note.com/konumr/n/n9e5ce3b72543)).
 - Built the team's LLM evaluation and cost-aware model-selection framework; systematized reproducible prompt-design practices and quality-monitoring processes for LLM outputs.
@@ -47,7 +47,7 @@ Mobile marketing SaaS (customer engagement platform).
 
 ## Selected Projects
 
-- **[yomitoka](https://yomitoka.com/)** — Japanese-equity AI research service, built and operated solo as a paid production service: aggregates TDnet disclosures, IR, and news per company; weekly themes, company following, and AI chat for reading market changes. Next.js, Supabase, Stripe subscriptions (Free/Pro), Cloudflare. Covers the full loop from product design and implementation to billing and operations.
+- **[yomitoka](https://yomitoka.com/)** — Japanese-equity AI research service, built and operated solo as a paid production service: aggregates TDnet disclosures, IR, and news per company; weekly themes, company following, and AI chat for reading market changes. Next.js, Supabase, Stripe subscriptions (Free/Pro), Cloudflare. Covers the full loop from product design and implementation to billing and operations; prompt regression testing with promptfoo.
 - **[luanti-agent](https://github.com/konumaru/luanti-agent)** — reproducible Docker-based playground for AI-agent experiments on the Luanti voxel game: observation/control API as a Lua mod, FastAPI bot server, Python client implementing an observe→act control loop.
 - **Kaggle Expert** — competition medals in [M5 Forecasting – Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy) (time-series demand forecasting), [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) (NLP), and [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play).
 ## Writing & Talks
@@ -57,4 +57,6 @@ Mobile marketing SaaS (customer engagement platform).
 - [Building a multilingual real-time voice dialogue system with the ElevenLabs API](https://zenn.dev/explaza/articles/fb0f2a50612397) (Zenn, Nov 2025)
 - [Reporting inconsistent docstrings in the OpenAI Agents SDK](https://zenn.dev/explaza/articles/0148bda2326c4e) (Zenn, May 2025)
 
-<!-- TODO: Education section (school, degree, year) -->
+## Education
+
+**Meiji University** (Tokyo) — B.S. in Frontier Media Science, School of Interdisciplinary Mathematical Sciences | Mar 2019
