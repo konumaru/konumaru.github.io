@@ -48,10 +48,19 @@ for (const t of targets) {
 <title>${t.title}</title>
 <style>${css}</style>
 <style>
-  @media screen {
-    #main_content { max-width: 820px; margin: 24px auto; padding: 0 16px; }
-  }
   .pdf-link { text-align: right; font-size: 13px; }
+  /* Screen-only overrides: the shared theme CSS is sized for A4 print/PDF,
+     so scale type up for comfortable web reading. */
+  @media screen {
+    #main_content { max-width: 880px; margin: 24px auto; padding: 0 16px; }
+    body { font-size: 16px; }
+    h1 { font-size: 27px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 17px; }
+    h4 { font-size: 15px; }
+    table { font-size: 14px; }
+    .pdf-link { font-size: 14px; }
+  }
   @media print { .pdf-link { display: none !important; } }
 </style>
 ${headCustom}

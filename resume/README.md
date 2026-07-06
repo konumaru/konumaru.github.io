@@ -305,90 +305,38 @@ Lead AI Producer (PdM)
 
 ## 個人活動
 
-<!-- Template:
-### 活動名
-- 概要
-- [url](url)
- -->
+### yomitoka — 日本株AIリサーチサービス（[yomitoka.com](https://yomitoka.com/)）
 
-### yomitoka - 日本株AIリサーチサービス
+日本株の株価・ニュース・IR・財務情報を企業別に整理し、AIチャットで国内上場企業の変化を読み解けるリサーチサービス。TDnetの適時開示などの情報を集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当し、本番サービスとして提供中。Next.js / Supabase / Cloudflare。
 
-[site](https://yomitoka.com/)
+### luanti-agent — AIエージェント実験基盤（[GitHub](https://github.com/konumaru/luanti-agent)）
 
-日本株の株価・ニュース・IR・財務情報を企業別に整理し、AIチャットで国内上場企業の変化を読み解けるリサーチサービスを個人で開発・運営。TDnetの適時開示などの情報を集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当し、本番サービスとして提供中。Next.js、Supabase、Cloudflareで構築。
+オープンソースのボクセルゲームLuanti上でAIエージェントの実験を行うための基盤。観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントを実装し、observe→actの制御ループを再現可能なDocker環境として構築。
 
-### luanti-agent
+### Kaggle — Expert（[プロフィール](https://www.kaggle.com/konumaru)）
 
-[github](https://github.com/konumaru/luanti-agent)
+入賞したコンペティション:
 
-オープンソースのボクセルゲームLuanti上でAIエージェントの実験を行うための基盤。エージェントの観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントを実装し、observe→actの制御ループを再現可能なDocker環境として構築。
+- [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy) — 時系列の需要予測
+- [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) — 自然言語処理を用いた文章の読みやすさの予測
+- [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play) — ゲームプレイデータを用いた学生の成績予測
 
-### Kaggle
+### その他の個人開発
 
-Kaggle Expert。
-以下は入賞したコンペティション
-
-- [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
-  - 時系列の需要予測
-- [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)
-  - 自然言語処理を用いた文章の読みやすさの予測
-- [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play)
-  - ゲームプレイデータを用いた学生の成績予測
-
-### AIミュージックバトル！『弁財天』参加
-
-[LP](https://benzaiten.studio.site/) / [Repo](https://github.com/konumaru/benzaiten) / [Article](https://note.com/konumr/n/n89db6c64427e)
-
-コード進行とバッキングがmidiファイルとtxtファイルで与えられるので、それをもとにAIが作曲し、観客が勝敗を決めるイベントに参加。VAEを用いた生成モデルで作曲を行った。
-
-### Pycalf
-
-[github](https://github.com/konumaru/pycalf)
-
-初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ。岩波データサイエンスvol.03に沿った因果推論の技術をまとめたPyPI公開ライブラリ
-
-### 恋愛シミュレーションChatBot
-
-[github](https://github.com/konumaru/gpt_love)
-
-GPTを利用して、ユーザー個別の恋愛相手を生成する。恋愛が発展する会話をすることができる。
-Cloud RunとLINE APIを利用して、LINE上で動作する。
-
-### nlnomy - コンテンツモデレーションアプリ
-
-[github](https://github.com/konumaru/nlnomy)
-
-機械学習を用いたコンテンツモデレーションをシミュレーションできるサンプルアプリ。
-日本語の文章を害悪性のある文章かどうかを判定する
-
-### Slackbot Sample Size
-
-[github](https://github.com/konumaru/slackbot_sample_siz)
-
-ABテストの配信比率や必要サンプルサイズを確認したいときに、Slack上で簡単に計算できるSlackBot
-
-### sudra
-
-[github](https://github.com/konumaru/sudra)
-
-仮想通貨bot。GCP上で機械学習モデルを動かし、CI/CDやcoverage計測も含めて検証した個人開発プロジェクト。リポジトリはprivate。
-
-### p5gallery
-
-[site](<https://konumaru.com/p5gallery/>)
-
-next.jsとp5.jsを使って作ったメディアアートを公開するサイト。
+- [AIミュージックバトル！『弁財天』](https://note.com/konumr/n/n89db6c64427e) — VAEを用いた生成モデルでAIが作曲し、観客が勝敗を決めるイベントに参加（[Repo](https://github.com/konumaru/benzaiten)）
+- [pycalf](https://github.com/konumaru/pycalf) — 因果推論の手法適用とレポーティングを簡単に実現できるPyPI公開ライブラリ
+- [恋愛シミュレーションChatBot](https://github.com/konumaru/gpt_love) — GPTでユーザー個別の恋愛相手を生成するLINE上のチャットボット（Cloud Run + LINE API）
+- [nlnomy](https://github.com/konumaru/nlnomy) — 機械学習によるコンテンツモデレーションをシミュレーションできるアプリ
+- [Slackbot Sample Size](https://github.com/konumaru/slackbot_sample_siz) — A/Bテストの配信比率・必要サンプルサイズをSlack上で計算できるボット
+- sudra — GCP上で機械学習モデルを動かした仮想通貨bot（CI/CD・coverage計測込み、リポジトリはprivate）
+- [p5gallery](https://konumaru.com/p5gallery/) — Next.js + p5.jsで作ったメディアアートの公開サイト
 
 ### 技術発信・登壇
 
-[note](https://note.com/konumr) / [Zenn](https://zenn.dev/konumaru) / [SpeakerDeck](https://speakerdeck.com/konumaru)
+生成AI技術の検証と実務で得た知見を継続的に発信（[note](https://note.com/konumr) / [Zenn](https://zenn.dev/konumaru) / [SpeakerDeck](https://speakerdeck.com/konumaru)）。
 
-生成AI技術の検証と実務で得た知見を継続的に発信。
-
-- [Biz Agent Ops はじめました](https://note.com/konumr/n/n9e5ce3b72543)
-  - 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化
-- [Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法](https://zenn.dev/explaza/articles/7e53353c6b817c)
-- [ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた](https://zenn.dev/explaza/articles/fb0f2a50612397)
-- [OpenAI Agent SDKのdocstringsがおかしい](https://zenn.dev/explaza/articles/0148bda2326c4e)
-- [Cursor × Marp 勉強会](https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui)
-  - 社内でのAIツール活用を広げるための勉強会資料
+- [Biz Agent Ops はじめました](https://note.com/konumr/n/n9e5ce3b72543)（note）— 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化
+- [Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法](https://zenn.dev/explaza/articles/7e53353c6b817c)（Zenn）
+- [ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた](https://zenn.dev/explaza/articles/fb0f2a50612397)（Zenn）
+- [OpenAI Agent SDKのdocstringsがおかしい](https://zenn.dev/explaza/articles/0148bda2326c4e)（Zenn）
+- [Cursor × Marp 勉強会](https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui)（SpeakerDeck）— 社内でのAIツール活用を広げるための勉強会資料
