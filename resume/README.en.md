@@ -1,19 +1,19 @@
 # Rui Konuma
 
-Lead AI Producer / Technical Product Manager — Tokyo, Japan
+Customer-Facing GenAI Engineer / Technical Product Lead
 
-[GitHub](https://github.com/konumaru) / [Zenn](https://zenn.dev/konumaru) / [X](https://x.com/konumaruuu_v2) / [Blog](https://konumaru.com/) / [note](https://note.com/konumr) / [SpeakerDeck](https://speakerdeck.com/konumaru) / [Kaggle](https://www.kaggle.com/konumaru)
+Tokyo, Japan | [konumaru1022@gmail.com](mailto:konumaru1022@gmail.com) | [GitHub](https://github.com/konumaru) | [LinkedIn](https://www.linkedin.com/in/) | [Blog](https://konumaru.com/) | [Kaggle](https://www.kaggle.com/konumaru)
 
-<!-- TODO: add email / phone before submitting -->
+<!-- TODO: replace LinkedIn URL with actual profile slug before submitting -->
 
 ## Summary
 
-AI product lead with 8 years spanning machine-learning engineering, data science, and technical product management. Currently drives generative-AI projects end-to-end at Explaza Inc. — from business discovery with enterprise clients through prototyping, production delivery, and operations. Previously led recommendation, search, and API-platform products as a technical PM at note Inc. (one of Japan's largest content platforms), and built prediction and causal-inference models as an ML engineer at Repro Inc. Solo-builds and operates a paid consumer AI product in production. Strong at translating ambiguous business problems into shipped AI systems.
+Customer-facing GenAI engineer and technical product lead with 8 years across machine-learning engineering, data science, and AI product delivery. Experienced in building production-grade GenAI applications, RAG systems, AI agents, and workflow automation tools from discovery and prototyping through deployment and operations. Strong at integrating AI systems with real business workflows, cloud infrastructure, APIs, and SaaS tools.
 
 ## Skills
 
 - **GenAI / LLM**: RAG, AI agents, prompt engineering, LLM evaluation and model selection, OpenAI API / Agents SDK
-- **Product**: discovery, requirements definition, PRD/MRD, UX design, A/B testing, stakeholder management
+- **Product**: discovery, requirements definition, A/B testing, stakeholder management
 - **Data / ML**: recommender systems, causal inference, forecasting, experiment design; Kaggle Expert
 - **Engineering**: Python, TypeScript/Next.js, GCP (Cloud Run), AWS, Supabase, Stripe, Elasticsearch, Playwright, Slack apps
 
@@ -36,31 +36,25 @@ Media platform where anyone can publish and sell content; one of Japan's largest
 - Revamped the home-feed recommendation system to surface content beyond followed creators; designed and ran A/B tests, confirmed improvement in key engagement metrics, and shipped to production ([public case study](https://note.com/info/n/na6401a53bdb2)).
 - Led the search-platform migration from AWS CloudSearch to Elasticsearch (team of 1 PM + 2 engineers): clarified business requirements the legacy stack could not meet, improving search relevance, customizability, and operating cost.
 - Designed and drove a **content-delivery API hub** (1 PM + 3–4 engineers): a YAML-defined endpoint layer over multiple data sources that replaced one-off integrations and reduced development lead time for content-delivery features.
-- Improved new-user sign-up and onboarding funnels, combining qualitative UX fixes with A/B-tested changes; contributed to higher sign-up conversion and internal engagement.
 - Prototyped article categorization and content moderation with the OpenAI API to validate GenAI use in the existing product.
 
 ### Repro Inc. — ML Engineer → Associate Product Manager | Jul 2018 – Aug 2021
 
 Mobile marketing SaaS (customer engagement platform).
 
-- As Associate PM (Nov 2020 – Aug 2021): moved from ML engineering into product to bring ML prototypes to market — market research, user interviews, and PRD/MRD authoring with the development team.
-- Validated ML features to automate campaign-operation work: purchase-prediction models, push-notification send-time optimization, and causal-inference-based analyses of in-app behavior for client reporting.
-- Client data-science engagements: built an analytics platform and dashboards on AWS Redshift + Tableau (FOLIO, fintech), CTR-prediction models for ad placements (F@N Communications), and lead-scoring models plus an engineer-recruiting web service (dip).
+- Built and validated ML features to automate campaign-operation work — purchase prediction, push-notification send-time optimization, and causal-inference analyses — then moved into product (Associate PM) to bring these prototypes to market through market research, user interviews, and PRD/MRD authoring.
+- Client data-science engagements: analytics platform and dashboards on AWS Redshift + Tableau, CTR-prediction models for ad placements, and lead-scoring models.
 
 ## Selected Projects
 
 - **[yomitoka](https://yomitoka.com/)** — Japanese-equity AI research service, built and operated solo as a paid production service: aggregates TDnet disclosures, IR, and news per company; weekly themes, company following, and AI chat for reading market changes. Next.js, Supabase, Stripe subscriptions (Free/Pro), Cloudflare. Covers the full loop from product design and implementation to billing and operations.
 - **[luanti-agent](https://github.com/konumaru/luanti-agent)** — reproducible Docker-based playground for AI-agent experiments on the Luanti voxel game: observation/control API as a Lua mod, FastAPI bot server, Python client implementing an observe→act control loop.
 - **Kaggle Expert** — competition medals in [M5 Forecasting – Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy) (time-series demand forecasting), [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) (NLP), and [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play).
-- **[pycalf](https://github.com/konumaru/pycalf)** — open-source causal-inference library published on PyPI.
-
 ## Writing & Talks
 
 - [Biz Agent Ops](https://note.com/konumr/n/n9e5ce3b72543) (note, Jul 2025) — framing and practice of automating business operations with AI agents
 - [Managing multiple Google Cloud projects from the CLI](https://zenn.dev/explaza/articles/7e53353c6b817c) (Zenn, Dec 2025)
 - [Building a multilingual real-time voice dialogue system with the ElevenLabs API](https://zenn.dev/explaza/articles/fb0f2a50612397) (Zenn, Nov 2025)
 - [Reporting inconsistent docstrings in the OpenAI Agents SDK](https://zenn.dev/explaza/articles/0148bda2326c4e) (Zenn, May 2025)
-- Speaker, ["AI × Requirements Definition" LT Night](https://explaza.connpass.com/event/397760/) (Jul 2026, hosted by Explaza)
-- [Cursor × Marp workshop](https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui) (May 2025) — internal enablement for AI-assisted slide authoring
 
 <!-- TODO: Education section (school, degree, year) -->
