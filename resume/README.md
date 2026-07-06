@@ -121,7 +121,7 @@ Lead AI Producer (PdM)
 
 ### note株式会社（2021/09〜2024/08）
 
-テクニカルプロダクトマネージャーとして、推薦検索、共通化されたAPI/デザインコンポーネントの開発、その他UIUX改善を担当
+テクニカルプロダクトマネージャーとして、推薦・検索、共通化されたAPI/デザインコンポーネントの開発、その他UIUX改善を担当
 
 #### コンテンツ配信のための共通API基盤の開発
 
@@ -315,7 +315,7 @@ Lead AI Producer (PdM)
 
 ### Kaggle — Expert（[プロフィール](https://www.kaggle.com/konumaru)）
 
-入賞したコンペティション:
+入賞したコンペティション：
 
 - [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy) — 時系列の需要予測
 - [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) — 自然言語処理を用いた文章の読みやすさの予測
@@ -325,9 +325,9 @@ Lead AI Producer (PdM)
 
 - [AIミュージックバトル！『弁財天』](https://note.com/konumr/n/n89db6c64427e) — VAEを用いた生成モデルでAIが作曲し、観客が勝敗を決めるイベントに参加（[Repo](https://github.com/konumaru/benzaiten)）
 - [pycalf](https://github.com/konumaru/pycalf) — 因果推論の手法適用とレポーティングを簡単に実現できるPyPI公開ライブラリ
-- [恋愛シミュレーションChatBot](https://github.com/konumaru/gpt_love) — GPTでユーザー個別の恋愛相手を生成するLINE上のチャットボット（Cloud Run + LINE API）
+- 恋愛シミュレーションChatBot — GPTでユーザー個別の恋愛相手を生成するLINE上のチャットボット（Cloud Run + LINE API）
 - [nlnomy](https://github.com/konumaru/nlnomy) — 機械学習によるコンテンツモデレーションをシミュレーションできるアプリ
-- [Slackbot Sample Size](https://github.com/konumaru/slackbot_sample_siz) — A/Bテストの配信比率・必要サンプルサイズをSlack上で計算できるボット
+- Slackbot Sample Size — A/Bテストの配信比率・必要サンプルサイズをSlack上で計算できるボット
 - sudra — GCP上で機械学習モデルを動かした仮想通貨bot（CI/CD・coverage計測込み、リポジトリはprivate）
 - [p5gallery](https://konumaru.com/p5gallery/) — Next.js + p5.jsで作ったメディアアートの公開サイト
 
