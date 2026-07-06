@@ -202,10 +202,19 @@ p {
 }
 </style>
 <style>
-  @media screen {
-    #main_content { max-width: 820px; margin: 24px auto; padding: 0 16px; }
-  }
   .pdf-link { text-align: right; font-size: 13px; }
+  /* Screen-only overrides: the shared theme CSS is sized for A4 print/PDF,
+     so scale type up for comfortable web reading. */
+  @media screen {
+    #main_content { max-width: 880px; margin: 24px auto; padding: 0 16px; }
+    body { font-size: 16px; }
+    h1 { font-size: 27px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 17px; }
+    h4 { font-size: 15px; }
+    table { font-size: 14px; }
+    .pdf-link { font-size: 14px; }
+  }
   @media print { .pdf-link { display: none !important; } }
 </style>
 <!-- Prevent published resume pages from appearing in search engine results. -->
@@ -1043,77 +1052,35 @@ p {
 </li>
 </ul>
 <h2>個人活動</h2>
-<!-- Template:
-### 活動名
-- 概要
-- [url](url)
- -->
-<h3>yomitoka - 日本株AIリサーチサービス</h3>
-<p><a href="https://yomitoka.com/">site</a></p>
-<p>日本株の株価・ニュース・IR・財務情報を企業別に整理し、AIチャットで国内上場企業の変化を読み解けるリサーチサービスを個人で開発・運営。TDnetの適時開示などの情報を集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当し、本番サービスとして提供中。Next.js、Supabase、Cloudflareで構築。</p>
-<h3>luanti-agent</h3>
-<p><a href="https://github.com/konumaru/luanti-agent">github</a></p>
-<p>オープンソースのボクセルゲームLuanti上でAIエージェントの実験を行うための基盤。エージェントの観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントを実装し、observe→actの制御ループを再現可能なDocker環境として構築。</p>
-<h3>Kaggle</h3>
-<p>Kaggle Expert。
-以下は入賞したコンペティション</p>
+<h3>yomitoka — 日本株AIリサーチサービス（<a href="https://yomitoka.com/">yomitoka.com</a>）</h3>
+<p>日本株の株価・ニュース・IR・財務情報を企業別に整理し、AIチャットで国内上場企業の変化を読み解けるリサーチサービス。TDnetの適時開示などの情報を集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当し、本番サービスとして提供中。Next.js / Supabase / Cloudflare。</p>
+<h3>luanti-agent — AIエージェント実験基盤（<a href="https://github.com/konumaru/luanti-agent">GitHub</a>）</h3>
+<p>オープンソースのボクセルゲームLuanti上でAIエージェントの実験を行うための基盤。観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントを実装し、observe→actの制御ループを再現可能なDocker環境として構築。</p>
+<h3>Kaggle — Expert（<a href="https://www.kaggle.com/konumaru">プロフィール</a>）</h3>
+<p>入賞したコンペティション:</p>
 <ul>
-<li><a href="https://www.kaggle.com/c/m5-forecasting-accuracy">M5 Forecasting - Accuracy</a>
+<li><a href="https://www.kaggle.com/c/m5-forecasting-accuracy">M5 Forecasting - Accuracy</a> — 時系列の需要予測</li>
+<li><a href="https://www.kaggle.com/c/commonlitreadabilityprize">CommonLit Readability Prize</a> — 自然言語処理を用いた文章の読みやすさの予測</li>
+<li><a href="https://www.kaggle.com/competitions/predict-student-performance-from-game-play">Predict Student Performance from Game Play</a> — ゲームプレイデータを用いた学生の成績予測</li>
+</ul>
+<h3>その他の個人開発</h3>
 <ul>
-<li>時系列の需要予測</li>
+<li><a href="https://note.com/konumr/n/n89db6c64427e">AIミュージックバトル！『弁財天』</a> — VAEを用いた生成モデルでAIが作曲し、観客が勝敗を決めるイベントに参加（<a href="https://github.com/konumaru/benzaiten">Repo</a>）</li>
+<li><a href="https://github.com/konumaru/pycalf">pycalf</a> — 因果推論の手法適用とレポーティングを簡単に実現できるPyPI公開ライブラリ</li>
+<li><a href="https://github.com/konumaru/gpt_love">恋愛シミュレーションChatBot</a> — GPTでユーザー個別の恋愛相手を生成するLINE上のチャットボット（Cloud Run + LINE API）</li>
+<li><a href="https://github.com/konumaru/nlnomy">nlnomy</a> — 機械学習によるコンテンツモデレーションをシミュレーションできるアプリ</li>
+<li><a href="https://github.com/konumaru/slackbot_sample_siz">Slackbot Sample Size</a> — A/Bテストの配信比率・必要サンプルサイズをSlack上で計算できるボット</li>
+<li>sudra — GCP上で機械学習モデルを動かした仮想通貨bot（CI/CD・coverage計測込み、リポジトリはprivate）</li>
+<li><a href="https://konumaru.com/p5gallery/">p5gallery</a> — Next.js + p5.jsで作ったメディアアートの公開サイト</li>
 </ul>
-</li>
-<li><a href="https://www.kaggle.com/c/commonlitreadabilityprize">CommonLit Readability Prize</a>
-<ul>
-<li>自然言語処理を用いた文章の読みやすさの予測</li>
-</ul>
-</li>
-<li><a href="https://www.kaggle.com/competitions/predict-student-performance-from-game-play">Predict Student Performance from Game Play</a>
-<ul>
-<li>ゲームプレイデータを用いた学生の成績予測</li>
-</ul>
-</li>
-</ul>
-<h3>AIミュージックバトル！『弁財天』参加</h3>
-<p><a href="https://benzaiten.studio.site/">LP</a> / <a href="https://github.com/konumaru/benzaiten">Repo</a> / <a href="https://note.com/konumr/n/n89db6c64427e">Article</a></p>
-<p>コード進行とバッキングがmidiファイルとtxtファイルで与えられるので、それをもとにAIが作曲し、観客が勝敗を決めるイベントに参加。VAEを用いた生成モデルで作曲を行った。</p>
-<h3>Pycalf</h3>
-<p><a href="https://github.com/konumaru/pycalf">github</a></p>
-<p>初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ。岩波データサイエンスvol.03に沿った因果推論の技術をまとめたPyPI公開ライブラリ</p>
-<h3>恋愛シミュレーションChatBot</h3>
-<p><a href="https://github.com/konumaru/gpt_love">github</a></p>
-<p>GPTを利用して、ユーザー個別の恋愛相手を生成する。恋愛が発展する会話をすることができる。
-Cloud RunとLINE APIを利用して、LINE上で動作する。</p>
-<h3>nlnomy - コンテンツモデレーションアプリ</h3>
-<p><a href="https://github.com/konumaru/nlnomy">github</a></p>
-<p>機械学習を用いたコンテンツモデレーションをシミュレーションできるサンプルアプリ。
-日本語の文章を害悪性のある文章かどうかを判定する</p>
-<h3>Slackbot Sample Size</h3>
-<p><a href="https://github.com/konumaru/slackbot_sample_siz">github</a></p>
-<p>ABテストの配信比率や必要サンプルサイズを確認したいときに、Slack上で簡単に計算できるSlackBot</p>
-<h3>sudra</h3>
-<p><a href="https://github.com/konumaru/sudra">github</a></p>
-<p>仮想通貨bot。GCP上で機械学習モデルを動かし、CI/CDやcoverage計測も含めて検証した個人開発プロジェクト。リポジトリはprivate。</p>
-<h3>p5gallery</h3>
-<p><a href="https://konumaru.com/p5gallery/">site</a></p>
-<p>next.jsとp5.jsを使って作ったメディアアートを公開するサイト。</p>
 <h3>技術発信・登壇</h3>
-<p><a href="https://note.com/konumr">note</a> / <a href="https://zenn.dev/konumaru">Zenn</a> / <a href="https://speakerdeck.com/konumaru">SpeakerDeck</a></p>
-<p>生成AI技術の検証と実務で得た知見を継続的に発信。</p>
+<p>生成AI技術の検証と実務で得た知見を継続的に発信（<a href="https://note.com/konumr">note</a> / <a href="https://zenn.dev/konumaru">Zenn</a> / <a href="https://speakerdeck.com/konumaru">SpeakerDeck</a>）。</p>
 <ul>
-<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a>
-<ul>
-<li>社内業務にAIエージェントを組み込んで自動化する取り組みの言語化</li>
-</ul>
-</li>
-<li><a href="https://zenn.dev/explaza/articles/7e53353c6b817c">Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法</a></li>
-<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた</a></li>
-<li><a href="https://zenn.dev/explaza/articles/0148bda2326c4e">OpenAI Agent SDKのdocstringsがおかしい</a></li>
-<li><a href="https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui">Cursor × Marp 勉強会</a>
-<ul>
-<li>社内でのAIツール活用を広げるための勉強会資料</li>
-</ul>
-</li>
+<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a>（note）— 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化</li>
+<li><a href="https://zenn.dev/explaza/articles/7e53353c6b817c">Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法</a>（Zenn）</li>
+<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた</a>（Zenn）</li>
+<li><a href="https://zenn.dev/explaza/articles/0148bda2326c4e">OpenAI Agent SDKのdocstringsがおかしい</a>（Zenn）</li>
+<li><a href="https://speakerdeck.com/konumaru/cursor-x-marp-mian-qiang-hui">Cursor × Marp 勉強会</a>（SpeakerDeck）— 社内でのAIツール活用を広げるための勉強会資料</li>
 </ul>
 
 </main>
