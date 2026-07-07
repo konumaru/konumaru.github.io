@@ -4,7 +4,7 @@
 
 学歴：明治大学 総合数理学部 先端メディアサイエンス学科 卒業（2019年3月）
 
-[GitHub](https://github.com/konumaru) / [Zenn](https://zenn.dev/konumaru) / [X](https://x.com/konumaruuu_v2) / [blog](https://konumaru.com/) / [note](https://note.com/konumr) / [SpeakerDeck](https://speakerdeck.com/konumaru) / [Kaggle](https://www.kaggle.com/konumaru)
+[LinkedIn](https://www.linkedin.com/in/konumaru) / [GitHub](https://github.com/konumaru) / [Zenn](https://zenn.dev/konumaru) / [X](https://x.com/konumaruuu_v2) / [blog](https://konumaru.com/) / [note](https://note.com/konumr) / [SpeakerDeck](https://speakerdeck.com/konumaru) / [Kaggle](https://www.kaggle.com/konumaru)
 
 ## 職歴要約
 
