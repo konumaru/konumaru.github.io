@@ -9,9 +9,12 @@ clean: # Clean up the build directory.
 	rm -rf public
 
 .PHONY: clone-theme
-clone-theme: # Clone the PaperMod theme.
+clone-theme: # Clone the PaperMod theme at the commit pinned in .papermod-version.
 	rm -rf themes/PaperMod
-	git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+	git init -q themes/PaperMod
+	git -C themes/PaperMod remote add origin https://github.com/adityatelange/hugo-PaperMod.git
+	git -C themes/PaperMod fetch -q --depth=1 origin $$(cat .papermod-version)
+	git -C themes/PaperMod checkout -q FETCH_HEAD
 
 .PHONY: run
 run: # Run local hugo server with docker.

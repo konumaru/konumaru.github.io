@@ -50,19 +50,15 @@ jobs:
           npm ci
           make resume
 
-      - name: Clone PaperMod Theme
-        run: |
-          # Remove themes/PaperMod if exists
-          rm -rf themes/PaperMod
-          # Clone PaperMod theme directly
-          git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-          # Verify theme was cloned successfully
-          ls -la themes/PaperMod
+      # The theme is pinned to the commit in .papermod-version so that a
+      # theme-side refactor can never silently break the live site again.
+      - name: Clone PaperMod Theme (pinned)
+        run: make clone-theme
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.147.1"
+          hugo-version: "0.163.3"
           extended: true
 
       - name: Build
