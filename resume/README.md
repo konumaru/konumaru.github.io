@@ -55,7 +55,7 @@
 
 ## 個人活動
 
-- **[yomitoka](https://yomitoka.com/)** — 日本株AIリサーチサービス。TDnetの適時開示・IR・ニュースを企業別に集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当する本番サービス。promptfooによるプロンプトの回帰テストを実施。Next.js / Supabase / Cloudflare
+- **[yomitoka](https://yomitoka.com/)** — 日本株AIリサーチサービス。TDnetの適時開示・IR・ニュースを企業別に集約し、週次テーマ・企業フォロー・AIチャットを提供。企画、設計、実装から課金（Stripe、Free/Proプラン）、運用までを単独で担当する本番サービス。2026年9月4日、サービス提供開始の[プレスリリースをPR TIMESで配信](https://prtimes.jp/main/html/rd/p/000000005.000188836.html)。promptfooによるプロンプトの回帰テストを実施。Next.js / Supabase / Cloudflare
 - **[luanti-agent](https://github.com/konumaru/luanti-agent)** — ボクセルゲームLuanti上のAIエージェント実験基盤。観測・制御API（Luaモッド）、FastAPIボットサーバー、Pythonクライアントで observe→act の制御ループを再現可能なDocker環境として構築
 - **Kaggle Expert** — [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)（時系列需要予測）、[CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)（自然言語処理）、[Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play)（成績予測）で入賞
 - そのほか：[pycalf](https://github.com/konumaru/pycalf)（因果推論ライブラリ、PyPI公開）、[nlnomy](https://github.com/konumaru/nlnomy)（コンテンツモデレーション検証アプリ）、[AIミュージックバトル『弁財天』](https://note.com/konumr/n/n89db6c64427e)（VAEによる自動作曲で参加）、[p5gallery](https://konumaru.com/p5gallery/)（メディアアート公開サイト）など
