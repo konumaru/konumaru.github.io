@@ -17,7 +17,7 @@ clone-theme: # Clone the PaperMod theme at the commit pinned in .papermod-versio
 	git -C themes/PaperMod checkout -q FETCH_HEAD
 
 .PHONY: run
-run: # Run local hugo server with docker.
+run: # Run the local Hugo server with drafts and live reload.
 	hugo server -D --bind 0.0.0.0
 
 .PHONY: new-post
