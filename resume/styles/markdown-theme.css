@@ -50,19 +50,21 @@ h2 {
 }
 
 h3 {
-  margin: 1.2em 0 0.55em;
-  padding: 0.05em 0 0.05em 0.6em;
-  font-size: 13.5px;
+  margin: 1.3em 0 0.5em;
+  padding: 0.2em 0 0.2em 0.6em;
+  font-size: 14px;
   font-weight: 700;
   color: var(--ink);
   border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
 }
 
+/* Project / role-period heading under a company. */
 h4 {
-  margin: 0.95em 0 0.3em;
+  margin: 1.1em 0 0.3em;
   font-size: 12.5px;
   font-weight: 700;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 /* ---------- Text & links ---------- */
@@ -73,7 +75,57 @@ p {
 a {
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(43, 88, 118, 0.35);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Profile block under the title ---------- */
+.profile {
+  margin: -0.4em 0 1.2em;
+  text-align: center;
+}
+
+.profile p {
+  margin: 0.15em 0;
+  color: var(--muted);
+}
+
+.profile p:first-child {
+  font-size: 1.25em;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+}
+
+/* ---------- Meta box: 事業内容 / 役割 / 体制 / 担当 ---------- */
+blockquote {
+  margin: 0.35em 0 0.5em;
+  padding: 0.4em 0.8em;
+  background: var(--zebra);
+  border-left: 3px solid var(--line);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.94em;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+blockquote p {
+  margin: 0.1em 0;
+}
+
+/* A project heading lives inside its meta box so the two can never be split
+   across pages (Chromium does not chain break-after: avoid reliably). */
+blockquote h4 {
+  margin: 0 0 0.25em;
+  font-size: 1.06em;
+}
+
+blockquote strong {
+  display: inline-block;
+  min-width: 4.5em;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 /* ---------- Lists ---------- */
@@ -119,17 +171,14 @@ tbody tr:nth-child(even) {
   background: var(--zebra);
 }
 
-/* キャリアの変遷 table: keep the date column on one line, give columns sane
-   proportions so the wide "獲得した経験" column gets the space it needs. */
-table:first-of-type td:nth-child(1) {
-  white-space: nowrap;
-  width: 15%;
-}
+/* 職歴一覧 table: keep the date and company columns on one line so the
+   timeline reads cleanly; the last column takes the remaining width. */
+table:first-of-type td:nth-child(1),
 table:first-of-type td:nth-child(2) {
-  width: 16%;
+  white-space: nowrap;
 }
 table:first-of-type td:nth-child(3) {
-  width: 24%;
+  width: 22%;
 }
 
 /* ---------- Rules ---------- */
@@ -166,7 +215,8 @@ h4 {
 /* Keep a heading glued to the block that follows it. */
 h2 + *,
 h3 + *,
-h4 + * {
+h4 + *,
+blockquote + ul {
   break-before: avoid;
   page-break-before: avoid;
 }

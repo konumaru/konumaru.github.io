@@ -47,12 +47,13 @@ Mobile marketing SaaS (customer engagement platform).
 
 - **[luanti-agent](https://github.com/konumaru/luanti-agent)** — reproducible Docker-based playground for AI-agent experiments on the Luanti voxel game: observation/control API as a Lua mod, FastAPI bot server, Python client implementing an observe→act control loop.
 - **Kaggle Expert** — competition medals in [M5 Forecasting – Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy) (time-series demand forecasting), [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) (NLP), and [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play).
+
 ## Writing & Talks
 
-- [Biz Agent Ops](https://note.com/konumr/n/n9e5ce3b72543) (note, Jul 2025) — framing and practice of automating business operations with AI agents
-- [Managing multiple Google Cloud projects from the CLI](https://zenn.dev/explaza/articles/7e53353c6b817c) (Zenn, Dec 2025)
-- [Building a multilingual real-time voice dialogue system with the ElevenLabs API](https://zenn.dev/explaza/articles/fb0f2a50612397) (Zenn, Nov 2025)
-- [Reporting inconsistent docstrings in the OpenAI Agents SDK](https://zenn.dev/explaza/articles/0148bda2326c4e) (Zenn, May 2025)
+- [A multilingual real-time voice dialogue system with the ElevenLabs API](https://zenn.dev/explaza/articles/fb0f2a50612397) (Zenn, Nov 2025)
+- [Rapid UX research for a recommendation engine with Figma prototypes](https://speakerdeck.com/konumaru/rekomendoenzinwo-figma-debao-su-ux-risati) (Speaker Deck, Dec 2021)
+- [A requirements template for AI agents](https://konumaru.com/202610/ai-agent%E3%81%AE%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E3%81%AE%E3%81%B2%E3%81%AA%E5%BD%A2/) (Blog, Oct 2026)
+- [An ML engineer managing a recommendation feature as a PM](https://note.com/konumr/n/n46826805cbc6) (note, Jul 2022)
 
 ## Education
 

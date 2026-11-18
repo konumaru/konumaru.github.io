@@ -56,19 +56,21 @@ h2 {
 }
 
 h3 {
-  margin: 1.2em 0 0.55em;
-  padding: 0.05em 0 0.05em 0.6em;
-  font-size: 13.5px;
+  margin: 1.3em 0 0.5em;
+  padding: 0.2em 0 0.2em 0.6em;
+  font-size: 14px;
   font-weight: 700;
   color: var(--ink);
   border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
 }
 
+/* Project / role-period heading under a company. */
 h4 {
-  margin: 0.95em 0 0.3em;
+  margin: 1.1em 0 0.3em;
   font-size: 12.5px;
   font-weight: 700;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 /* ---------- Text & links ---------- */
@@ -79,7 +81,57 @@ p {
 a {
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(43, 88, 118, 0.35);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Profile block under the title ---------- */
+.profile {
+  margin: -0.4em 0 1.2em;
+  text-align: center;
+}
+
+.profile p {
+  margin: 0.15em 0;
+  color: var(--muted);
+}
+
+.profile p:first-child {
+  font-size: 1.25em;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+}
+
+/* ---------- Meta box: 事業内容 / 役割 / 体制 / 担当 ---------- */
+blockquote {
+  margin: 0.35em 0 0.5em;
+  padding: 0.4em 0.8em;
+  background: var(--zebra);
+  border-left: 3px solid var(--line);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.94em;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+blockquote p {
+  margin: 0.1em 0;
+}
+
+/* A project heading lives inside its meta box so the two can never be split
+   across pages (Chromium does not chain break-after: avoid reliably). */
+blockquote h4 {
+  margin: 0 0 0.25em;
+  font-size: 1.06em;
+}
+
+blockquote strong {
+  display: inline-block;
+  min-width: 4.5em;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 /* ---------- Lists ---------- */
@@ -125,17 +177,14 @@ tbody tr:nth-child(even) {
   background: var(--zebra);
 }
 
-/* キャリアの変遷 table: keep the date column on one line, give columns sane
-   proportions so the wide "獲得した経験" column gets the space it needs. */
-table:first-of-type td:nth-child(1) {
-  white-space: nowrap;
-  width: 15%;
-}
+/* 職歴一覧 table: keep the date and company columns on one line so the
+   timeline reads cleanly; the last column takes the remaining width. */
+table:first-of-type td:nth-child(1),
 table:first-of-type td:nth-child(2) {
-  width: 16%;
+  white-space: nowrap;
 }
 table:first-of-type td:nth-child(3) {
-  width: 24%;
+  width: 22%;
 }
 
 /* ---------- Rules ---------- */
@@ -172,7 +221,8 @@ h4 {
 /* Keep a heading glued to the block that follows it. */
 h2 + *,
 h3 + *,
-h4 + * {
+h4 + *,
+blockquote + ul {
   break-before: avoid;
   page-break-before: avoid;
 }
@@ -214,6 +264,25 @@ p {
     h4 { font-size: 15px; }
     table { font-size: 14px; }
     .pdf-link { font-size: 14px; }
+  }
+  /* Keep the language/PDF links clear of the fixed copy button. */
+  @media screen and (max-width: 1000px) {
+    .pdf-link { padding-right: 52px; }
+  }
+  /* Narrow screens: a 4-column table crushes into one-character columns,
+     so render each timeline row as a stacked card instead. */
+  @media screen and (max-width: 640px) {
+    h1 { font-size: 24px; }
+    table, thead, tbody, tr, th, td { display: block; width: auto !important; }
+    thead { display: none; }
+    table { border: 0; }
+    tr { margin: 0 0 10px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; }
+    tbody tr:nth-child(even) { background: none; }
+    td { border: 0; padding: 1px 0; white-space: normal !important; }
+    td:nth-child(1) { font-weight: 700; color: var(--accent); }
+    td:nth-child(2), td:nth-child(3) { display: inline; }
+    td:nth-child(2)::after { content: " ／ "; color: var(--muted); }
+    td:nth-child(4) { color: var(--muted); }
   }
   @media print { .pdf-link { display: none !important; } }
 </style>
@@ -479,39 +548,53 @@ p {
 <main id="main_content">
 <p class="pdf-link"><a href="en/">English</a> | <a href="resume.pdf">PDF版をダウンロード</a></p>
 <h1>職務経歴書</h1>
-<p>氏名：小沼塁</p>
-<p>学歴：明治大学 総合数理学部 先端メディアサイエンス学科 卒業（2019年3月）</p>
+<div class="profile">
+<p><strong>小沼 塁</strong></p>
+<p>明治大学 総合数理学部 先端メディアサイエンス学科 卒業（2019年3月）</p>
 <p><a href="https://www.linkedin.com/in/konumaru">LinkedIn</a> / <a href="https://github.com/konumaru">GitHub</a> / <a href="https://zenn.dev/konumaru">Zenn</a> / <a href="https://x.com/konumaruuu_v2">X</a> / <a href="https://konumaru.com/">blog</a> / <a href="https://note.com/konumr">note</a> / <a href="https://speakerdeck.com/konumaru">SpeakerDeck</a> / <a href="https://www.kaggle.com/konumaru">Kaggle</a></p>
+</div>
 <h2>職歴要約</h2>
 <p>機械学習エンジニアとしてキャリアを開始し、データ解析・プロダクトマネジメントを経て、現在は株式会社エクスプラザのLead AI Producerとして生成AI事業の立ち上げから運用までを一貫して担当しています。クライアントの業務理解から要件定義、プロトタイピング、本番導入・運用までを伴走しながら推進してきました。曖昧な事業課題を整理し、動くAIシステムとして実装しきることが強みです。</p>
-<h2>キャリアの変遷</h2>
+<h2>職歴一覧</h2>
 <table>
 <thead>
 <tr>
 <th>期間</th>
 <th>所属</th>
 <th>役割</th>
-<th>獲得した経験</th>
+<th>主な業務</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2018/07〜2021/08</td>
+<td>2018/07〜2019/04</td>
 <td>Repro株式会社</td>
-<td>MLエンジニア → アソシエイトPdM</td>
-<td>予測モデル、因果推論、機械学習PoC。後半はPRD/MRD作成、ユーザーヒアリング</td>
+<td>分析・機械学習エンジニア</td>
+<td>クライアント向けの分析基盤・予測モデル構築</td>
+</tr>
+<tr>
+<td>2019/04〜2020/11</td>
+<td>Repro株式会社</td>
+<td>機械学習エンジニア</td>
+<td>自社SaaSに載せる機械学習機能の実証実験</td>
+</tr>
+<tr>
+<td>2020/11〜2021/08</td>
+<td>Repro株式会社</td>
+<td>アソシエイトPdM</td>
+<td>MLプロトタイプの製品化に向けた市場調査・PRD/MRD作成</td>
 </tr>
 <tr>
 <td>2021/09〜2024/08</td>
 <td>note株式会社</td>
-<td>テクニカルプロダクトマネージャー</td>
-<td>推薦・検索・API基盤・UIUX改善。要件定義、A/Bテスト、多職種連携</td>
+<td>テクニカルPdM</td>
+<td>推薦・検索・API基盤・会員登録導線の改善</td>
 </tr>
 <tr>
 <td>2024/09〜現在</td>
 <td>株式会社エクスプラザ</td>
 <td>Lead AI Producer</td>
-<td>生成AI案件の企画〜本番導入、クライアント折衝、社内業務のエージェント自動化</td>
+<td>生成AI案件の企画〜本番導入、社内業務のAIエージェント化</td>
 </tr>
 </tbody>
 </table>
@@ -523,28 +606,112 @@ p {
 <li><strong>開発</strong>：Python、TypeScript / Next.js、GCP（Cloud Run）、AWS、Supabase、Stripe、Elasticsearch、Playwright</li>
 </ul>
 <h2>職務内容</h2>
-<h3>株式会社エクスプラザ — Lead AI Producer（2024/09〜現在）</h3>
-<p>生成AIスタートアップにて、生成AI事業の立ち上げ、受託・共同開発案件の企画推進、社内業務の自動化を担当。</p>
+<h3>2018/07〜2021/08　Repro株式会社</h3>
+<blockquote>
+<p><strong>事業内容</strong>　モバイルマーケティングSaaS「Repro」の開発・提供</p>
+<p><strong>役割</strong>　分析・機械学習エンジニア → 機械学習エンジニア → アソシエイトPdM</p>
+</blockquote>
+<blockquote>
+<h4>2018/07〜2019/04　分析・機械学習エンジニア（クライアント向けデータサイエンス支援）</h4>
+<p><strong>体制</strong>　クライアントごとの個別案件として担当</p>
+<p><strong>担当</strong>　分析基盤の構築、予測モデルの構築、Webサービス開発</p>
+</blockquote>
 <ul>
-<li>不動産・エンタープライズ・営業マーケティング領域の生成AI案件を、業務理解・要求整理からプロトタイプ設計、開発推進、本番導入まで一気通貫でリード</li>
-<li>不動産企画を支援するエージェント型AI「project &quot;Camelot&quot;」を立ち上げ（<a href="https://explaza.jp/news/20251204">東京アセットソリューション株式会社との共同開発として公表</a>）。エージェントのトレーシング・評価にOpikを採用し、トレースに基づくデバッグとLLM出力の評価を運用</li>
-<li>専門書類からの構造化データ抽出ツール、エンタープライズ向けチャットボット、市場・競合調査AIツールなどをPoCから実装まで推進</li>
-<li>社内業務へAIエージェントを組み込む「<a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops</a>」を立ち上げ。名刺登録〜HubSpot連携のSlack常駐営業エージェント、スカウト文自動生成Chrome拡張、Playwrightによるフォーム営業自動化などを開発し、副業・業務委託を含む複数名で分担していた業務を1人で遂行できる体制へ移行</li>
-<li>LLMの比較検証、コスト効率を考慮したモデル選定フレームワークの構築、再現性の高いプロンプト設計手法の整理を行い、得た知見を受託開発・社内ツール開発へ展開。生成AI出力の品質監視・評価プロセスも設計</li>
+<li>金融・投資サービス企業：AWS Redshift + Tableauでデータ分析基盤とダッシュボードを構築</li>
+<li>広告企業：広告枠のCTR予測モデルを構築</li>
+<li>HR企業：リードスコアリングモデルの構築、エンジニア採用向けWebサービスの開発</li>
 </ul>
-<h3>note株式会社 — テクニカルプロダクトマネージャー（2021/09〜2024/08）</h3>
-<p>国内最大級のメディアプラットフォームにて、推薦・検索、API基盤、UIUX改善を担当。</p>
+<blockquote>
+<h4>2019/04〜2020/11　機械学習エンジニア（機械学習機能の実証実験）</h4>
+<p><strong>体制</strong>　EM 1名、エンジニア 1名、データサイエンティスト 1名</p>
+<p><strong>担当</strong>　課題整理、データ分析、モデル検証、プロトタイプ開発</p>
+</blockquote>
 <ul>
-<li>ホーム画面のレコメンドシステムを改善。ルールベースの推薦を構築しA/Bテストで主要指標の改善を確認、本番反映（<a href="https://note.com/info/n/na6401a53bdb2">公開事例</a>）</li>
-<li>検索基盤をAWS CloudSearchからElasticsearchへ移行（PdM 1名 + エンジニア2名）。検索精度・カスタマイズ性・運用コストを改善</li>
-<li>複数データソースをYAML定義で接続できるコンテンツ配信API Hubを企画・開発（PdM 1名 + エンジニア3〜4名）。個別対応だった開発を共通化し、開発スピードを向上</li>
+<li>運用代行業務の負荷を下げるため、クライアントの日々の運用作業を自動化する機械学習機能を検証</li>
+<li>購買予測モデル、Push配信時間帯の最適化モデル、因果推論によるアプリ行動の解析・レポーティングをプロトタイプとして開発・検証</li>
+</ul>
+<blockquote>
+<h4>2020/11〜2021/08　アソシエイトプロダクトマネージャー</h4>
+<p><strong>体制</strong>　PO 1名、PMM 1名、PdM 2名</p>
+<p><strong>担当</strong>　市場調査、ユーザーヒアリング、要求・要件定義、PRD/MRD作成</p>
+</blockquote>
+<ul>
+<li>自ら作った機械学習のプロトタイプを製品として市場に出すため、PdMへ職種転換</li>
+<li>ユーザー課題を起点に提供すべき機能を整理し、開発チームと連携して機能要件を定義</li>
+</ul>
+<h3>2021/09〜2024/08　note株式会社</h3>
+<blockquote>
+<p><strong>事業内容</strong>　メディアプラットフォーム「note」の運営（国内最大級のクリエイタープラットフォーム）</p>
+<p><strong>役割</strong>　テクニカルプロダクトマネージャー（推薦・検索、API基盤、UIUX改善）</p>
+</blockquote>
+<blockquote>
+<h4>ホーム画面のレコメンド改善（2022/08 リリース）</h4>
+<p><strong>体制</strong>　PdM 1名、エンジニア 2名、データサイエンティスト 1名、デザイナー 1名</p>
+<p><strong>担当</strong>　課題整理、推薦体験の設計、要件定義、A/Bテスト設計、開発推進</p>
+</blockquote>
+<ul>
+<li>フォロー中心のタイムラインでは新しい記事やクリエイターに出会いにくい課題を整理し、ルールベースの推薦を構築</li>
+<li>AWS SageMakerの推薦結果をSpreadsheet経由でFigmaへ連携し、実機で触れるプロトタイプを開発前に用意。社内ユーザーテストで、リリース後に問題化しうるTrust &amp; Safety上のリスクを早期に発見</li>
+<li>A/Bテストで主要指標の改善を確認し、ユーザーインタビューで定性面も検証したうえで本番反映（<a href="https://note.com/info/n/na6401a53bdb2">公開事例</a>）</li>
+</ul>
+<blockquote>
+<h4>新規会員登録・内部回遊の改善</h4>
+<p><strong>体制</strong>　PdM 2名、エンジニア 1名、デザイナー 1名</p>
+<p><strong>担当</strong>　課題整理、ユーザー体験設計、施策検討、A/Bテスト設計、開発推進</p>
+</blockquote>
+<ul>
+<li>新規会員登録を妨げる要素と、登録後に回遊しにくい体験を整理</li>
+<li>定性的に直す箇所とA/Bテストで判断する箇所を切り分けて改善し、登録率と内部回遊の改善に貢献</li>
+</ul>
+<blockquote>
+<h4>検索基盤の移行（AWS CloudSearch → Elasticsearch）</h4>
+<p><strong>体制</strong>　PdM 1名、エンジニア 2名</p>
+<p><strong>担当</strong>　課題整理、プロジェクト設計、要件定義、移行方針の整理、開発推進</p>
+</blockquote>
+<ul>
+<li>既存基盤では満たしにくいビジネス要件を整理し、インセプションデッキで目的と進め方をチームで合意</li>
+<li>Elasticsearchへの移行を推進し、検索精度・カスタマイズ性・運用コストを改善</li>
+</ul>
+<blockquote>
+<h4>コンテンツ配信API Hubの企画・開発</h4>
+<p><strong>体制</strong>　PdM 1名、エンジニア 3〜4名</p>
+<p><strong>担当</strong>　課題整理、基盤構想、要件定義、開発優先度の調整、開発推進</p>
+</blockquote>
+<ul>
+<li>個別対応になっていたコンテンツ配信の開発を整理し、複数データソースをYAML定義で接続してendpointを作れるAPI Hubを企画・開発</li>
+<li>開発を共通化し、コンテンツ配信機能の開発工数を削減</li>
+</ul>
+<h4>その他</h4>
+<ul>
 <li>OpenAI APIを用いた記事カテゴリー分類・コンテンツモデレーションのプロトタイピングで、既存プロダクトへの生成AI活用を検証</li>
 </ul>
-<h3>Repro株式会社 — MLエンジニア → アソシエイトPdM（2018/07〜2021/08）</h3>
-<p>モバイルマーケティングSaaSにて、機械学習機能の検証とプロダクト企画を担当。</p>
+<h3>2024/09〜現在　株式会社エクスプラザ</h3>
+<blockquote>
+<p><strong>事業内容</strong>　生成AIプロダクトの開発、企業向けAI活用支援</p>
+<p><strong>役割</strong>　Lead AI Producer（PdM）。生成AI事業の立ち上げ、受託・共同開発案件の企画推進、社内業務の自動化</p>
+</blockquote>
+<blockquote>
+<h4>生成AIの受託・共同開発</h4>
+<p><strong>担当</strong>　業務理解・要求整理、要件定義、プロトタイプ設計、開発推進、クライアント折衝</p>
+</blockquote>
 <ul>
-<li>購買予測モデル、Push配信時間帯の最適化、因果推論を用いたアプリ行動解析など、運用業務を自動化する機械学習機能を検証。プロトタイプを市場に出すためPdMへ転向し、市場調査・ユーザーヒアリング・PRD/MRD作成を担当</li>
-<li>クライアント向けデータサイエンス支援：AWS Redshift + Tableauによる分析基盤・ダッシュボード構築、広告枠のCTR予測モデル、リードスコアリングモデルの構築</li>
+<li>不動産企画を支援するエージェント型AI「project &quot;Camelot&quot;」を立ち上げ（<a href="https://explaza.jp/news/20251204">東京アセットソリューション株式会社との共同開発として公表</a>）。エージェントのトレーシング・評価にOpikを採用し、トレースに基づくデバッグとLLM出力の評価を運用</li>
+<li>専門書類からの構造化データ抽出ツール、エンタープライズ向けチャットボット、市場・競合調査AIツールなどをPoCから実装まで推進</li>
+</ul>
+<blockquote>
+<h4>社内業務のAIエージェント化（Biz Agent Ops）</h4>
+<p><strong>担当</strong>　課題整理、ツール企画、プロトタイプ開発、運用改善</p>
+</blockquote>
+<ul>
+<li>名刺登録〜HubSpot連携のSlack常駐営業エージェント、スカウト文自動生成Chrome拡張、Playwrightによるフォーム営業自動化などを開発</li>
+<li>副業・業務委託を含む複数名で分担していた業務を、1人で遂行できる体制へ移行</li>
+</ul>
+<blockquote>
+<h4>LLM評価・モデル選定の仕組みづくり</h4>
+<p><strong>担当</strong>　技術検証、評価プロセス設計、社内ナレッジ化</p>
+</blockquote>
+<ul>
+<li>LLMの比較検証、コスト効率を考慮したモデル選定フレームワークの構築、再現性の高いプロンプト設計手法の整理を行い、受託開発・社内ツール開発へ展開。生成AI出力の品質監視・評価プロセスも設計</li>
 </ul>
 <h2>個人活動</h2>
 <ul>
@@ -553,11 +720,17 @@ p {
 <li>そのほか：<a href="https://github.com/konumaru/pycalf">pycalf</a>（因果推論ライブラリ、PyPI公開）、<a href="https://github.com/konumaru/nlnomy">nlnomy</a>（コンテンツモデレーション検証アプリ）、<a href="https://note.com/konumr/n/n89db6c64427e">AIミュージックバトル『弁財天』</a>（VAEによる自動作曲で参加）、<a href="https://konumaru.com/p5gallery/">p5gallery</a>（メディアアート公開サイト）など</li>
 </ul>
 <h2>技術発信</h2>
+<p><strong>実装・プロトタイピング</strong></p>
 <ul>
-<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a>（note） — 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化</li>
-<li><a href="https://zenn.dev/explaza/articles/7e53353c6b817c">Google Cloudで複数プロジェクト環境を便利にCLIだけで扱う方法</a>（Zenn）</li>
-<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた</a>（Zenn）</li>
-<li><a href="https://zenn.dev/explaza/articles/0148bda2326c4e">OpenAI Agent SDKのdocstringsがおかしい</a>（Zenn）</li>
+<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた</a>（Zenn、2025/11） — Realtime STT・Streaming TTSとOpenAI APIをPythonで組み合わせ、音声対話のPoCを最小構成で実装</li>
+<li><a href="https://speakerdeck.com/konumaru/rekomendoenzinwo-figma-debao-su-ux-risati">レコメンドエンジンを Figma で爆速 UX リサーチ</a>（SpeakerDeck、2021/12） — 推薦結果をSpreadsheet経由でFigmaに流し込み、本番実装の前に触れるプロトタイプでUXを検証する手法</li>
+</ul>
+<p><strong>プロダクトマネジメント</strong></p>
+<ul>
+<li><a href="https://konumaru.com/202610/ai-agent%E3%81%AE%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E3%81%AE%E3%81%B2%E3%81%AA%E5%BD%A2/">AI Agentの要件定義のひな形</a>（ブログ、2026/10） — AIエージェントの要件を「出力形式・ナレッジ収集・処理・結果検査と例外処理」の4観点で漏れなく定義する枠組み</li>
+<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a>（note、2025/07） — 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化</li>
+<li><a href="https://konumaru.com/202508/ai-ml%E3%81%AE%E6%8A%80%E8%A1%93%E6%A4%9C%E8%A8%BC%E3%82%92%E8%B3%87%E7%94%A3%E5%8C%96%E3%81%99%E3%82%8B/">AI/MLの技術検証を資産化する</a>（ブログ、2025/08） — PoCの実験計画書テンプレートと、R&amp;Dフェーズごとの進め方</li>
+<li><a href="https://note.com/konumr/n/n46826805cbc6">機械学習エンジニアがPdMとして推薦機能をマネージメントしたらこうなった</a>（note、2022/07） — 触れるプロトタイプ・A/Bテスト・ユーザーインタビューで推薦機能を改善したPdMの実践</li>
 </ul>
 
 </main>

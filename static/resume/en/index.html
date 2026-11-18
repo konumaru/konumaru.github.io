@@ -56,19 +56,21 @@ h2 {
 }
 
 h3 {
-  margin: 1.2em 0 0.55em;
-  padding: 0.05em 0 0.05em 0.6em;
-  font-size: 13.5px;
+  margin: 1.3em 0 0.5em;
+  padding: 0.2em 0 0.2em 0.6em;
+  font-size: 14px;
   font-weight: 700;
   color: var(--ink);
   border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
 }
 
+/* Project / role-period heading under a company. */
 h4 {
-  margin: 0.95em 0 0.3em;
+  margin: 1.1em 0 0.3em;
   font-size: 12.5px;
   font-weight: 700;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 /* ---------- Text & links ---------- */
@@ -79,7 +81,57 @@ p {
 a {
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(43, 88, 118, 0.35);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Profile block under the title ---------- */
+.profile {
+  margin: -0.4em 0 1.2em;
+  text-align: center;
+}
+
+.profile p {
+  margin: 0.15em 0;
+  color: var(--muted);
+}
+
+.profile p:first-child {
+  font-size: 1.25em;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+}
+
+/* ---------- Meta box: 事業内容 / 役割 / 体制 / 担当 ---------- */
+blockquote {
+  margin: 0.35em 0 0.5em;
+  padding: 0.4em 0.8em;
+  background: var(--zebra);
+  border-left: 3px solid var(--line);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.94em;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+blockquote p {
+  margin: 0.1em 0;
+}
+
+/* A project heading lives inside its meta box so the two can never be split
+   across pages (Chromium does not chain break-after: avoid reliably). */
+blockquote h4 {
+  margin: 0 0 0.25em;
+  font-size: 1.06em;
+}
+
+blockquote strong {
+  display: inline-block;
+  min-width: 4.5em;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 /* ---------- Lists ---------- */
@@ -125,17 +177,14 @@ tbody tr:nth-child(even) {
   background: var(--zebra);
 }
 
-/* キャリアの変遷 table: keep the date column on one line, give columns sane
-   proportions so the wide "獲得した経験" column gets the space it needs. */
-table:first-of-type td:nth-child(1) {
-  white-space: nowrap;
-  width: 15%;
-}
+/* 職歴一覧 table: keep the date and company columns on one line so the
+   timeline reads cleanly; the last column takes the remaining width. */
+table:first-of-type td:nth-child(1),
 table:first-of-type td:nth-child(2) {
-  width: 16%;
+  white-space: nowrap;
 }
 table:first-of-type td:nth-child(3) {
-  width: 24%;
+  width: 22%;
 }
 
 /* ---------- Rules ---------- */
@@ -172,7 +221,8 @@ h4 {
 /* Keep a heading glued to the block that follows it. */
 h2 + *,
 h3 + *,
-h4 + * {
+h4 + *,
+blockquote + ul {
   break-before: avoid;
   page-break-before: avoid;
 }
@@ -214,6 +264,25 @@ p {
     h4 { font-size: 15px; }
     table { font-size: 14px; }
     .pdf-link { font-size: 14px; }
+  }
+  /* Keep the language/PDF links clear of the fixed copy button. */
+  @media screen and (max-width: 1000px) {
+    .pdf-link { padding-right: 52px; }
+  }
+  /* Narrow screens: a 4-column table crushes into one-character columns,
+     so render each timeline row as a stacked card instead. */
+  @media screen and (max-width: 640px) {
+    h1 { font-size: 24px; }
+    table, thead, tbody, tr, th, td { display: block; width: auto !important; }
+    thead { display: none; }
+    table { border: 0; }
+    tr { margin: 0 0 10px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; }
+    tbody tr:nth-child(even) { background: none; }
+    td { border: 0; padding: 1px 0; white-space: normal !important; }
+    td:nth-child(1) { font-weight: 700; color: var(--accent); }
+    td:nth-child(2), td:nth-child(3) { display: inline; }
+    td:nth-child(2)::after { content: " ／ "; color: var(--muted); }
+    td:nth-child(4) { color: var(--muted); }
   }
   @media print { .pdf-link { display: none !important; } }
 </style>
@@ -521,10 +590,10 @@ p {
 </ul>
 <h2>Writing &amp; Talks</h2>
 <ul>
-<li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops</a> (note, Jul 2025) — framing and practice of automating business operations with AI agents</li>
-<li><a href="https://zenn.dev/explaza/articles/7e53353c6b817c">Managing multiple Google Cloud projects from the CLI</a> (Zenn, Dec 2025)</li>
-<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">Building a multilingual real-time voice dialogue system with the ElevenLabs API</a> (Zenn, Nov 2025)</li>
-<li><a href="https://zenn.dev/explaza/articles/0148bda2326c4e">Reporting inconsistent docstrings in the OpenAI Agents SDK</a> (Zenn, May 2025)</li>
+<li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">A multilingual real-time voice dialogue system with the ElevenLabs API</a> (Zenn, Nov 2025)</li>
+<li><a href="https://speakerdeck.com/konumaru/rekomendoenzinwo-figma-debao-su-ux-risati">Rapid UX research for a recommendation engine with Figma prototypes</a> (Speaker Deck, Dec 2021)</li>
+<li><a href="https://konumaru.com/202610/ai-agent%E3%81%AE%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E3%81%AE%E3%81%B2%E3%81%AA%E5%BD%A2/">A requirements template for AI agents</a> (Blog, Oct 2026)</li>
+<li><a href="https://note.com/konumr/n/n46826805cbc6">An ML engineer managing a recommendation feature as a PM</a> (note, Jul 2022)</li>
 </ul>
 <h2>Education</h2>
 <p><strong>Meiji University</strong> (Tokyo) — B.S. in Frontier Media Science, School of Interdisciplinary Mathematical Sciences | Mar 2019</p>

@@ -61,6 +61,25 @@ for (const t of targets) {
     table { font-size: 14px; }
     .pdf-link { font-size: 14px; }
   }
+  /* Keep the language/PDF links clear of the fixed copy button. */
+  @media screen and (max-width: 1000px) {
+    .pdf-link { padding-right: 52px; }
+  }
+  /* Narrow screens: a 4-column table crushes into one-character columns,
+     so render each timeline row as a stacked card instead. */
+  @media screen and (max-width: 640px) {
+    h1 { font-size: 24px; }
+    table, thead, tbody, tr, th, td { display: block; width: auto !important; }
+    thead { display: none; }
+    table { border: 0; }
+    tr { margin: 0 0 10px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; }
+    tbody tr:nth-child(even) { background: none; }
+    td { border: 0; padding: 1px 0; white-space: normal !important; }
+    td:nth-child(1) { font-weight: 700; color: var(--accent); }
+    td:nth-child(2), td:nth-child(3) { display: inline; }
+    td:nth-child(2)::after { content: " ／ "; color: var(--muted); }
+    td:nth-child(4) { color: var(--muted); }
+  }
   @media print { .pdf-link { display: none !important; } }
 </style>
 ${headCustom}
