@@ -24,7 +24,8 @@ make resume       # Regenerate Japanese and English resume HTML and PDFs
 
 - Sources are `resume/README.md` and `resume/README.en.md`, with shared CSS in `resume/styles/markdown-theme.css`. `resume/head-custom.html` and `resume/build.mjs` control the HTML pages.
 - `make resume` creates `static/resume/{index.html,resume.pdf}` and `static/resume/en/{index.html,resume.pdf}`. These files are committed and Hugo copies them into the site. After changing resume sources or styling, regenerate and inspect the affected HTML and PDFs before committing.
-- On pushes to `main`, `.github/workflows/gh-pages.yml` attempts regeneration but continues on failure. A failed run can deploy old or partially regenerated artifacts, so keep committed files current and check the regeneration step. `.github/workflows/resume-reminder.yml` only opens a twice-yearly issue.
+- `resume/pdf.mjs` prints the built HTML pages to PDF with the pinned `puppeteer` devDependency, so the web page and PDF share one markdown-it rendering. The PDF uses print media: put web-only styles under `@media screen` in `build.mjs`.
+- On pushes to `main`, `.github/workflows/gh-pages.yml` regenerates the resume. If that fails, it restores the committed `static/resume/` artifacts, deploys them, and then marks the run as failed, so keep committed files current. `.github/workflows/resume-reminder.yml` only opens a twice-yearly issue.
 
 ## Validation and deployment
 

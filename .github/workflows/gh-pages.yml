@@ -26,7 +26,7 @@ jobs:
         if: github.event_name == 'push'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24" # puppeteer 25 needs Node >= 22.12
           cache: "npm"
 
       - name: Install Japanese fonts (for resume PDF)
@@ -34,21 +34,28 @@ jobs:
         continue-on-error: true
         run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
 
+      # Keyed on the lockfile so a puppeteer bump caches its new Chrome build.
       - name: Cache Puppeteer Chromium
         if: github.event_name == 'push'
         uses: actions/cache@v4
         with:
           path: ~/.cache/puppeteer
-          key: puppeteer-${{ runner.os }}
+          key: puppeteer-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
-      # Best-effort: if regeneration fails, fall back to the committed
-      # static/resume/ artifacts so the site still deploys.
+      # Best-effort: if regeneration fails, restore the committed
+      # static/resume/ artifacts so the site still deploys a consistent set.
+      # The last step then marks the run as failed so the failure is noticed.
       - name: Build resume (HTML + PDF)
+        id: resume
         if: github.event_name == 'push'
         continue-on-error: true
         run: |
           npm ci
           make resume
+
+      - name: Restore committed resume artifacts
+        if: steps.resume.outcome == 'failure'
+        run: git checkout -- static/resume
 
       # The theme is pinned to the commit in .papermod-version so that a
       # theme-side refactor can never silently break the live site again.
@@ -70,3 +77,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Report resume regeneration failure
+        if: steps.resume.outcome == 'failure'
+        run: |
+          echo "::error::Resume regeneration failed; deployed the committed static/resume/ artifacts instead."
+          exit 1
