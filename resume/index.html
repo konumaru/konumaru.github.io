@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>職務経歴書 - 小沼塁</title>
 <style>/* ==========================================================================
-   職務経歴書 / resume — shared style for web (/resume/) and PDF (md-to-pdf).
+   職務経歴書 / resume — shared style for web (/resume/) and PDF (pdf.mjs).
    Tuned for clean A4 print: clear heading hierarchy, robust tables that never
    clip, and sensible page breaks.
    ========================================================================== */
@@ -692,26 +692,26 @@ p {
 </blockquote>
 <blockquote>
 <h4>生成AIの受託・共同開発</h4>
+<p><strong>体制</strong>　PM兼テックリード 1名（本人）、エンジニア 3名、UIUXデザイナー 1名</p>
 <p><strong>担当</strong>　業務理解・要求整理、要件定義、プロトタイプ設計、開発推進、クライアント折衝</p>
 </blockquote>
 <ul>
-<li>不動産企画を支援するエージェント型AI「project &quot;Camelot&quot;」を立ち上げ（<a href="https://explaza.jp/news/20251204">東京アセットソリューション株式会社との共同開発として公表</a>）。エージェントのトレーシング・評価にOpikを採用し、トレースに基づくデバッグとLLM出力の評価を運用</li>
+<li>不動産企画を支援するエージェント型AI「project &quot;Camelot&quot;」を立ち上げ（<a href="https://explaza.jp/news/20251204">東京アセットソリューション株式会社との共同開発として公表</a>）
+<ul>
+<li>LLMの比較検証とコストを考慮したモデル選定を行い、再現性の高いプロンプト設計手法を整理</li>
+<li>エージェントのトレーシング・評価にOpikを採用し、トレースに基づくデバッグとLLM出力の評価を運用</li>
+</ul>
+</li>
 <li>専門書類からの構造化データ抽出ツール、エンタープライズ向けチャットボット、市場・競合調査AIツールなどをPoCから実装まで推進</li>
 </ul>
 <blockquote>
 <h4>社内業務のAIエージェント化（Biz Agent Ops）</h4>
+<p><strong>体制</strong>　1名（企画から開発・運用まで単独で担当）</p>
 <p><strong>担当</strong>　課題整理、ツール企画、プロトタイプ開発、運用改善</p>
 </blockquote>
 <ul>
 <li>名刺登録〜HubSpot連携のSlack常駐営業エージェント、スカウト文自動生成Chrome拡張、Playwrightによるフォーム営業自動化などを開発</li>
 <li>副業・業務委託を含む複数名で分担していた業務を、1人で遂行できる体制へ移行</li>
-</ul>
-<blockquote>
-<h4>LLM評価・モデル選定の仕組みづくり</h4>
-<p><strong>担当</strong>　技術検証、評価プロセス設計、社内ナレッジ化</p>
-</blockquote>
-<ul>
-<li>LLMの比較検証、コスト効率を考慮したモデル選定フレームワークの構築、再現性の高いプロンプト設計手法の整理を行い、受託開発・社内ツール開発へ展開。生成AI出力の品質監視・評価プロセスも設計</li>
 </ul>
 <h2>個人活動</h2>
 <ul>
@@ -720,12 +720,12 @@ p {
 <li>そのほか：<a href="https://github.com/konumaru/pycalf">pycalf</a>（因果推論ライブラリ、PyPI公開）、<a href="https://github.com/konumaru/nlnomy">nlnomy</a>（コンテンツモデレーション検証アプリ）、<a href="https://note.com/konumr/n/n89db6c64427e">AIミュージックバトル『弁財天』</a>（VAEによる自動作曲で参加）、<a href="https://konumaru.com/p5gallery/">p5gallery</a>（メディアアート公開サイト）など</li>
 </ul>
 <h2>技術発信</h2>
-<p><strong>実装・プロトタイピング</strong></p>
+<h4>実装・プロトタイピング</h4>
 <ul>
 <li><a href="https://zenn.dev/explaza/articles/fb0f2a50612397">ElevenLabs APIを使った多言語リアルタイム対話システム作ってみた</a>（Zenn、2025/11） — Realtime STT・Streaming TTSとOpenAI APIをPythonで組み合わせ、音声対話のPoCを最小構成で実装</li>
 <li><a href="https://speakerdeck.com/konumaru/rekomendoenzinwo-figma-debao-su-ux-risati">レコメンドエンジンを Figma で爆速 UX リサーチ</a>（SpeakerDeck、2021/12） — 推薦結果をSpreadsheet経由でFigmaに流し込み、本番実装の前に触れるプロトタイプでUXを検証する手法</li>
 </ul>
-<p><strong>プロダクトマネジメント</strong></p>
+<h4>プロダクトマネジメント</h4>
 <ul>
 <li><a href="https://konumaru.com/202610/ai-agent%E3%81%AE%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E3%81%AE%E3%81%B2%E3%81%AA%E5%BD%A2/">AI Agentの要件定義のひな形</a>（ブログ、2026/10） — AIエージェントの要件を「出力形式・ナレッジ収集・処理・結果検査と例外処理」の4観点で漏れなく定義する枠組み</li>
 <li><a href="https://note.com/konumr/n/n9e5ce3b72543">Biz Agent Ops はじめました</a>（note、2025/07） — 社内業務にAIエージェントを組み込んで自動化する取り組みの言語化</li>
