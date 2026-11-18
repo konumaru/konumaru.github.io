@@ -50,10 +50,10 @@ Mobile marketing SaaS (customer engagement platform).
 
 ## Writing & Talks
 
-- [A multilingual real-time voice dialogue system with the ElevenLabs API](https://zenn.dev/explaza/articles/fb0f2a50612397) (Zenn, Nov 2025)
-- [Rapid UX research for a recommendation engine with Figma prototypes](https://speakerdeck.com/konumaru/rekomendoenzinwo-figma-debao-su-ux-risati) (Speaker Deck, Dec 2021)
 - [A requirements template for AI agents](https://konumaru.com/202610/ai-agent%E3%81%AE%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E3%81%AE%E3%81%B2%E3%81%AA%E5%BD%A2/) (Blog, Oct 2026)
+- [A multilingual real-time voice dialogue system with the ElevenLabs API](https://zenn.dev/explaza/articles/fb0f2a50612397) (Zenn, Nov 2025)
 - [An ML engineer managing a recommendation feature as a PM](https://note.com/konumr/n/n46826805cbc6) (note, Jul 2022)
+- [Rapid UX research for a recommendation engine with Figma prototypes](https://speakerdeck.com/konumaru/rekomendoenzinwo-figma-debao-su-ux-risati) (Speaker Deck, Dec 2021)
 
 ## Education
 
